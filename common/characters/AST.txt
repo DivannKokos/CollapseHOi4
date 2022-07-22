@@ -54,4 +54,31 @@ characters={
 			id=-1
 	       } 
 	}
+	AST_adam_bandt={
+		name="AST_adam_bandt"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_adam_bandt
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+	}
+
+        AST_clive_palmer={
+		name="AST_clive_palmer"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_clive_palmer
+			}
+		}
+		country_leader={
+			ideology=right_populism
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+	}
 }
