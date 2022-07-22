@@ -1,7 +1,7 @@
 l_russian:
-mick_gordon "Мик Гордон"
-peter_dutton "Питер Даттон"
-fiona_patten "Фиона Паттен"
-anthony_albanese "Энтони Албаниз"
-hansi_kursch "Ханси Кюрш"
-postal_dude "Чувак"
+AST_mick_gordon: "Мик Гордон"
+AST_peter_dutton: "Питер Даттон"
+AST_fiona_patten: "Фиона Паттен"
+AST_anthony_albanese: "Энтони Албаниз"
+GER_hansi_kursch: "Ханси Кюрш"
+USA_postal_dude: "Чувак"
