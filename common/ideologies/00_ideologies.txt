@@ -296,7 +296,7 @@ ideologies = {
 		faction_modifiers = {
 		}
 
-		ai_neutral = yes # 
+		ai_democratic = yes # 
 
 }
 
