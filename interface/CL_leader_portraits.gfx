@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	### GER
+
+        spriteType = {
+		name = "GFX_portrait_GER_hansi_kursch"
+		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
+	}
+
+	### Australia
+
+	spriteType = {
+		name = "GFX_portrait_AST_mick_gordon"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_Mick_Gordon.dds"
+	}
+}

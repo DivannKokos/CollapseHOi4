@@ -1,0 +1,15 @@
+characters={
+	GER_hansi_kursch={
+		name="Hansi Kürsch"
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_hansi_kursch
+			}
+		}
+		country_leader={
+			ideology=knightly_neo-feudalism 
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

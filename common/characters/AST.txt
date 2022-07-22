@@ -1,0 +1,15 @@
+characters={
+	AST_mick_gordon={
+		name="Mick Gordon"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_mick_gordon
+			}
+		}
+		country_leader={
+			ideology=ultranationalism
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}
