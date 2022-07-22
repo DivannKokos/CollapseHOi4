@@ -7,7 +7,7 @@ spriteTypes = {
 		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
 	}
 
-	### Australia
+        ### Australia
 
 	spriteType = {
 		name = "GFX_portrait_AST_mick_gordon"
