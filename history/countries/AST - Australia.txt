@@ -75,6 +75,10 @@ if = {
 }
 
 recruit_character = AST_mick_gordon
+recruit_character = AST_peter_dutton
+recruit_character = AST_fiona_patten
+recruit_character = AST_anthony_albanese
+
 
 if = {
 	limit = {
@@ -212,33 +216,36 @@ if = {
 }
 
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = social_democracy
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservative_democracy = 78
+	social_democracy = 60
         liberal_democracy = 18
-        autocracy = 2
-	communism = 2
+        conservative_democracy = 17
+        neutrality = 4
+	ultranationalism = 1
 }
 
 set_convoys = 100
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = conservative_democracy
+		ruling_party = social_democracy
 		last_election = "1937.10.23"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		conservative_democracy = 90
-		liberal_democracy = 8
-                ultranationalism = 2
+		social_democracy = 60
+                liberal_democracy = 18
+                conservative_democracy = 17
+	        neutrality = 4
+	        ultranationalism = 1
 	}
 
 	set_convoys = 100
