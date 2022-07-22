@@ -1,6 +1,6 @@
 characters={
 	USA_postal_dude={
-		name="Postal Dude"
+		name="USA_postal_dude"
 		portraits={
 			civilian={
 				large=GFX_portrait_USA_postal_dude

@@ -1,6 +1,6 @@
 characters={
 	GER_hansi_kursch={
-		name="Hansi Kürsch"
+		name="GER_hansi_kursch"
 		portraits={
 			civilian={
 				large=GFX_portrait_GER_hansi_kursch
