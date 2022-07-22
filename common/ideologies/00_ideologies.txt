@@ -175,7 +175,7 @@ ideologies = {
 			"FACTION_NAME_CENTRISM_5"
 		}
 		
-		color = { 124 124 124 }
+		color = { 177 179 177 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
