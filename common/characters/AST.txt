@@ -12,4 +12,46 @@ characters={
 			id=-1
 		}
 	}
+
+        AST_peter_dutton={
+		name="Peter Dutton"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_peter_dutton
+			}
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+	}
+
+        AST_fiona_patten={
+		name="Fiona Patten"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_fiona_patten
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+	}
+
+        AST_anthony_albanese={
+		name="Anthony Albanese"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_anthony_albanese
+			}
+		}
+		country_leader={
+			ideology=social_democracy
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+	}
 }
