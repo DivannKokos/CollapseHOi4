@@ -78,7 +78,8 @@ recruit_character = AST_mick_gordon
 recruit_character = AST_peter_dutton
 recruit_character = AST_fiona_patten
 recruit_character = AST_anthony_albanese
-
+recruit_character = AST_adam_bandt
+recruit_character = AST_clive_palmer
 
 if = {
 	limit = {

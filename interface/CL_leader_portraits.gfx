@@ -28,7 +28,20 @@ spriteTypes = {
 		name = "GFX_portrait_AST_anthony_albanese"
 		texturefile = "gfx\leaders\AST\Portrait_Australia_Anthony_Albanese.dds"
 	}
-		spriteType = {
+
+	        spriteType = {
+		name = "GFX_portrait_AST_adam_bandt"
+		texturefile = "gfx\leaders\AST\Portrait_Australia_Adam_Bandt.dds"
+	}
+
+	        spriteType = {
+		name = "GFX_portrait_AST_clive_palmer"
+		texturefile = "gfx\leaders\AST\Portrait_Australia_Clive_Palmer.dds"
+	}
+
+        ### USA
+
+	        spriteType = {
 		name = "GFX_portrait_USA_postal_dude"
 		texturefile = "gfx\leaders\USA\Portrait_USA_Postal_Dude.dds"
 	}
