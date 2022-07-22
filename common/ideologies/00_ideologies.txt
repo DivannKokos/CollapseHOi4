@@ -215,6 +215,9 @@ ideologies = {
 
 			autocracy = {
 			}
+                        right_populism = {
+			}
+
 
 
 		}
