@@ -84,19 +84,6 @@ create_import = {
 		extensive_conscription
 	}
 	
-	
-	
-	set_autonomy = {
-		target = SLO
-		autonomous_state = autonomy_puppet
-	}
-	
-	give_military_access = SLO
-	create_wargoal = {
-		type = take_state_focus
-		target = POL
-		generator = { 72 88 90 87 86 } # Zaolzie Krakow Kielce Lodz Poznan
-	}
 
 #Trade
 	create_import = {
@@ -219,15 +206,15 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = liberal_democracy
-	last_election = "2020.3.5"
+	ruling_party = social_democracy
+	last_election = "2022.12.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
 	conservative_democracy = 20
-	liberal_democracy = 60
-	communism = 20
+	liberal_democracy = 20
+	social_democracy = 60
 }
 
 add_ideas = {
