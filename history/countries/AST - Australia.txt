@@ -106,11 +106,9 @@ recruit_character = AST_clive_palmer
 		basic_destroyer = 1
 	}
 	set_naval_oob = "AST_1939_naval_legacy"
-}
 
-set_convoys = 100
+	set_convoys = 100
 
-1939.1.1 = {
 	set_politics = {
 		ruling_party = social_democracy
 		last_election = "1937.10.23"
@@ -127,9 +125,7 @@ set_convoys = 100
 	}
 
 	set_convoys = 100
-}
 
-1939.1.1 = {
 	create_equipment_variant = {
 		name = "Arunta Class"
 		type = destroyer_1
