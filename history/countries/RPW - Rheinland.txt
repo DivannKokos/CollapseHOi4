@@ -33,6 +33,7 @@ set_technology = {
 }
 
 recruit_character = RPW_frauke_petry
+recruit_character = RPW_olaf_scholz
 
 1939.1.1 = {
 	add_political_power = 173
@@ -105,14 +106,12 @@ recruit_character = RPW_frauke_petry
 		elections_allowed = yes
 	}
 
-	set_popularities = {
-	        conservative_democracy = 68
-                liberal_democracy = 10
-                neutrality = 10
-                ultranationalism = 12
+	        conservative_democracy = 53
+                social_democracy = 20
+                liberal_democracy = 9
+                neutrality = 8
+                ultranationalism = 10
 	}
-
-	set_convoys = 100
 
 	create_equipment_variant = {
 		name = "Arunta Class"
