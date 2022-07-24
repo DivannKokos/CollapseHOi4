@@ -100,6 +100,9 @@
 
  RPW_conservative_democracy_party: "АдГ"
  RPW_conservative_democracy_party_long: "Альтернатива для Германии"
+ RPW_social_democracy_party: "СДПГ"
+ RPW_social_democracy_party_long: "Социал-демократическая партия Германии"
+
 
  CWE_nationalism_party: "ПДА"
  CWE_nationalism_party_long: "Патриотическое движение Англии"
