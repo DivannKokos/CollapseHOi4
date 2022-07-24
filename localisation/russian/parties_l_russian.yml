@@ -107,3 +107,9 @@
 
  CWE_autocracy_party: "ПДА"
  CWE_autocracy_party_long: "Патриотическое движение Англии"
+ CWE_liberal_democracy_party: "За Британию"
+ CWE_liberal_democracy_party_long: "Движение за Британию"
+ CWE_national-socialism_party: "БпС"
+ CWE_national-socialism_party_long: "Британия превыше всего"
+ CWE_ultranationalism_party: "НПБПК"
+ CWE_ultranationalism_party_long: "Научная Партия Британии Противостояния Креационизму" 
