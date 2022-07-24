@@ -47,9 +47,19 @@ spriteTypes = {
 		texturefile = "gfx\leaders\USA\Portrait_USA_Postal_Dude.dds"
 		}
 
-		### Germany
+        ### Germany     
+
 		spriteType = {
 		name = "GFX_portrait_GER_haluk_yildiz"
 		textureFile = "gfx\leaders\GER\Portrait_Germany_Haluk_Yildiz.dds"
 		}
+
+
+        ### rheinland-pfalz-westfalia
+
+		spriteType = {
+		name = "GFX_portrait_RPW_frauke_petry"
+		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Frauke_Petry.dds"
+		}
+
 }
