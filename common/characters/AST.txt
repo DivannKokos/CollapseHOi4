@@ -1,0 +1,120 @@
+characters={
+	###ЛИДЕРЫ
+		AST_mick_gordon={
+		name="AST_mick_gordon"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_mick_gordon
+			}
+		}
+		country_leader={
+			ideology=ultranationalism
+			expire="2040.1.1.1"
+			id=-1
+		}
+		}
+
+        AST_peter_dutton={
+		name="AST_peter_dutton"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_peter_dutton
+			}
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+		}
+
+        AST_fiona_patten={
+		name="AST_fiona_patten"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_fiona_patten
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+		}
+
+        AST_anthony_albanese={
+		name="AST_anthony_albanese"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_anthony_albanese
+			}
+		}
+		country_leader={
+			ideology=social_democracy
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+		}
+		AST_adam_bandt={
+		name="AST_adam_bandt"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_adam_bandt
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+		}
+
+        AST_clive_palmer={
+		name="AST_clive_palmer"
+		portraits={
+			civilian={
+				large=GFX_portrait_AST_clive_palmer
+			}
+		}
+		country_leader={
+			ideology=right_populism
+			expire="2040.1.1.1"
+			id=-1
+	       } 
+		}
+	###ГЕНЕРАЛЫ
+		AST_chris_hemsworth={
+		name="AST_chris_hemsworth"
+		portraits={
+			army={
+				large=GFX_portrait_AST_chris_hemsworth
+			}
+		}
+		corps_commander = {
+			traits = { media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 911
+		}
+		}
+		AST_luke_hemsworth={
+		name = "AST_luke_hemsworth"
+		portraits = {
+			army = {
+				large = GFX_portrait_AST_luke_hemsworth
+			}
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = 912
+		}
+		}
+}
