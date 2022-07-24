@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=knightly_neo-feudalism 
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 		}
 	}
@@ -21,7 +21,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 		}
 	}
