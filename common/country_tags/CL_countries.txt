@@ -1,2 +1,3 @@
-KGB = "countries\Kaliningrad.txt"
-RPW = "countries\Rhineland.txt"
+KGB = "countries/Kaliningrad.txt"
+RPW = "countries/Rhineland.txt"
+CWE = "countries/England Patriotical Movement.txt"

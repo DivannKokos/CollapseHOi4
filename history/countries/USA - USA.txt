@@ -1,10 +1,10 @@
 capital = 361
 
-oob = "USA_1936"
+#oob = "USA_2022"
 
 starting_train_buffer = 5
 
-		set_naval_oob = "USA_1936_naval_legacy"
+#set_naval_oob = "USA_2022_naval"
 
 set_research_slots = 4
 set_stability = 0.75
@@ -59,29 +59,6 @@ set_technology = {
 	transport = 1
 }
 
-#Monroe Doctrine
-give_guarantee = CAN
-give_guarantee = MEX
-give_guarantee = CUB
-give_guarantee = HAI
-give_guarantee = DOM
-give_guarantee = GUA
-give_guarantee = HON
-give_guarantee = ELS
-give_guarantee = NIC
-give_guarantee = COS
-give_guarantee = PAN
-give_guarantee = VEN
-give_guarantee = COL
-give_guarantee = ECU
-give_guarantee = PRU
-give_guarantee = BRA
-give_guarantee = BOL
-give_guarantee = CHL
-give_guarantee = PAR
-give_guarantee = ARG
-give_guarantee = URG
-
 1939.1.1 = {
 
 	add_political_power = 1199
@@ -102,25 +79,6 @@ give_guarantee = URG
 	remove_ideas = {
 		great_depression
 	}
-
-	#focuses
-	unlock_national_focus = USA_continue_the_new_deal
-	unlock_national_focus = USA_wpa
-	complete_national_focus = USA_war_department
-	complete_national_focus = USA_air_war_plans_division
-	complete_national_focus = USA_war_plans_division
-	complete_national_focus = USA_agricultural_adjustment_act
-	complete_national_focus = USA_neutrality_act
-	complete_national_focus = USA_intervention_in_asia	
-	complete_national_focus = USA_war_plan_orange
-	complete_national_focus = USA_intervention_in_europe		
-	complete_national_focus = USA_war_plan_black
-	complete_national_focus = USA_strategic_bombing
- 	complete_national_focus = USA_fair_labour_standards_act
-
-	set_global_flag = earhart_disappeared
-	oob = "USA_1939"
-			set_naval_oob = "USA_1939_naval_legacy"
 
 	set_technology = {
 		fighter1 = 1
@@ -213,10 +171,6 @@ add_ideas = {
 
 
 # DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
 
 recruit_character = USA_postal_dude
 
