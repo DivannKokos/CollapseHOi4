@@ -12,4 +12,18 @@ characters={
 			id=-1
 		}
 	}
+
+        RPW_olaf_scholz={
+		name="RPW_olaf_scholz"
+		portraits={
+			civilian={
+				large=GFX_portrait_RPW_olaf_scholz
+			}
+		}
+		country_leader={
+			ideology=social_democracy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
 }

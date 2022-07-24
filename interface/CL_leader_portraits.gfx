@@ -61,6 +61,12 @@ spriteTypes = {
 		name = "GFX_portrait_RPW_frauke_petry"
 		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Frauke_Petry.dds"
 		}
+
+		spriteType = {
+		name = "GFX_portrait_RPW_olaf_scholz"
+		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Olaf_Scholz.dds"
+		}
+
 	### English Patriot Movement
 
 		spriteType = {
