@@ -3,6 +3,8 @@ set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.1
 
+add_ideas = long_vassality
+
 set_popularities = {
 	conservative_democracy = 100
 ###	IDEOLOGY = 10 REPLACE
