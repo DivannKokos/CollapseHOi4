@@ -215,11 +215,8 @@ ideologies = {
 
 			autocracy = {
 			}
-                        right_populism = {
+            right_populism = {
 			}
-
-
-
 		}
 		
 		dynamic_faction_names = {
