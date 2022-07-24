@@ -1,4 +1,5 @@
 ﻿l_russian:
+###лидеры
 AST_mick_gordon: "Мик Гордон"
 AST_peter_dutton: "Питер Даттон"
 AST_fiona_patten: "Фиона Паттен"
@@ -8,3 +9,7 @@ USA_postal_dude: "Чувак"
 AST_adam_bandt: "Адам Бандт"
 AST_clive_palmer: "Клайв Палмер"
 GER_haluk_yildiz: "Халюк Йылдиз"
+
+###генералы
+AST_chris_hemsworth: "Кристофер Хэмсворт"
+AST_luke_hemsworth: "Люк Хэмсворт"

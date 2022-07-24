@@ -40,6 +40,8 @@ recruit_character = AST_fiona_patten
 recruit_character = AST_anthony_albanese
 recruit_character = AST_adam_bandt
 recruit_character = AST_clive_palmer
+recruit_character = AST_chris_hemsworth
+recruit_character = AST_luke_hemsworth
 
 1939.1.1 = {
 	add_political_power = 1198

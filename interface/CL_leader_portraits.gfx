@@ -1,12 +1,5 @@
 spriteTypes = {
 
-	### GER
-
-        spriteType = {
-		name = "GFX_portrait_GER_hansi_kursch"
-		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
-		}
-
         ### Australia
 
 		spriteType = {
@@ -51,5 +44,9 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_portrait_GER_haluk_yildiz"
 		textureFile = "gfx\leaders\GER\Portrait_Germany_Haluk_Yildiz.dds"
+		}
+		spriteType = {
+		name = "GFX_portrait_GER_hansi_kursch"
+		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
 		}
 }
