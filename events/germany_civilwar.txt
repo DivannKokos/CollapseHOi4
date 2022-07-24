@@ -1,0 +1,21 @@
+#add_namespace = germany_civilwar
+#country_event = {
+#	id = germany_civilwar.1
+#	title = germany_civilwar.1.title
+#	desc = germany_civilwar.1.desc
+#	trigger = {
+#		date > 2022.12.1
+#		tag = GER
+#	}
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	###picture = 
+#	option = {
+#		name = germany_civilwar.1.option.one
+#		start_civil_war = {
+#			ideology = ultranationalism
+#			size = 0.5
+#		}
+#	}
+#}
