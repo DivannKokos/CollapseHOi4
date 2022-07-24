@@ -60,10 +60,6 @@ set_war_support = 0.3
 
 
 1939.1.1 = {
-	set_war_support = 0.7
-	add_political_power = 1200
-	add_command_power = 100
-	
 	#adding ministers
 	add_ideas = {
 		henschel
@@ -151,8 +147,6 @@ set_war_support = 0.3
 		basic_carrier = 1
 		improved_carrier = 1
 	}
-	set_oob = "GER_1939"
-	set_naval_oob = "GER_1939_naval_legacy"
 }
 
 set_politics = {
