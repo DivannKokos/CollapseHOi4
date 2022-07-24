@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nationalism
+			ideology=nationalism_subidealogy
 			expire="2040.1.1"
 			id=-1
 		}
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=nazism
+			ideology=national_socialism
 			expire="2040.1.1"
 			id=-1
 		}
