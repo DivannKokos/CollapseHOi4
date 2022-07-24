@@ -61,5 +61,26 @@ spriteTypes = {
 		name = "GFX_portrait_RPW_frauke_petry"
 		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Frauke_Petry.dds"
 		}
+	### English Patriot Movement
+
+		spriteType = {
+		name = "GFX_portrait_CWE_tommy_robinson"
+		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Tommy_Robinson.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_paul_golding"
+		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Paul_Gaulding.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_anne_marie_waters"
+		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Anne_Marie_Waters.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_richard_dawkins"
+		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Richard_Dawkins.dds"
+		}
 
 }
