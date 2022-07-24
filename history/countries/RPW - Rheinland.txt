@@ -1,6 +1,5 @@
 ﻿capital = 42
 
-oob = "RPW_1936"
 set_stability = 0.5
 set_war_support = 0.7
 # Starting tech
@@ -38,8 +37,6 @@ recruit_character = RPW_frauke_petry
 1939.1.1 = {
 	add_political_power = 173
 	add_command_power = 100
-	oob = "RPW_1939"
-	
 		complete_national_focus = army_effort
 		complete_national_focus = equipment_effort
 		complete_national_focus = motorization_effort
@@ -99,8 +96,6 @@ recruit_character = RPW_frauke_petry
 
 		basic_destroyer = 1
 	}
-	set_naval_oob = "AST_1939_naval_legacy"
-
 	set_convoys = 100
 
 	set_politics = {
