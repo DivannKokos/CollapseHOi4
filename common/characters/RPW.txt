@@ -1,5 +1,5 @@
 characters={
-	RPW_frauke_petry={
+		RPW_frauke_petry={
 		name="RPW_frauke_petry"
 		portraits={
 			civilian={
@@ -8,6 +8,19 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+	        RPW_olaf_scholz={
+		name="RPW_olaf_scholz"
+		portraits={
+			civilian={
+				large=GFX_portrait_RPW_olaf_scholz
+			}
+		}
+		country_leader={
+			ideology=social_democracy
 			expire="2040.1.1"
 			id=-1
 		}
