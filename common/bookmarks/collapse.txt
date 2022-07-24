@@ -22,24 +22,9 @@ bookmarks = {
 				FRA_france_leads
 			}
 		}
-		"FRA"={
-			history = "FRA_COLLAPSE_DESC"
-			ideology = democratic
-			available = { has_dlc = "La Resistance" } 
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_invite_communist_ministers
-				FRA_utilize_the_leagues
-				FRA_je_suis_la_deluge
-			}
-		}
 		"USA"={
 			history = "USA_COLLAPSE_DESC"
-			ideology = democratic
+			ideology = liberal_democracy
 			ideas = {
 				home_of_the_free
 				great_depression
@@ -49,21 +34,6 @@ bookmarks = {
 				USA_war_plan_black
 				USA_limited_intervention
 				USA_reestablish_the_gold_standard
-			}
-		}
-		"ENG"={
-			history = "ENG_COLLAPSE_DESC"
-			ideology = democratic
-			available = { has_dlc = "Man the Guns" }
-			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
-			}
-			focuses = {
-				ENG_imperial_federation
-				ENG_the_kings_party
-				ENG_organize_the_blackshirts
 			}
 		}
 		"ENG"={
@@ -83,22 +53,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_COLLAPSE_DESC"
-			ideology = fascism
-			available = { has_dlc = "Waking the Tiger" }
-			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_1
-			}
-			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_revive_the_kaiserreich
-			}
-		}
-		"GER"={
-			history = "GER_COLLAPSE_DESC"
-			ideology = nazism
+			ideology = social_democracy
 			available = { NOT = { has_dlc = "Waking the Tiger" } }
 			ideas = {
 				sour_loser
@@ -141,21 +96,6 @@ bookmarks = {
 		"SOV"={
 			history = "SOV_COLLAPSE_DESC"
 			ideology = communism
-			available = { has_dlc = "No Step Back" }
-			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
-			}
-			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
-			}	
-		}
-		"SOV"={
-			history = "SOV_COLLAPSE_DESC"
-			ideology = communism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
 				trotskyite_plot_nsb
@@ -192,7 +132,7 @@ bookmarks = {
 		"AST"={
 			minor = yes
 			history = "AST_COLLAPSE_DESC"
-			ideology = democratic
+			ideology = social_democracy
 			ideas = {
 				AST_great_depression_1
 			}

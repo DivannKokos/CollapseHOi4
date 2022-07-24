@@ -12,4 +12,17 @@ characters={
 			id=-1
 		}
 	}
+	GER_haluk_yildiz={
+		name="GER_haluk_yildiz"
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_haluk_yildiz
+			}
+		}
+		country_leader={
+			ideology=social_democracy
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
 }

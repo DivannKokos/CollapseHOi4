@@ -229,6 +229,7 @@ add_ideas = GER_mefo_bills_1
 activate_mission = GER_mefo_bills_mission
 
 recruit_character = GER_hansi_kursch
+recruit_character = GER_haluk_yildiz
 
 	### Ship Variants ###
 	## 1936 Start ##

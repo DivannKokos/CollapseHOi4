@@ -13,7 +13,7 @@ spriteTypes = {
 		name = "GFX_portrait_AST_mick_gordon"
 		texturefile = "gfx/leaders/AST/Portrait_Australia_Mick_Gordon.dds"
 
-	}
+		}
 
 		spriteType = {
 		name = "GFX_portrait_AST_peter_dutton"
@@ -28,22 +28,28 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_portrait_AST_anthony_albanese"
 		texturefile = "gfx\leaders\AST\Portrait_Australia_Anthony_Albanese.dds"
-	}
+		}
 
-	        spriteType = {
+	    spriteType = {
 		name = "GFX_portrait_AST_adam_bandt"
 		texturefile = "gfx\leaders\AST\Portrait_Australia_Adam_Bandt.dds"
-	}
+		}
 
-	        spriteType = {
+	    spriteType = {
 		name = "GFX_portrait_AST_clive_palmer"
 		texturefile = "gfx\leaders\AST\Portrait_Australia_Clive_Palmer.dds"
-	}
+		}
 
         ### USA
 
-	        spriteType = {
+	    spriteType = {
 		name = "GFX_portrait_USA_postal_dude"
 		texturefile = "gfx\leaders\USA\Portrait_USA_Postal_Dude.dds"
-	}
+		}
+
+		### Germany
+		spriteType = {
+		name = "GFX_portrait_GER_haluk_yildiz"
+		textureFile = "gfx\leaders\GER\Portrait_Germany_Haluk_Yildiz.dds"
+		}
 }
