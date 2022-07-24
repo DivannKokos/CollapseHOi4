@@ -1,12 +1,4 @@
 spriteTypes = {
-
-	### GER
-
-        spriteType = {
-		name = "GFX_portrait_GER_hansi_kursch"
-		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
-		}
-
         ### Australia
 
 		spriteType = {
@@ -53,13 +45,22 @@ spriteTypes = {
 		name = "GFX_portrait_GER_haluk_yildiz"
 		textureFile = "gfx\leaders\GER\Portrait_Germany_Haluk_Yildiz.dds"
 		}
-
+		
+      		spriteType = {
+		name = "GFX_portrait_GER_hansi_kursch"
+		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
+		}
 
         ### rheinland-pfalz-westfalia
 
 		spriteType = {
 		name = "GFX_portrait_RPW_frauke_petry"
 		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Frauke_Petry.dds"
+		}
+		
+		spriteType = {
+		name = "GFX_portrait_RPW_olaf_scholz"
+		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Olaf_Scholz.dds"
 		}
 	### English Patriot Movement
 
