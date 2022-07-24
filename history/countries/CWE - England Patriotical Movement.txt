@@ -20,6 +20,11 @@ set_technology = {
 
 set_research_slots = 3
 
+recruit_character = CWE_tommy_robinson
+recruit_character = CWE_paul_golding
+recruit_character = CWE_anne_marie_waters
+recruit_character = CWE_richard_dawkins
+
 set_politics = {
 	ruling_party = autocracy
 	last_election = "2023.1.3"
