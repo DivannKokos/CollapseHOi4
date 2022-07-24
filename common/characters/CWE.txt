@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_socialism
+			ideology=national-socialism
 			expire="2040.1.1"
 			id=-1
 		}

@@ -36,19 +36,19 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}		
 		}
 		"JAP"={
 			history = "JAP_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}			
 		}
 		"SOV"={
 			history = "SOV_COLLAPSE_DESC"
-			ideology = communism
+			ideology = socialism
 			available = { NOT = { has_dlc = "No Step Back" } }
 			focuses = {
 			}	
@@ -136,14 +136,14 @@ bookmarks = {
 		"PRC"={
 			minor = yes
 			history = "PRC_COLLAPSE_DESC"
-			ideology = communism
+			ideology = socialism
 			focuses = {
 			}
 		}
 		"MAN"={
 			minor = yes
 			history = "MAN_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}
 		}
@@ -151,35 +151,35 @@ bookmarks = {
 		"GXC"={
 			minor = yes
 			history = "WARLORDS_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}
 		}		
 		"YUN"={
 			minor = yes
 			history = "WARLORDS_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}
 		}		
 		"SHX"={
 			minor = yes
 			history = "WARLORDS_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}
 		}		
 		"XSM"={
 			minor = yes
 			history = "WARLORDS_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 			focuses = {
 			}
 		}		
 		"SIK"={
 			minor = yes
 			history = "WARLORDS_COLLAPSE_DESC"
-			ideology = fascism
+			ideology = nationalism
 
 			focuses = {
 			}
