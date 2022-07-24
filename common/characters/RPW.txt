@@ -1,0 +1,15 @@
+characters={
+	RPW_frauke_petry={
+		name="RPW_frauke_petry"
+		portraits={
+			civilian={
+				large=GFX_portrait_RPW_frauke_petry
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2040.1.1.1"
+			id=-1
+		}
+	}
+}

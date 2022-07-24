@@ -822,3 +822,8 @@ KGB = {
 	color = rgb { 174  55  78 }
 	color_ui = rgb { 174  55  78 }
 }
+
+RPW = {
+	color = rgb { 162 162 208 }
+	color_ui = rgb { 162 162 208 }
+}
