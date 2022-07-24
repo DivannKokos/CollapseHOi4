@@ -1,5 +1,6 @@
 characters={
-	AST_mick_gordon={
+	###ЛИДЕРЫ
+		AST_mick_gordon={
 		name="AST_mick_gordon"
 		portraits={
 			civilian={
@@ -11,7 +12,7 @@ characters={
 			expire="2040.1.1.1"
 			id=-1
 		}
-	}
+		}
 
         AST_peter_dutton={
 		name="AST_peter_dutton"
@@ -25,7 +26,7 @@ characters={
 			expire="2040.1.1.1"
 			id=-1
 	       } 
-	}
+		}
 
         AST_fiona_patten={
 		name="AST_fiona_patten"
@@ -39,7 +40,7 @@ characters={
 			expire="2040.1.1.1"
 			id=-1
 	       } 
-	}
+		}
 
         AST_anthony_albanese={
 		name="AST_anthony_albanese"
@@ -53,8 +54,8 @@ characters={
 			expire="2040.1.1.1"
 			id=-1
 	       } 
-	}
-	AST_adam_bandt={
+		}
+		AST_adam_bandt={
 		name="AST_adam_bandt"
 		portraits={
 			civilian={
@@ -66,7 +67,7 @@ characters={
 			expire="2040.1.1.1"
 			id=-1
 	       } 
-	}
+		}
 
         AST_clive_palmer={
 		name="AST_clive_palmer"
@@ -80,5 +81,40 @@ characters={
 			expire="2040.1.1.1"
 			id=-1
 	       } 
-	}
+		}
+	###ГЕНЕРАЛЫ
+		AST_chris_hemsworth={
+		name="AST_chris_hemsworth"
+		portraits={
+			army={
+				large=GFX_portrait_AST_chris_hemsworth
+			}
+		}
+		corps_commander = {
+			traits = { media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 911
+		}
+		}
+		AST_luke_hemsworth={
+		name = "AST_luke_hemsworth"
+		portraits = {
+			army = {
+				large = GFX_portrait_AST_luke_hemsworth
+			}
+		}
+		navy_leader = {
+			traits = { bold }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = 912
+		}
+		}
 }
