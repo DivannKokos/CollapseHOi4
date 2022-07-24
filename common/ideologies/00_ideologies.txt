@@ -8,6 +8,8 @@ ideologies = {
 			}
 			libertarian = {
 			}
+			national-liberalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -437,6 +439,8 @@ ideologies = {
 	
 		types = {
 			ultranationalism = {
+			}
+			ultra-atheism = {
 			}
 		}
 		
