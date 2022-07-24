@@ -9,7 +9,7 @@ characters={
 		}
 		country_leader={
 			ideology=ultranationalism
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 		}
 		}
@@ -23,7 +23,7 @@ characters={
 		}
 		country_leader={
 			ideology=liberal_conservatism
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 	       } 
 		}
@@ -37,7 +37,7 @@ characters={
 		}
 		country_leader={
 			ideology=libertarian
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 	       } 
 		}
@@ -51,7 +51,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 	       } 
 		}
@@ -64,7 +64,7 @@ characters={
 		}
 		country_leader={
 			ideology=moderatism
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 	       } 
 		}
@@ -78,7 +78,7 @@ characters={
 		}
 		country_leader={
 			ideology=right_populism
-			expire="2040.1.1.1"
+			expire="2040.1.1"
 			id=-1
 	       } 
 		}
