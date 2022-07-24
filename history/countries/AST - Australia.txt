@@ -1,6 +1,6 @@
 ﻿capital = 285
 
-oob = "AST_1936"
+###oob = "AST_2022"
 set_stability = 0.8
 set_war_support = 0.3
 # Starting tech
@@ -32,7 +32,6 @@ set_technology = {
 	early_submarine = 1
 	transport = 1
 }
-	set_naval_oob = "AST_1936_naval_legacy"
 
 recruit_character = AST_mick_gordon
 recruit_character = AST_peter_dutton
@@ -46,17 +45,6 @@ recruit_character = AST_luke_hemsworth
 1939.1.1 = {
 	add_political_power = 1198
 	add_command_power = 100
-	oob = "AST_1939"
-	
-		complete_national_focus = army_effort
-		complete_national_focus = equipment_effort
-		complete_national_focus = motorization_effort
-		complete_national_focus = aviation_effort
-		complete_national_focus = naval_effort
-		complete_national_focus = large_navy
-		complete_national_focus = industrial_effort
-		complete_national_focus = construction_effort
-		complete_national_focus = production_effort
 
 	add_ideas = {
 		#laws		
@@ -107,7 +95,7 @@ recruit_character = AST_luke_hemsworth
 
 		basic_destroyer = 1
 	}
-	set_naval_oob = "AST_1939_naval_legacy"
+	###set_naval_oob = "AST_2022_naval"
 
 	set_convoys = 100
 
@@ -125,8 +113,6 @@ recruit_character = AST_luke_hemsworth
 	    neutrality = 4
 	    ultranationalism = 1
 	}
-
-	set_convoys = 100
 
 	create_equipment_variant = {
 		name = "Arunta Class"

@@ -8,6 +8,8 @@ ideologies = {
 			}
 			libertarian = {
 			}
+			national-liberalism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -29,7 +31,7 @@ ideologies = {
 		
 		can_host_government_in_exile = yes
 		
-		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		war_impact_on_world_tension = 0.30		
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
@@ -109,7 +111,7 @@ ideologies = {
 
 	}
 
-	centrism = {
+	centrism_idealogy = {
 	
 		types = {
 
@@ -300,23 +302,14 @@ ideologies = {
 
 }
 
-	communism = {
+	socialism = {
 		
 		types = {
 		
-			marxism = {
+			chinese_socialism = {
 			}
 			
-			leninism = {
-			}
-			
-			stalinism = {
-			}
-			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
+			socialism = {
 			}
 		}
 		
@@ -358,17 +351,17 @@ ideologies = {
 
 	}
 
-	fascism = {
+	nationalism = {
 	
 		types = {
 
-			fascism_ideology = {
+			italian_nationalism = {
 			}
 			
-			falangism = {
+			hispanic_nationalism = {
 			}
-			
-			rexism = {
+
+			nationalism_subidealogy = {
 			}
 		}
 		
@@ -382,8 +375,8 @@ ideologies = {
 		
 		color = { 150 75 0 }
 		
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
+		war_impact_on_world_tension = 0.8			#evil!
+		faction_impact_on_world_tension = 0.8
 		
 		rules = {
 			can_force_government = no
@@ -402,17 +395,13 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_neutral = yes
 	}
 	
 	national-socialism = {
 	
 		types = {
-		
-			nazism = {
-			}
-
-			gen_nazism = {
+			national-socialism = {
 			}
 
 		}
@@ -450,6 +439,8 @@ ideologies = {
 	
 		types = {
 			ultranationalism = {
+			}
+			ultra-atheism = {
 			}
 		}
 		

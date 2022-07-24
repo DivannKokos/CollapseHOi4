@@ -1,0 +1,29 @@
+add_namespace = england_civilwar
+country_event = {
+	id = england_civilwar.1
+	title = england_civilwar.1.title
+	desc = england_civilwar.1.desc
+	trigger = {
+		date > 2022.12.1
+		tag = ENG
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	###picture = 
+	option = {
+		name = england_civilwar.1.option.one
+		CWE = {
+		transfer_state = 130
+		transfer_state = 131
+		transfer_state = 132
+		add_state_core = 130
+		add_state_core = 131
+		add_state_core = 132
+		declare_war_on = {
+			target = ENG
+			type = annex_everything
+				}
+			}
+		}
+}
