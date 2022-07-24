@@ -33,8 +33,9 @@ set_politics = {
 }
 
 set_popularities = {
-	autocracy = 65
-	neutrality = 15
-	conservative_democracy = 5
-	ultranationalism = 15
+	autocracy = 60
+	nationalism = 15
+	liberal_democracy = 5
+	ultranationalism = 5
+	national_socialism = 15
 }
