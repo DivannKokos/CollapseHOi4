@@ -1,0 +1,10 @@
+ideas = {
+    country = {
+        long_vassality = {
+			modifier = {
+				training_time_factor = 0.5
+				production_speed_buildings_factor = -0.2
+			}
+        }
+    }
+}
