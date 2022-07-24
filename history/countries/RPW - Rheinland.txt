@@ -105,7 +105,7 @@ recruit_character = RPW_olaf_scholz
 		election_frequency = 48
 		elections_allowed = yes
 	}
-
+	set_popularities = {
 	        conservative_democracy = 53
                 social_democracy = 20
                 liberal_democracy = 9
@@ -123,4 +123,5 @@ recruit_character = RPW_olaf_scholz
 			ship_anti_air_upgrade = 2
 		}
 	}
+
 }
