@@ -1,0 +1,110 @@
+focus_tree = {
+	id = kaliningrad_focus
+	country = {
+		factor = 1
+		modifier = {
+			add = 1
+			tag	= KGB
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1000
+	}
+	#1
+	focus = {
+		id = kgb_isolated_shard
+		#icon
+		x = 10
+		y = 1
+		#relative_position_id = kgb_
+		cost = 2
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+	#2 to 3 4 5
+	focus = {
+		id = kgb_place_in_world
+		#icon
+		prerequisite = {
+		focus = kgb_isolated_shard
+		}
+		x = 10
+		y = 3
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	#3
+	focus = {
+		id = kgb_noname_one
+		#icon
+		prerequisite = {
+		focus = kgb_place_in_world
+		}
+		mutually_exclusive = {
+		focus = kgb_noname_two
+		}
+		mutually_exclusive = {
+		focus = kgb_noname_third
+		}
+		x = 5
+		y = 5
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	#4
+	focus = {
+		id = kgb_noname_two
+		#icon
+		prerequisite = {
+		focus = kgb_place_in_world
+		}
+		mutually_exclusive = {
+			focus = kgb_noname_one
+			}
+			mutually_exclusive = {
+			focus = kgb_noname_third
+			}
+		x = 10
+		y = 5
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	#5
+	focus = {
+		id = kgb_noname_third
+		#icon
+		prerequisite = {
+		focus = kgb_place_in_world
+		}
+		mutually_exclusive = {
+			focus = kgb_noname_one
+			}
+			mutually_exclusive = {
+			focus = kgb_noname_two
+			}
+		x = 15
+		y = 5
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+}
