@@ -26,16 +26,15 @@ recruit_character = CWE_anne_marie_waters
 recruit_character = CWE_richard_dawkins
 
 set_politics = {
-	ruling_party = autocracy
+	ruling_party = nationalism
 	last_election = "2023.1.3"
-	election_frequency = 48
-	elections_allowed = no
+	election_frequency = 24
+	elections_allowed = yes
 }
 
 set_popularities = {
-	autocracy = 60
-	nationalism = 15
-	liberal_democracy = 5
-	ultranationalism = 5
+	nationalism = 65
+	liberal_democracy = 10
+	ultranationalism = 10
 	national-socialism = 15
 }
