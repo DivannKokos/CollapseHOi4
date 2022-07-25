@@ -1,7 +1,7 @@
-###spriteTypes = {
-	###Germany Civil War
-#	spriteType = {
-##		name = "GFX_portrait_AST_chris_hemsworth"
-#		texturefile = "gfx\generals\AST\Portrait_Australia_Chris_Hemsworth.dds"
-#		}
-#}
+spriteTypes = {
+	###Ireland Civil War
+	spriteType = {
+		name = "GFX_event_IRE_irelands_revolt"
+		texturefile = "gfx\event_pictures\IRE\irelands_revolt.dds"
+		}
+}
