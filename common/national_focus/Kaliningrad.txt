@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	continuous_focus_position = {
 		x = 50
-		y = 1000
+		y = 1500
 	}
 	#1
 	focus = {
@@ -63,6 +63,75 @@ focus_tree = {
 			add_stability = 0.05
 		}
 	}
+
+	focus = {
+		id = kgb_noname_one_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_one
+		}
+		mutually_exclusive = {
+		focus = kgb_noname_one_two
+		}
+		x = 4
+		y = 6
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgb_noname_one_one_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_one_one
+		}
+		x = 4
+		y = 7
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
+	focus = {
+		id = kgb_noname_one_two
+		#icon
+		prerequisite = {
+		focus = kgb_noname_one
+		}
+		x = 6
+		y = 6
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = kgb_noname_one_two_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_one_two
+		}
+		x = 6
+		y = 7
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
 	#4
 	focus = {
 		id = kgb_noname_two
@@ -85,6 +154,76 @@ focus_tree = {
 			add_stability = 0.05
 		}
 	}
+
+	focus = {
+		id = kgb_noname_two_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_two
+		}
+		mutually_exclusive = {
+		focus = kgb_noname_two_two
+		}
+		x = 9
+		y = 6
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = kgb_noname_two_one_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_two_one
+		}
+		x = 9
+		y = 7
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = kgb_noname_two_two
+		#icon
+		prerequisite = {
+		focus = kgb_noname_two
+		}
+		x = 11
+		y = 6
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgb_noname_two_two_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_two_two
+		}
+		mutually_exclusive = {
+			focus = kgb_noname_two_two_two
+		}
+		x = 11
+		y = 7
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
 	#5
 	focus = {
 		id = kgb_noname_third
@@ -100,6 +239,52 @@ focus_tree = {
 			}
 		x = 15
 		y = 5
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = kgb_noname_third_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_third
+		}
+		x = 16
+		y = 6
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgb_noname_third_one_one
+		#icon
+		prerequisite = {
+		focus = kgb_noname_third_one
+		}
+		x = 16
+		y = 7
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = kgb_noname_two_two_two
+		#icon
+		prerequisite = {
+		focus = kgb_noname_two_two
+		}
+		x = 14
+		y = 7
 		#relative_position_id = kgb_
 		cost = 4
 
