@@ -21,25 +21,7 @@ state={
 		victory_points = {
 			3311 1 #Douglas
 		}
-		buildings = {
-			infrastructure = 3 #was: 6
-			industrial_complex = 1
-			dockyard = 4
-			air_base = 6
-			351 = {
-				naval_base = 6
-			}
-			3311 = {
-				naval_base = 1
-			}
-		}
 		add_core_of = ENG
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces={
