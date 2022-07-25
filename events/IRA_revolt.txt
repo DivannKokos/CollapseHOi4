@@ -5,8 +5,6 @@ country_event = {
 	title = ireland.1.t
 	desc = ireland.1.d
 	picture = GFX_report_event_soviet_tanks_snow
-	
-	is_triggered_only = no
 
         trigger = {
 		tag = IRE
@@ -18,22 +16,24 @@ country_event = {
 	}
 
         option = {
-            name = ireland.1.a
+        name = ireland.1.a
 		start_civil_war = {
 		ideology = ultranationalism
 		size = 0.5
 		capital = 134
 		states = { 134 }
-
+		}
+	}
         option = {
-            name = ireland.1.b
+        name = ireland.1.b
 		start_civil_war = {
-                tag = D01
 		ideology = ultranationalism
 		size = 0.5
 		capital = 134
 		states = { 134 }
-
-                }
+		}
+		D01 = {
+		change_tag_from = ROOT
+		}
         }
 }
