@@ -8,11 +8,8 @@ country_event = {
 
         trigger = {
 		tag = IRE
-		date > 2022.12.22
-	}
-
-	mean_time_to_happen = {
-		days = 1
+		date > 2023.1.24
+		date < 2023.1.26
 	}
 
         option = {

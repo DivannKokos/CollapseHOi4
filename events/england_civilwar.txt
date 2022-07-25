@@ -4,12 +4,15 @@ country_event = {
 	title = england_civilwar.1.title
 	desc = england_civilwar.1.desc
 	trigger = {
-		date > 2022.12.1
+		#AND = {
 		tag = ENG
+		date > 2023.1.2
+		date < 2023.1.4
+		#}
 	}
-	mean_time_to_happen = {
-		days = 1
-	}
+	#mean_time_to_happen = {
+	#	days = 1
+	#}
 	###picture = 
 	option = {
 		name = england_civilwar.1.option.one
@@ -25,5 +28,6 @@ country_event = {
 			type = annex_everything
 				}
 			}
+		#set_global_flag = CWE_civilwar.yes
 		}
 }

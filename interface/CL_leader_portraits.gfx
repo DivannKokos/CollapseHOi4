@@ -46,7 +46,7 @@ spriteTypes = {
 		textureFile = "gfx\leaders\GER\Portrait_Germany_Haluk_Yildiz.dds"
 		}
 		
-      		spriteType = {
+      	spriteType = {
 		name = "GFX_portrait_GER_hansi_kursch"
 		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
 		}
@@ -62,7 +62,7 @@ spriteTypes = {
 		name = "GFX_portrait_RPW_olaf_scholz"
 		textureFile = "gfx\leaders\RPW\Portrait_Rheinland_Olaf_Scholz.dds"
 		}
-	### English Patriot Movement
+		### English Patriot Movement
 
 		spriteType = {
 		name = "GFX_portrait_CWE_tommy_robinson"
@@ -84,7 +84,7 @@ spriteTypes = {
 		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Richard_Dawkins.dds"
 		}
 
-	### Ireland
+		### Ireland
 
 		spriteType = {
 		name = "GFX_portrait_IRE_michael_higgins"
@@ -94,5 +94,12 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_portrait_IRE_ira_council"
 		textureFile = "gfx\leaders\IRE\Portrait_Ireland_IRA_Council.dds"
+		}
+
+		###KGB
+
+		spriteType = {
+			name = "GFX_portrait_KGB_Elena_Dyatlova"
+			texturefile = "gfx\leaders\KGB\Portrait_KGB_Elena_Dyatlova.dds"
 		}
 }
