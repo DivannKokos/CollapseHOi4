@@ -5,6 +5,8 @@ set_war_support = 0.1
 
 add_ideas = long_vassality
 
+recruit_character = KGB_elena_dyatlova
+
 set_popularities = {
 	conservative_democracy = 100
 ###	IDEOLOGY = 10 REPLACE

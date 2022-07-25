@@ -5,6 +5,8 @@ set_war_support = 0.7
 
 recruit_character = RPW_frauke_petry
 recruit_character = RPW_olaf_scholz
+recruit_character = GER_hansi_kursch
+
 	set_convoys = 100
 
 	set_politics = {

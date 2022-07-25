@@ -2,7 +2,6 @@
 
 #set_oob = "GER_2022"
 
-recruit_character = GER_hansi_kursch
 recruit_character = GER_haluk_yildiz
 
 starting_train_buffer = 2

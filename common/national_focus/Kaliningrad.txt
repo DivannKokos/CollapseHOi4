@@ -43,16 +43,16 @@ focus_tree = {
 	}
 	#3
 	focus = {
-		id = kgb_noname_one
+		id = kgb_baltics
 		#icon
 		prerequisite = {
 		focus = kgb_place_in_world
 		}
 		mutually_exclusive = {
-		focus = kgb_noname_two
+		focus = kgb_puppet
 		}
 		mutually_exclusive = {
-		focus = kgb_noname_third
+		focus = kgb_islamic_state
 		}
 		x = 5
 		y = 5
@@ -65,13 +65,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_noname_one_one
+		id = kgb_baltics_alliance_one
 		#icon
 		prerequisite = {
-		focus = kgb_noname_one
+		focus = kgb_baltics
 		}
 		mutually_exclusive = {
-		focus = kgb_noname_one_two
+		focus = kgb_baltics_war_one
 		}
 		x = 4
 		y = 6
@@ -83,10 +83,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = kgb_noname_one_one_one
+		id = kgb_baltics_alliance_two
 		#icon
 		prerequisite = {
-		focus = kgb_noname_one_one
+		focus = kgb_baltics_alliance_one
 		}
 		x = 4
 		y = 7
@@ -100,10 +100,10 @@ focus_tree = {
 
 
 	focus = {
-		id = kgb_noname_one_two
+		id = kgb_baltics_war_one
 		#icon
 		prerequisite = {
-		focus = kgb_noname_one
+		focus = kgb_baltics
 		}
 		x = 6
 		y = 6
@@ -116,10 +116,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_noname_one_two_one
+		id = kgb_baltics_war_two
 		#icon
 		prerequisite = {
-		focus = kgb_noname_one_two
+		focus = kgb_baltics_war_one
 		}
 		x = 6
 		y = 7
@@ -134,16 +134,16 @@ focus_tree = {
 
 	#4
 	focus = {
-		id = kgb_noname_two
+		id = kgb_puppet
 		#icon
 		prerequisite = {
 		focus = kgb_place_in_world
 		}
 		mutually_exclusive = {
-			focus = kgb_noname_one
+			focus = kgb_baltics
 			}
 			mutually_exclusive = {
-			focus = kgb_noname_third
+			focus = kgb_islamic_state
 			}
 		x = 10
 		y = 5
@@ -156,13 +156,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_noname_two_one
+		id = kgb_puppet_poland_one
 		#icon
 		prerequisite = {
-		focus = kgb_noname_two
+		focus = kgb_puppet
 		}
 		mutually_exclusive = {
-		focus = kgb_noname_two_two
+		focus = kgb_puppet_rpw_one
 		}
 		x = 9
 		y = 6
@@ -175,10 +175,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_noname_two_one_one
+		id = kgb_puppet_poland_two
 		#icon
 		prerequisite = {
-		focus = kgb_noname_two_one
+		focus = kgb_puppet_poland_one
 		}
 		x = 9
 		y = 7
@@ -191,10 +191,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_noname_two_two
+		id = kgb_puppet_rpw_one
 		#icon
 		prerequisite = {
-		focus = kgb_noname_two
+		focus = kgb_puppet
 		}
 		x = 11
 		y = 6
@@ -206,13 +206,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = kgb_noname_two_two_one
+		id = kgb_puppet_rpw_two
 		#icon
 		prerequisite = {
-		focus = kgb_noname_two_two
+		focus = kgb_puppet_rpw_one
 		}
 		mutually_exclusive = {
-			focus = kgb_noname_two_two_two
+			focus = kgb_teuton_one
 		}
 		x = 11
 		y = 7
@@ -226,16 +226,16 @@ focus_tree = {
 
 	#5
 	focus = {
-		id = kgb_noname_third
+		id = kgb_islamic_state
 		#icon
 		prerequisite = {
 		focus = kgb_place_in_world
 		}
 		mutually_exclusive = {
-			focus = kgb_noname_one
+			focus = kgb_baltics
 			}
 			mutually_exclusive = {
-			focus = kgb_noname_two
+			focus = kgb_puppet
 			}
 		x = 15
 		y = 5
@@ -248,10 +248,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_noname_third_one
+		id = kgb_islamic_state_one
 		#icon
 		prerequisite = {
-		focus = kgb_noname_third
+		focus = kgb_islamic_state
 		}
 		x = 16
 		y = 6
@@ -263,10 +263,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = kgb_noname_third_one_one
+		id = kgb_islamic_state_two
 		#icon
 		prerequisite = {
-		focus = kgb_noname_third_one
+		focus = kgb_islamic_state_one
 		}
 		x = 16
 		y = 7
@@ -278,10 +278,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = kgb_noname_two_two_two
+		id = kgb_teuton_one
 		#icon
 		prerequisite = {
-		focus = kgb_noname_two_two
+		focus = kgb_puppet_rpw_one
+		}
+		available = {
+			RPW = {
+				has_country_leader_ideology = knightly_neo-feudalism
+			}
 		}
 		x = 14
 		y = 7
