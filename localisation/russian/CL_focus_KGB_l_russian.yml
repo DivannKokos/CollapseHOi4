@@ -14,10 +14,10 @@ kgb_place_in_world_desc: "Теперь мы здесь главные, и мы �
 
 #puppet
  kgb_puppet: "Союз"
- kgb_puppet_poland_one: "Союз с Польшой"
- kgb_puppet_poland_two: "Союз с Польшой 2"
- kgb_puppet_rpw_one: "Союз с Вест-Фалией"
- kgb_puppet_rpw_two: "Союз с Вест-Фалией 2"
+ kgb_puppet_poland_one: "В руках Польши"
+ kgb_puppet_poland_two: "Зависимы вновь"
+ kgb_puppet_rpw_one: "В руках Вест-Фалии"
+ kgb_puppet_rpw_two: "Союз с Вест-Фалией"
 
 #islamic_state
  kgb_islamic_state: "Союз со Злом"
