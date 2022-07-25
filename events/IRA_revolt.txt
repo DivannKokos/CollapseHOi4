@@ -1,0 +1,39 @@
+add_namespace = ireland
+
+country_event = {
+	id = ireland.1
+	title = ireland.1.t
+	desc = ireland.1.d
+	picture = GFX_report_event_soviet_tanks_snow
+
+        trigger = {
+		tag = IRE
+		date > 2022.12.22
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+        option = {
+        name = ireland.1.a
+		start_civil_war = {
+		ideology = ultranationalism
+		size = 0.5
+		capital = 134
+		states = { 134 }
+		}
+	}
+        option = {
+        name = ireland.1.b
+		start_civil_war = {
+		ideology = ultranationalism
+		size = 0.5
+		capital = 134
+		states = { 134 }
+		}
+		D01 = {
+		change_tag_from = ROOT
+		}
+        }
+}
