@@ -84,4 +84,15 @@ spriteTypes = {
 		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Richard_Dawkins.dds"
 		}
 
+	### Ireland
+
+		spriteType = {
+		name = "GFX_portrait_IRE_michael_higgins"
+		textureFile = "gfx\leaders\IRE\Portrait_Ireland_Michael_Higgins.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_IRE_ira_council"
+		textureFile = "gfx\leaders\IRE\Portrait_Ireland_IRA_Council.dds"
+		}
 }
