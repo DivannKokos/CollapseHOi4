@@ -558,7 +558,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ATR_anthing_else?
+		id = ATR_anthing_else
 		icon = GFX_goal_generic_position_armies
 		cost = 0
 		prerequisite = {
@@ -577,7 +577,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_cruiser
 		cost = 0
 		prerequisite = {
-			focus = ATR_anthing_else?
+			focus = ATR_anthing_else
 		}
 		x = 20
 		y = 12
@@ -589,7 +589,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		cost = 0
 		prerequisite = {
-			focus = ATR_anthing_else?
+			focus = ATR_anthing_else
 		}
 		x = 22
 		y = 12
@@ -601,7 +601,7 @@ focus_tree = {
 		icon = GFX_goal_generic_trade
 		cost = 0
 		prerequisite = {
-			focus = ATR_anthing_else?
+			focus = ATR_anthing_else
 		}
 		x = 24
 		y = 12
