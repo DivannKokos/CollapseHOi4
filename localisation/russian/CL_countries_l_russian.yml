@@ -36,10 +36,10 @@
  CWE_autocracy_ADJ: "Патриотическое"
  ATR: "Священная Земля Астрахань"
  ATR_DEF: "Священная Земля Астрахань"
- ATR_ADJ: "Священная Земля Астраханская"
+ ATR_ADJ: "Астраханская"
  ATR_ultranationalism: "Священная Земля Астрахань"
  ATR_ultranationalism_DEF: "Священная Земля Астрахань"
- ATR_ultranationalism_ADJ: "Священная Земля Астраханская"
+ ATR_ultranationalism_ADJ: "Астраханская"
 
 #ГОРОДА
 VICTORY_POINTS_6332: "Калининград"
