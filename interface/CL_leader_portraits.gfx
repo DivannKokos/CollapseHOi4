@@ -4,7 +4,6 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_portrait_AST_mick_gordon"
 		texturefile = "gfx/leaders/AST/Portrait_Australia_Mick_Gordon.dds"
-
 		}
 
 		spriteType = {
@@ -51,7 +50,7 @@ spriteTypes = {
 		texturefile = "gfx\leaders\GER\Portrait_Germany_Hansi_Kursch.dds"
 		}
 
-        ### rheinland-pfalz-westfalia
+        ### Вестфалия
 
 		spriteType = {
 		name = "GFX_portrait_RPW_frauke_petry"
@@ -84,7 +83,7 @@ spriteTypes = {
 		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Richard_Dawkins.dds"
 		}
 
-		### Ireland
+		### Ирландия
 
 		spriteType = {
 		name = "GFX_portrait_IRE_michael_higgins"
@@ -96,14 +95,14 @@ spriteTypes = {
 		textureFile = "gfx\leaders\IRE\Portrait_Ireland_IRA_Council.dds"
 		}
 
-		###KGB
+		### Калининград
 
 		spriteType = {
 			name = "GFX_portrait_KGB_Elena_Dyatlova"
 			texturefile = "gfx\leaders\KGB\Portrait_KGB_Elena_Dyatlova.dds"
 		}
 
-		###ATR
+		### Астрахань
 
 		spriteType = {
 			name = "GFX_portrait_ATR_grigori_grabovoi"
@@ -111,7 +110,7 @@ spriteTypes = {
 		}
 
 
-		###KND
+		### Краснодар
 
 		spriteType = {
 			name = "GFX_portrait_KND_ilya_varlamov"
@@ -122,6 +121,4 @@ spriteTypes = {
 			name = "GFX_portrait_KND_maxim_katz"
 			texturefile = "gfx\leaders\KND\Portrait_Krasnodar_Maxim_Katz.dds"
 		}
-
-
 }

@@ -26,3 +26,12 @@ kgb_place_in_world_desc: "Теперь мы здесь главные, и мы �
 
 #teuton
  kgb_teuton_one: "Тевтонский Орден"
+
+#again with russia
+ kgb_again_with_russia: "Снова к России"
+
+#army focuses
+ kgb_army_one: "REPLACE_ME"
+ kgb_army_two: "REPLACE_ME"
+ kgb_army_three: "REPLACE_ME"
+ kgb_army_four: "REPLACE_ME"

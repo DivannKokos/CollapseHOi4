@@ -842,4 +842,5 @@ ATR = {
 
 KND = {
 	color = rgb { 100 149 237  }
-	color_ui = rgb { 100 149 237  }            
+	color_ui = rgb { 100 149 237  }
+}
