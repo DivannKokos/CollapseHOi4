@@ -110,4 +110,18 @@ spriteTypes = {
 			texturefile = "gfx\leaders\ATR\Portrait_Astrakhan_Grigori_Grabovoi.dds"
 		}
 
+
+		###KND
+
+		spriteType = {
+			name = "GFX_portrait_KND_ilya_varlamov"
+			texturefile = "gfx\leaders\KND\Portrait_Krasnodar_Ilya_Varlamov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KND_maxim_katz"
+			texturefile = "gfx\leaders\KND\Portrait_Krasnodar_Maxim_Katz.dds"
+		}
+
+
 }

@@ -1,0 +1,21 @@
+capital = 234
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.1
+
+recruit_character = KND_ilya_varlamov
+recruit_character = KND_maxim_katz
+
+set_popularities = {
+	liberal_democracy = 50
+	social_democracy = 50
+###	IDEOLOGY = 10 REPLACE
+###	IDEOLOGY = 10 REPLACE
+}
+
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = "2022.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
