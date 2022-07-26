@@ -1,0 +1,24 @@
+capital = 236
+
+#oob = "ATR_2022"
+
+set_research_slots = 2
+
+recruit_character = ATR_grigori_grabovoi
+
+
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "2022.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	ultranationalism = 73
+	nationalism = 23
+	autocracy = 5
+
+}
+
+set_stability = 0.20

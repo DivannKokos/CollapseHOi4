@@ -102,4 +102,12 @@ spriteTypes = {
 			name = "GFX_portrait_KGB_Elena_Dyatlova"
 			texturefile = "gfx\leaders\KGB\Portrait_KGB_Elena_Dyatlova.dds"
 		}
+
+		###ATR
+
+		spriteType = {
+			name = "GFX_portrait_ATR_grigori_grabovoi"
+			texturefile = "gfx\leaders\ATR\Portrait_Astrakhan_Grigori_Grabovoi.dds"
+		}
+
 }

@@ -832,3 +832,9 @@ CWE = {
 	color = rgb { 180 46 45 }
 	color_ui = rgb { 180 46 105 }
 }
+
+
+ATR = {
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}

@@ -33,7 +33,14 @@
  CWE_ADJ: "Патриотическое"
  CWE_autocracy: "Англия"
  CWE_autocracy_DEF: "Патриотическое Движение Англии"
- CWE_autocracy_ADJ: "Патриотическое"
+ CWE_autocracy_ADJ: "Английская"
+ ATR: "Священная Земля Астрахань"
+ ATR_DEF: "Священная Земля Астрахань"
+ ATR_ADJ: "Астраханская"
+ ATR_ultranationalism: "Священная Земля Астрахань"
+ ATR_ultranationalism_DEF: "Священная Земля Астрахань"
+ ATR_ultranationalism_ADJ: "Астраханская"
 
 #ГОРОДА
 VICTORY_POINTS_6332: "Калининград"
+VICTORY_POINTS_9753: "Новый Вифлием"  
