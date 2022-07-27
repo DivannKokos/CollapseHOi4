@@ -9,8 +9,6 @@ recruit_character = KGB_elena_dyatlova
 
 set_popularities = {
 	conservative_democracy = 100
-###	IDEOLOGY = 10 REPLACE
-###	IDEOLOGY = 10 REPLACE
 }
 
 set_politics = {

@@ -24,8 +24,6 @@ USA = {
 	country_event = { id = usa.51 days = 2 }
 }
 
-set_convoys = 500
-
 set_politics = {
 	ruling_party = liberal_democracy
 	last_election = "2021.1.20"

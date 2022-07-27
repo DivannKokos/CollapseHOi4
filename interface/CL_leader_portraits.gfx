@@ -83,6 +83,13 @@ spriteTypes = {
 		textureFile = "gfx\leaders\CWE\Portrait_EnglishPM_Richard_Dawkins.dds"
 		}
 
+		### Великобритания
+
+		#spriteType = {
+		#name = "GFX_portrait_ENG_ben_wallace"
+		#textureFile = "REPLACE_ME"
+		#}
+
 		### Ирландия
 
 		spriteType = {

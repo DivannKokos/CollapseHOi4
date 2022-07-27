@@ -7,8 +7,6 @@ recruit_character = RPW_frauke_petry
 recruit_character = RPW_olaf_scholz
 recruit_character = GER_hansi_kursch
 
-	set_convoys = 100
-
 	set_politics = {
 		ruling_party = conservative_democracy
 		last_election = "2022.5.23"

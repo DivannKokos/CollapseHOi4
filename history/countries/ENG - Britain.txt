@@ -1,0 +1,22 @@
+capital = 126
+
+###oob = "ENG_2022"
+set_stability = 0.8
+set_war_support = 0.3
+
+recruit_character = ENG_ben_wallace
+
+	###set_naval_oob = "ENG_2022_naval"
+
+	set_politics = {
+		ruling_party = conservative_democracy
+		last_election = "2022.5.23"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		social_democracy = 20
+        liberal_democracy = 30
+        conservative_democracy = 50
+	}

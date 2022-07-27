@@ -9,8 +9,6 @@ recruit_character = KND_maxim_katz
 set_popularities = {
 	liberal_democracy = 50
 	social_democracy = 50
-###	IDEOLOGY = 10 REPLACE
-###	IDEOLOGY = 10 REPLACE
 }
 
 set_politics = {

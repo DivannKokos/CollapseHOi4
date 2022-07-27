@@ -9,8 +9,6 @@ recruit_character = IRE_IRA_council
 
 	###set_naval_oob = "AST_2022_naval"
 
-	set_convoys = 100
-
 	set_politics = {
 		ruling_party = social_democracy
 		last_election = "2018.10.26"

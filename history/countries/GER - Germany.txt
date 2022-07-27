@@ -4,14 +4,10 @@
 
 recruit_character = GER_haluk_yildiz
 
-starting_train_buffer = 2
-set_fuel_ratio = 0.8
-
 # starting_truck_buffer = 0.8
 #set_naval_oob = "GER_2022_naval"
 
 set_research_slots = 4
-set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
