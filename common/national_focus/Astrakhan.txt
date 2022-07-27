@@ -8,6 +8,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1200
+	}
 	focus = {
 		id = ATR_return_of_prophet
 		icon = GFX_goal_demand_sudetenland
@@ -20,9 +24,12 @@ focus_tree = {
 	focus = {
 		id = ATR_2fabricsplus
 		icon = GFX_goal_generic_construct_civ_factory
+		available = {
+			has_completed_focus = ATR_return_of_prophet
+		}
 		cost = 0
 		x = 2
-		y = 0
+		y = 1
 		completion_reward = {
 		}
 	}
@@ -34,7 +41,7 @@ focus_tree = {
 			focus = ATR_2fabricsplus
 		}
 		x = 1
-		y = 1
+		y = 2
 		completion_reward = {
 		}
 	}
@@ -46,7 +53,7 @@ focus_tree = {
 			focus = ATR_3warfactoriesplus
 		}
 		x = 1
-		y = 2
+		y = 3
 		completion_reward = {
 		}
 	}
@@ -58,7 +65,7 @@ focus_tree = {
 			focus = ATR_2fabricsplus
 		}
 		x = 3
-		y = 1
+		y = 2
 		completion_reward = {
 		}
 	}
@@ -70,7 +77,7 @@ focus_tree = {
 			focus = ATR_infrastructure
 		}
 		x = 3
-		y = 2
+		y = 3
 		completion_reward = {
 		}
 	}
@@ -85,7 +92,7 @@ focus_tree = {
 			focus = ATR_2warfactoriesplus
 		}
 		x = 2
-		y = 3
+		y = 4
 		completion_reward = {
 		}
 	}
@@ -273,10 +280,10 @@ focus_tree = {
 		id = ATR_place_in_world
 		icon = GFX_goal_generic_position_armies
 		cost = 0
-		prerequisite = {
-			focus = ATR_openning 
+		available = {
+			has_completed_focus = ATR_openning 
 		}
-		x = 21
+		x = 31
 		y = 5
 		completion_reward = {
 		}
@@ -288,7 +295,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_place_in_world
 		}
-		x = 20
+		x = 30
 		y = 6
 		completion_reward = {
 		}
@@ -300,7 +307,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_west_contacts
 		}
-		x = 19
+		x = 29
 		y = 7
 		completion_reward = {
 		}
@@ -312,7 +319,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_west_contacts
 		}
-		x = 21
+		x = 31
 		y = 7
 		completion_reward = {
 		}
@@ -327,7 +334,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_gre_diplomacy
 		}
-		x = 20
+		x = 30
 		y = 8
 		completion_reward = {
 		}
@@ -339,7 +346,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_paris_visit
 		}
-		x = 20
+		x = 30
 		y = 9
 		completion_reward = {
 		}
@@ -354,7 +361,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ATR_adequate
 		}
-		x = 21
+		x = 31
 		y = 10
 		completion_reward = {
 		}
@@ -369,7 +376,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ATR_brothers_in_mind
 		}
-		x = 19
+		x = 29
 		y = 10
 		completion_reward = {
 		}
@@ -381,7 +388,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_place_in_world
 		}
-		x = 23
+		x = 33
 		y = 6
 		completion_reward = {
 		}
@@ -393,7 +400,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_east_contact
 		}
-		x = 23
+		x = 33
 		y = 7
 		completion_reward = {
 		}
@@ -405,7 +412,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_east_contact
 		}
-		x = 25
+		x = 35
 		y = 7
 		completion_reward = {
 		}
@@ -420,7 +427,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_cambo_diplo
 		}
-		x = 24
+		x = 34
 		y = 8
 		completion_reward = {
 		}
@@ -432,7 +439,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_india_visit
 		}
-		x = 24
+		x = 34
 		y = 9
 		completion_reward = {
 		}
@@ -447,7 +454,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ATR_twn_declain_indp
 		}
-		x = 23
+		x = 33
 		y = 10
 		completion_reward = {
 		}
@@ -496,22 +503,10 @@ focus_tree = {
 		icon = GFX_goal_generic_territory_or_war
 		cost = 0
 		prerequisite = {
-			focus = ATR_true_law
-		}
-		prerequisite = {
-			focus = ATR_holy_land_enterprises
-		}
-		prerequisite = {
 			focus = ATR_weapons_of_truth
 		}
-		prerequisite = {
-			focus = ATR_catacombs_of_the_holy_city
-		}
-		prerequisite = {
-			focus = ATR_citadel
-		}
 		x = 12
-		y = 8
+		y = 9
 		completion_reward = {
 		}
 	}
@@ -519,11 +514,11 @@ focus_tree = {
 		id = ATR_crusade
 		icon = GFX_goal_generic_axis_build_infantry
 		cost = 0
-		prerequisite = {
-			focus = ATR_new_world_order
+		available = {
+			has_completed_focus = ATR_new_world_order
 		}
-		x = 12
-		y = 9
+		x = 22
+		y = 4
 		completion_reward = {
 		}
 	}
@@ -552,7 +547,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ATR_twn_accept_indp
 		}
-		x = 25
+		x = 35
 		y = 10
 		completion_reward = {
 		}
@@ -567,7 +562,7 @@ focus_tree = {
 			focus = ATR_twn_accept_indp
 			focus = ATR_twn_declain_indp
 		}
-		x = 22
+		x = 32
 		y = 11
 		completion_reward = {
 		}
@@ -579,7 +574,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_anthing_else
 		}
-		x = 20
+		x = 30
 		y = 12
 		completion_reward = {
 		}
@@ -591,7 +586,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_anthing_else
 		}
-		x = 22
+		x = 32
 		y = 12
 		completion_reward = {
 		}
@@ -603,7 +598,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_anthing_else
 		}
-		x = 24
+		x = 34
 		y = 12
 		completion_reward = {
 		}
@@ -615,7 +610,7 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_Africa
 		}
-		x = 22
+		x = 32
 		y = 13
 		completion_reward = {
 		}
@@ -627,8 +622,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_crusade
 		}
-		x = 11
-		y = 10
+		x = 21
+		y = 5
 		completion_reward = {
 		}
 	}
@@ -639,8 +634,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_crusade
 		}
-		x = 13
-		y = 10
+		x = 23
+		y = 5
 		completion_reward = {
 		}
 	}
@@ -657,8 +652,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_first_strike
 		}
-		x = 13
-		y = 11
+		x = 23
+		y = 6
 		completion_reward = {
 		}
 	}
@@ -672,8 +667,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_hike_countinues
 		}
-		x = 11
-		y = 11
+		x = 21
+		y = 6
 		completion_reward = {
 		}
 	}
@@ -687,8 +682,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_explode_false_shepered
 		}
-		x = 12
-		y = 12
+		x = 22
+		y = 7
 		completion_reward = {
 		}
 	}
@@ -699,8 +694,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_krasondar
 		}
-		x = 11
-		y = 13
+		x = 21
+		y = 8
 		completion_reward = {
 		}
 	}
@@ -711,8 +706,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_krasondar
 		}
-		x = 13
-		y = 13
+		x = 23
+		y = 8
 		completion_reward = {
 		}
 	}
@@ -726,8 +721,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_operation_vurdalak
 		}
-		x = 12
-		y = 14
+		x = 22
+		y = 9
 		completion_reward = {
 		}
 	}
@@ -738,8 +733,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_promise
 		}
-		x = 12
-		y = 16
+		x = 22
+		y = 11
 		completion_reward = {
 		}
 	}
@@ -750,8 +745,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_sweethome
 		}
-		x = 10
-		y = 17
+		x = 20
+		y = 12
 		completion_reward = {
 		}
 	}
@@ -762,8 +757,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_Message_to_the_world
 		}
-		x = 12
-		y = 21
+		x = 22
+		y = 16
 		completion_reward = {
 		}
 	}
@@ -777,8 +772,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_sweethome
 		}
-		x = 12
-		y = 17
+		x = 22
+		y = 12
 		completion_reward = {
 		}
 	}
@@ -789,8 +784,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_sweethome
 		}
-		x = 14
-		y = 17
+		x = 24
+		y = 12
 		completion_reward = {
 		}
 	}
@@ -807,8 +802,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_delivery_of_true_faith
 		}
-		x = 12
-		y = 19
+		x = 22
+		y = 14
 		completion_reward = {
 		}
 	}
@@ -819,8 +814,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_search_bunkers
 		}
-		x = 12
-		y = 15
+		x = 22
+		y = 10
 		completion_reward = {
 		}
 	}
@@ -837,8 +832,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_destroy_enemy_legacy
 		}
-		x = 10
-		y = 18
+		x = 20
+		y = 13
 		completion_reward = {
 		}
 	}
@@ -861,8 +856,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_camps_for_heretics
 		}
-		x = 12
-		y = 18
+		x = 22
+		y = 13
 		completion_reward = {
 		}
 	}
@@ -879,8 +874,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_uranium
 		}
-		x = 14
-		y = 18
+		x = 24
+		y = 13
 		completion_reward = {
 		}
 	}
@@ -891,8 +886,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_city_worthy_of_god
 		}
-		x = 12
-		y = 20
+		x = 22
+		y = 15
 		completion_reward = {
 		}
 	}
@@ -903,8 +898,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_declare_holy_empire
 		}
-		x = 12
-		y = 22
+		x = 22
+		y = 17
 		completion_reward = {
 		}
 	}
@@ -915,8 +910,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ATR_dismemberment_of_sinners
 		}
-		x = 12
-		y = 23
+		x = 22
+		y = 18
 		completion_reward = {
 		}
 	}
