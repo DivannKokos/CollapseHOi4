@@ -5,8 +5,11 @@ on_actions = {
             			country_event = {id = england_civilwar.1 days = 2}
         			}
 					IRE = {
-						country_event = {id = ireland.1 days = 5}
+						country_event = {id = ireland.1 days = 4}
 					}
+					#ENG = {
+					#	news_event = {id = eng_music_events.1 days = 10}
+        			#}
     		}
 	}
 }
