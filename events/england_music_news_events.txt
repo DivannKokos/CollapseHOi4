@@ -7,13 +7,13 @@ news_event = {
 	picture = GFX_news_event_oasis_reunion
 
 	major = yes
-	fire_only_once = yes
+	#fire_only_once = yes
 	is_triggered_only = yes
 
-	trigger = {
-		#tag = ENG
-		country_exists = CWE
-	}
+	#trigger = {
+	#	#tag = ENG
+	#	country_exists = CWE
+	#}
 	option = {
 		name = eng_music_events.1.good
 	}

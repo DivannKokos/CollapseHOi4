@@ -6,29 +6,35 @@ country_event = {
 	desc = ireland.1.d
 	picture = GFX_event_IRE_irelands_revolt
 	is_triggered_only = yes
-	fire_only_once = yes
-        trigger = {
-		tag = IRE
-	}
+	major = yes
+	#fire_only_once = yes
         option = {
         name = ireland.1.a
-		start_civil_war = {
-		ideology = ultranationalism
-		size = 0.5
-		capital = 134
-		states = { 134 }
+		if = {
+			limit = {tag = IRE}
+			start_civil_war = {
+				ideology = ultranationalism
+				size = 0.5
+				capital = 134
+				states = { 134 }
+				}
+		}
+		else = {
 		}
 	}
         option = {
         name = ireland.1.b
-		start_civil_war = {
-		ideology = ultranationalism
-		size = 0.5
-		capital = 134
-		states = { 134 }
-		}
-		D01 = {
-		change_tag_from = ROOT
-		}
+		if = {
+			limit = {tag = IRE}
+			start_civil_war = {
+			ideology = ultranationalism
+			size = 0.5
+			capital = 134
+			states = { 134 }
+			}
+			D01 = {
+			change_tag_from = ROOT
+			}
         }
+	}
 }
