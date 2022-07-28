@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "collapsemusic"
+		texturefile = "gfx\\interface\\topbar\\musicplayer\\collapsemusic_album_art.dds"
+		noOfFrames = 2
+	}
+}

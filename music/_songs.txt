@@ -1,0 +1,7 @@
+music_station = "collapsemusic"
+music = {
+	song = "maintheme"
+	chance = {
+		chance = 0.2
+	}
+}
