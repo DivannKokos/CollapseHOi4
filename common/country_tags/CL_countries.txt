@@ -7,4 +7,5 @@ ZOL = "countries/Rostov.txt"
 EBL = "countries/Crimea.txt"
 DCP = "countries/Stavropol.txt"
 FUR = "countries/Volgodonsk.txt"
-
+KRN = "countries/North Korea.txt"
+KRS = "countries/South Korea.txt"
