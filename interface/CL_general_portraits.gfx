@@ -12,26 +12,26 @@ spriteTypes = {
         ###Rostov
 	spriteType = {
 		name = "GFX_portrait_ZOL_viktor_strigunov"
-		texturefile = "gfx\generals\ZOL\general_viktor_strigunov.dds"
+		texturefile = "gfx\\generals\\ZOL\\general_viktor_strigunov.dds"
 		}
 	spriteType = {
 		name = "GFX_portrait_ZOL_igor_golloev"
-		texturefile = "gfx\generals\ZOL\general_igor_golloev.dds"
+		texturefile = "gfx\\generals\\ZOL\\general_igor_golloev.dds"
 		}
 	spriteType = {
 		name = "GFX_portrait_ZOL_pavel_dashkov"
-		texturefile = "gfx\generals\ZOL\general_pavel_dashkov.dds"
+		texturefile = "gfx\\generals\\ZOL\\general_pavel_dashkov.dds"
 		}
 	spriteType = {
 		name = "GFX_portrait_ZOL_alexandr_popov"
-		texturefile = "gfx\generals\ZOL\general_alexandr_popov.dds"
+		texturefile = "gfx\\generals\\ZOL\\general_alexandr_popov.dds"
 		}
 	spriteType = {
 		name = "GFX_portrait_ZOL_alexandr_poryadin"
-		texturefile = "gfx\generals\ZOL\general_alexandr_poryadin.dds"
+		texturefile = "gfx\\generals\\ZOL\\general_alexandr_poryadin.dds"
 		}
 	spriteType = {
 		name = "GFX_portrait_ZOL_oleg_plohoi"
-		texturefile = "gfx\generals\ZOL\general_oleg_plohoi.dds"
+		texturefile = "gfx\\generals\\ZOL\\general_oleg_plohoi.dds"
 		}
 }
