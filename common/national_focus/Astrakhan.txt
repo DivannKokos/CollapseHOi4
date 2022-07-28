@@ -19,6 +19,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		completion_reward ={
+                news_event = atr_prophet.1
                 add_popularity = {
                     ideology = ultranationalism
                     popularity = 0.5

@@ -1,0 +1,17 @@
+add_namespace = prophet
+
+news_event = {
+	id = atr_prophet.1
+	title = atr_prophet.1.t
+	desc = atr_prophet.1.d
+	picture = GFX_news_event_prophet_return
+
+	major = no
+	is_triggered_only = yes
+
+	trigger = {
+        has_completed_focus = ATR_return_of_prophet
+	}
+	option = {
+		name = prophet.1.a
+}

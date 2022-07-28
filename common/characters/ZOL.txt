@@ -1,0 +1,15 @@
+characters={
+	ZOL_viktor_zolotov={
+		name="ZOL_viktor_zolotov"
+		portraits={
+			civilian={
+				large=GFX_portrait_ZOL_viktor_zolotov
+			}
+		}
+		country_leader={
+			ideology = fascism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}
