@@ -85,10 +85,10 @@ spriteTypes = {
 
 		### Великобритания
 
-		#spriteType = {
-		#name = "GFX_portrait_ENG_ben_wallace"
-		#textureFile = "REPLACE_ME"
-		#}
+		spriteType = {
+		name = "GFX_portrait_ENG_ben_wallace"
+		textureFile = "gfx\leaders\ENG\Portrait_England_Ben_Wallace.dds"
+		}
 
 		### Ирландия
 
