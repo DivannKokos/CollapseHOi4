@@ -1,4 +1,4 @@
-add_namespace = prophet
+add_namespace = atr_prophet
 
 news_event = {
 	id = atr_prophet.1
@@ -12,6 +12,7 @@ news_event = {
 	trigger = {
         has_completed_focus = ATR_return_of_prophet
 	}
+	
 	option = {
-		name = prophet.1.a
+		name = atr_prophet.1.a
 }
