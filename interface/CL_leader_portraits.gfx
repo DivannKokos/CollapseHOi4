@@ -128,22 +128,22 @@ spriteTypes = {
 
 		spriteType = {
 			name = "GFX_portrait_ZOL_viktor_zolotov"
-			texturefile = "gfx\leaders\ZOL\Portrait_Viktor_Zolotov.dds"
+			texturefile = "gfx\\leaders\\ZOL\\Portrait_Viktor_Zolotov.dds"
 		}
 
 		spriteType = {
 			name = "GFX_portrait_EBL_sergei_aksyonov"
-			texturefile = "gfx\leaders\EBL\aksyonov.dds"
+			texturefile = "gfx\\leaders\\EBL\\aksyonov.dds"
 		}
 
 		spriteType = {
 			name = "GFX_portrait_DCP_vladimir_medinsky"
-			texturefile = "gfx\leaders\DCP\Portrait_Vladimir_Medinsky.dds"
+			texturefile = "gfx\\leaders\\DCP\\Portrait_Vladimir_Medinsky.dds"
 		}
 
 		spriteType = {
 			name = "GFX_portrait_FUR_vitaly_milonov"
-			texturefile = "gfx\leaders\FUR\milonov.dds"
+			texturefile = "gfx\\leaders\\FUR\\milonov.dds"
 		}
                                 
 }
