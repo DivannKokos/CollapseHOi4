@@ -109,15 +109,12 @@ spriteTypes = {
 			texturefile = "gfx\\leaders\\KGB\\Portrait_KGB_Elena_Dyatlova.dds"
 		}
 
-		### Астрахань
+		### Поволжские персы
 
 		spriteType = {
 			name = "GFX_portrait_ATR_grigori_grabovoi"
 			texturefile = "gfx\\leaders\\ATR\\Portrait_Astrakhan_Grigori_Grabovoi.dds"
 		}
-
-
-		### Краснодар
 
 		spriteType = {
 			name = "GFX_portrait_KND_ilya_varlamov"
@@ -128,4 +125,25 @@ spriteTypes = {
 			name = "GFX_portrait_KND_maxim_katz"
 			texturefile = "gfx\\leaders\\KND\\Portrait_Krasnodar_Maxim_Katz.dds"
 		}
+
+		spriteType = {
+			name = "GFX_portrait_ZOL_viktor_zolotov"
+			texturefile = "gfx\leaders\ZOL\Portrait_Viktor_Zolotov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_EBL_sergei_aksyonov"
+			texturefile = "gfx\leaders\EBL\aksyonov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_DCP_vladimir_medinsky"
+			texturefile = "gfx\leaders\DCP\Portrait_Vladimir_Medinsky.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_FUR_vitaly_milonov"
+			texturefile = "gfx\leaders\FUR\milonov.dds"
+		}
+                                
 }

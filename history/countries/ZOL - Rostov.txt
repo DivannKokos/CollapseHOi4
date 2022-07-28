@@ -1,0 +1,21 @@
+capital = 218
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.5
+
+recruit_character = ZOL_viktor_zolotov
+
+set_popularities = {
+	fascism = 62
+	conservatism = 8
+        liberalism = 18
+        national-socialism = 5
+        autocracy = 10
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2022.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}

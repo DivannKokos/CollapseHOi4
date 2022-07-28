@@ -1,0 +1,21 @@
+capital = 238
+set_research_slots = 2
+set_stability = 0.2
+set_war_support = 0.6
+
+recruit_character = FUR_vitaly_milonov
+
+set_popularities = {
+	autocracy = 40
+        communism = 10
+        social_democracy = 20
+        liberalism = 20
+        centrism = 10
+}
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2022.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}

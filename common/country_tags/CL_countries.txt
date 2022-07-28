@@ -3,3 +3,8 @@ RPW = "countries/Rhineland.txt"
 CWE = "countries/England Patriotical Movement.txt"
 ATR = "countries/Astrakhan.txt"
 KND = "countries/Krasnodar.txt"
+ZOL = "countries/Rostov.txt"
+EBL = "countries/Crimea.txt"
+DCP = "countries/Stavropol.txt"
+FUR = "countries/Volgodonsk.txt"
+

@@ -841,6 +841,26 @@ ATR = {
 
 
 KND = {
-	color = rgb { 100 149 237  }
+	color = rgb { 100 149 237 }
 	color_ui = rgb { 100 149 237  }
+}
+
+ZOL = {
+	color = rgb { 213 213 7 }
+	color_ui = rgb { 213 213 7 }
+}
+
+EBL = {
+	color = rgb { 120 219 226 }
+	color_ui = rgb { 120 219 226 }
+}
+
+DCP = {
+	color = rgb { 54 63 98 }
+	color_ui = rgb { 54 63 98 }
+}
+
+FUR = {
+	color = rgb { 183 65 14 }
+	color_ui = rgb { 183 65 14 }
 }
