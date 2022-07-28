@@ -7,10 +7,10 @@ recruit_character = FUR_vitaly_milonov
 
 set_popularities = {
 	autocracy = 40
-        communism = 10
-        social_democracy = 20
-        liberalism = 20
-        centrism = 10
+    socialism = 10
+    social_democracy = 20
+    liberal_democracy = 20
+    centrism_idealogy = 10
 }
 
 set_politics = {

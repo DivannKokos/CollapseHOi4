@@ -7,10 +7,10 @@ recruit_character = ZOL_viktor_zolotov
 
 set_popularities = {
 	fascism = 62
-	conservatism = 8
-        liberalism = 18
-        national-socialism = 5
-        autocracy = 10
+	conservative_democracy = 8
+    liberal_democracy = 18
+    national-socialism = 5
+    autocracy = 10
 }
 
 set_politics = {

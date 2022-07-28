@@ -7,9 +7,9 @@ recruit_character = EBL_sergei_aksyonov
 
 set_popularities = {
 	autocracy = 52
-        neutrality = 18
-        communism = 25
-        nationalism = 5
+    neutrality = 18
+    socialism = 25
+    nationalism = 5
 }
 
 set_politics = {
