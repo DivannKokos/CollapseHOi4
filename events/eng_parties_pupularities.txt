@@ -1,0 +1,22 @@
+add_namespace = eng_parties_popularities
+country_event = {
+	id = eng_parties_popularities.1
+	title = eng_parties_popularities.1.title
+	desc = eng_parties_popularities.1.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	tag = ENG
+	}
+	###picture = 
+	option = {
+		name = eng_parties_popularities.1.option.one
+		hidden_effect = {
+		set_popularities = {
+		liberal_democracy = 40
+		conservative_democracy = 25
+		nationalism = 35
+			}
+		}
+	}
+}
