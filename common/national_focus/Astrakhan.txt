@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	continuous_focus_position = {
 		x = 50
-		y = 1200
+		y = 1400
 	}
 	focus = {
 		id = ATR_return_of_prophet
@@ -115,7 +115,6 @@ focus_tree = {
                         }
                     }
 		}
-
 	}
 	focus = {
 		id = ATR_2warfactoriesplus
@@ -128,18 +127,14 @@ focus_tree = {
 		y = 3
 		completion_reward = {
                 236 = {
-                if = {
-                limit = { is_controlled_by = ROOT }
                  add_building_construction = {
                  type = arms_factory
                  level = 2
                  instant_build = yes
-
-                            }
-                        }
-                    }
+               		}
+                }
+            }
 		}
-	}
 	focus = {
 		id = ATR_capital_bunkers
 		icon = GFX_goal_generic_construct_military
@@ -153,14 +148,26 @@ focus_tree = {
 		x = 2
 		y = 4
 		completion_reward = {
-                add_building_construction = {
+			236 = {
+				add_building_construction = {
                 type = bunker
                 level = 2
                 instant_build = yes
                 province = 757
-                province = 9753
-                province = 11753
                 }
+				add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 9753
+				}
+				add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 11736
+				}
+			}
 		}
 	}
 	focus = {
@@ -309,7 +316,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
                 add_stability = -0.15
-                add_war_support = +0.10
+                add_war_support = 0.10
 		}
 	}
 	focus = {
@@ -325,15 +332,31 @@ focus_tree = {
 		x = 13
 		y = 6
 		completion_reward = {
-                add_building_construction = {
+			236 = {                
+				add_building_construction = {
                 type = bunker
                 level = 3
                 instant_build = yes
                 province = 757
+            	}
+			}
+			236 = {                
+				add_building_construction = {
+                type = bunker
+                level = 3
+                instant_build = yes
                 province = 9753
-                province = 11753
-            }
-            }
+            	}
+			}
+			236 = {                
+				add_building_construction = {
+                type = bunker
+                level = 3
+                instant_build = yes
+                province = 11736
+            	}
+			}
+        }
 	}
 	focus = {
 		id = ATR_weapons_of_truth
@@ -384,14 +407,26 @@ focus_tree = {
 		x = 16
 		y = 7
 		completion_reward = {
-                add_building_construction = {
+			236 = {                
+				add_building_construction = {
                 type = bunker
                 level = 5
                 instant_build = yes
                 province = 757
-                province = 9753
-                province = 11753
                 }
+				add_building_construction = {
+				type = bunker
+				level = 5
+				instant_build = yes
+				province = 9753
+				}
+				add_building_construction = {
+				type = bunker
+				level = 5
+				instant_build = yes
+				province = 11736
+				}
+			}
 		}
 	}
 	focus = {
