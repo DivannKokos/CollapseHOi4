@@ -15,11 +15,15 @@ focus_tree = {
 	focus = {
 		id = ATR_return_of_prophet
 		icon = GFX_goal_demand_sudetenland
-		cost = 0
+		cost = 4.3
 		x = 10
 		y = 0
-		completion_reward = {
+		completion_reward ={
+                add_popularity = {
+                    ideology = ultranationalism
+                    popularity = 0.5
 		}
+            }
 	}
 	focus = {
 		id = ATR_2fabricsplus
@@ -27,64 +31,119 @@ focus_tree = {
 		available = {
 			has_completed_focus = ATR_return_of_prophet
 		}
-		cost = 0
+		cost = 3
 		x = 2
 		y = 1
 		completion_reward = {
+                236 = {
+                if = {
+                limit = { is_controlled_by = ROOT }
+                 add_building_construction = {
+                 type = industrial_complex
+                 level = 2
+                 instant_build = yes
+                            }
+                        }
+                    }
 		}
 	}
 	focus = {
 		id = ATR_3warfactoriesplus
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_2fabricsplus
 		}
 		x = 1
 		y = 2
 		completion_reward = {
+                236 = {
+                if = {
+                limit = { is_controlled_by = ROOT }
+                 add_building_construction = {
+                 type = arms_factory
+                 level = 3
+                 instant_build = yes
+                            }
+                        }
+                    }
 		}
 	}
 	focus = {
 		id = ATR_3fabricsplus
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_3warfactoriesplus
 		}
 		x = 1
 		y = 3
 		completion_reward = {
+                236 = {
+                if = {
+                limit = { is_controlled_by = ROOT }
+                 add_building_construction = {
+                 type = industrial_complex
+                 level = 3
+                 instant_build = yes
+                            }
+                        }
+                    }
 		}
 	}
 	focus = {
 		id = ATR_infrastructure
 		icon = GFX_goal_generic_construction
-		cost = 0
+		cost = 2
 		prerequisite = {
 			focus = ATR_2fabricsplus
 		}
 		x = 3
 		y = 2
 		completion_reward = {
+                add_political_power = -0.01
+                add_war_support = -0.01
+                add_stability = -0.01
+                236 = {
+                if = {
+                limit = { is_controlled_by = ROOT }
+                 add_building_construction = {
+                 type = infrastructure
+                 level = 2
+                 instant_build = yes
+                            }
+                        }
+                    }
 		}
+
 	}
 	focus = {
 		id = ATR_2warfactoriesplus
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 0
+                cost = 3.2
 		prerequisite = {
 			focus = ATR_infrastructure
 		}
 		x = 3
 		y = 3
 		completion_reward = {
+                236 = {
+                if = {
+                limit = { is_controlled_by = ROOT }
+                 add_building_construction = {
+                 type = arms_factory
+                 level = 2
+                 instant_build = yes
+
+                            }
+                        }
+                    }
 		}
 	}
 	focus = {
 		id = ATR_capital_bunkers
 		icon = GFX_goal_generic_construct_military
-		cost = 0
+		cost = 3.7
 		prerequisite = {
 			focus = ATR_3fabricsplus
 		}
@@ -94,48 +153,61 @@ focus_tree = {
 		x = 2
 		y = 4
 		completion_reward = {
+                add_building_construction = {
+                type = bunker
+                level = 2
+                instant_build = yes
+                province = 757
+                province = 9753
+                province = 11753
+                }
 		}
 	}
 	focus = {
 		id = ATR_warriors_of_doomsday
 		icon = GFX_goal_generic_small_arms
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_return_of_prophet
 		}
 		x = 8
 		y = 1
 		completion_reward = {
+                add_war_support = 0.05
+                army_experience = 30
 		}
 	}
 	focus = {
 		id = ATR_true_truth
 		icon = GFX_goal_generic_propaganda
-		cost = 0
+		cost = 4.1
 		prerequisite = {
 			focus = ATR_return_of_prophet
 		}
 		x = 10
 		y = 1
 		completion_reward = {
+                add_stability = 0.23
 		}
 	}
 	focus = {
 		id = ATR_no_more_liar
 		icon = GFX_goal_generic_demand_territory
-		cost = 0
+		cost = 3.8
 		prerequisite = {
 			focus = ATR_return_of_prophet
 		}
 		x = 12
 		y = 1
 		completion_reward = {
+                add_stability = 0.5
+                add_political_power = 54
 		}
 	}
 	focus = {
 		id = ATR_one_truth
 		icon = GFX_goal_generic_propaganda
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_true_truth
 		}
@@ -148,36 +220,44 @@ focus_tree = {
 		x = 10
 		y = 2
 		completion_reward = {
+                add_stability = -0.19
+                add_political_power = 4
+                add_command_power = 15
 		}
 	}
 	focus = {
 		id = ATR_crusaders
 		icon = GFX_goal_generic_major_war
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_one_truth
 		}
 		x = 9
 		y = 3
 		completion_reward = {
+                add_command_power = 40
+                add_war_support = 0.17
+                add_manpower = 300
+                army_experience = 30
 		}
 	}
 	focus = {
 		id = ATR_our_mission
 		icon = GFX_goal_anschluss
-		cost = 0
+		cost = 4.3
 		prerequisite = {
 			focus = ATR_one_truth
 		}
 		x = 11
 		y = 3
 		completion_reward = {
+                add_manpower = 5000
 		}
 	}
 	focus = {
 		id = ATR_openning 
 		icon = GFX_goal_generic_more_territorial_claims
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_our_mission
 		}
@@ -187,48 +267,55 @@ focus_tree = {
 		x = 10
 		y = 4
 		completion_reward = {
+                add_political_power = 179
 		}
 	}
 	focus = {
 		id = ATR_they_wrong
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = ATR_openning 
 		}
 		x = 7
 		y = 5
 		completion_reward = {
+                add_stability = -0.05
+                add_political_power = 35
 		}
 	}
 	focus = {
 		id = ATR_revenge
 		icon = GFX_goal_generic_military_sphere
-		cost = 0
+		cost = 4.2
 		prerequisite = {
 			focus = ATR_openning 
 		}
 		x = 11
 		y = 5
 		completion_reward = {
+                add_stability = -0.005
+                add_manpower = -7
 		}
 	}
 	focus = {
 		id = ATR_ban_wrong_faiths
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		cost = 0
+		cost = 4
 		prerequisite = {
 			focus = ATR_openning 
 		}
 		x = 13
 		y = 5
 		completion_reward = {
+                add_stability = -0.15
+                add_war_support = +0.10
 		}
 	}
 	focus = {
 		id = ATR_new_bethlehem
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 0
+		cost = 4.5
 		prerequisite = {
 			focus = ATR_revenge
 		}
@@ -238,42 +325,73 @@ focus_tree = {
 		x = 13
 		y = 6
 		completion_reward = {
-		}
+                add_building_construction = {
+                type = bunker
+                level = 3
+                instant_build = yes
+                province = 757
+                province = 9753
+                province = 11753
+            }
+            }
 	}
 	focus = {
 		id = ATR_weapons_of_truth
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_new_bethlehem
 		}
 		x = 12
 		y = 7
 		completion_reward = {
+                    add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 5479
+                    producer = SOV 
 		}
+ 		}
 	}
 	focus = {
 		id = ATR_catacombs_of_the_holy_city
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 0
+		cost = 4.4
 		prerequisite = {
 			focus = ATR_new_bethlehem
 		}
 		x = 14
 		y = 7
 		completion_reward = {
-		}
+                236 = {
+                if = {
+                limit = { is_controlled_by = ROOT }
+                 add_building_construction = {
+                 type = infrastructure
+                 level = 2
+                 instant_build = yes
+                            }
+                        }
+                    }
+                    }
 	}
 	focus = {
 		id = ATR_citadel
 		icon = GFX_goal_generic_construct_military
-		cost = 0
+		cost = 4.2
 		prerequisite = {
 			focus = ATR_new_bethlehem
 		}
 		x = 16
 		y = 7
 		completion_reward = {
+                add_building_construction = {
+                type = bunker
+                level = 5
+                instant_build = yes
+                province = 757
+                province = 9753
+                province = 11753
+                }
 		}
 	}
 	focus = {
@@ -281,23 +399,26 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		cost = 0
 		available = {
-			has_completed_focus = ATR_openning 
+			has_completed_focus = ATR_openning
 		}
 		x = 31
 		y = 5
 		completion_reward = {
+                add_political_power = 251
 		}
 	}
 	focus = {
 		id = ATR_west_contacts
 		icon = GFX_goal_generic_territory_or_war
-		cost = 0
-		prerequisite = {
-			focus = ATR_place_in_world
+		cost = 1.3
+                prerequisite = {
+                         focus = ATR_place_in_world
 		}
 		x = 30
 		y = 6
 		completion_reward = {
+                add_political_power = 10
+                add_stability = 0.01
 		}
 	}
 	focus = {
@@ -310,6 +431,7 @@ focus_tree = {
 		x = 29
 		y = 7
 		completion_reward = {
+
 		}
 	}
 	focus = {
@@ -469,6 +591,8 @@ focus_tree = {
 		x = 9
 		y = 5
 		completion_reward = {
+                add_stability = 0.1
+                add_war_support = 0.3
 		}
 	}
 	focus = {
