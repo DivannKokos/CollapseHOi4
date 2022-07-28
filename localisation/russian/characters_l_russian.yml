@@ -20,7 +20,7 @@ CWE_paul_golding: "Пол Голдинг"
 CWE_anne_marie_waters: "Энн Мари Уотерс"
 CWE_richard_dawkins: "Ричард Докинз"
 
-ENG_ben_wallace: "Бен Уоллес"
+ENG_ben_wallace: "Бэн Уоллес"
 
 KGB_elena_dyatlova: "Елена Дятлова"
 
@@ -43,3 +43,10 @@ FUR_vitaly_milonov: "Виталий Милонов"
 ###генералы
 AST_chris_hemsworth: "Крис Хэмсворт"
 AST_luke_hemsworth: "Люк Хэмсворт" 
+
+ZOL_alexandr_popov: "Александр Попов"
+ZOL_alexandr_poryadin: "Александр Порядин"
+ZOL_igor_golloev: "Игорь Голлоев"
+ZOL_oleg_plohoi: "Олег Плохой"
+ZOL_pavel_dashkov: "Павел Дашков"
+ZOL_viktor_strigunov: "Виктор Стригунов"
