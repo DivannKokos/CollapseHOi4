@@ -1,0 +1,15 @@
+capital = 526
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.1
+
+set_popularities = {
+	autocracy = 50
+}
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "2022.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
