@@ -2,10 +2,10 @@ spriteTypes = {
 	###Australia
 	spriteType = {
 		name = "GFX_portrait_AST_chris_hemsworth"
-		texturefile = "gfx\generals\AST\Portrait_Australia_Chris_Hemsworth.dds"
+		texturefile = "gfx\\generals\\AST\\Portrait_Australia_Chris_Hemsworth.dds"
 		}
 	spriteType = {
 		name = "GFX_portrait_AST_luke_hemsworth"
-		texturefile = "gfx\generals\AST\Portrait_Australia_Luke_Hemsworth.dds"
+		texturefile = "gfx\\generals\\AST\\Portrait_Australia_Luke_Hemsworth.dds"
 	}
 }
