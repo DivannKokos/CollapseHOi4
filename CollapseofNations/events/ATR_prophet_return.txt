@@ -13,6 +13,6 @@ news_event = {
 	}
 	
 	option = {
-		name = atr_prophet.1.a
+		name = atr_prophet
 }
 }
