@@ -1,0 +1,11 @@
+﻿capital = 206 #Minsk
+
+#oob = "BLR_2022"
+
+set_research_slots = 3
+
+# Starting tech
+
+set_popularities = {
+	conservative_democracy = 100
+}
