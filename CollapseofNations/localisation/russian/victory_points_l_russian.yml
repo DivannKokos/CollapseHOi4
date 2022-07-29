@@ -1042,7 +1042,6 @@
  VICTORY_POINTS_9259: "Чебоксары"
  VICTORY_POINTS_9402: "Йошкар-Ола"
  VICTORY_POINTS_3757: "Балта"
- VICTORY_POINTS_741: "Тирасполь"
  
 ###MODDED
  VICTORY_POINTS_6332: "Калининград"
@@ -1052,3 +1051,5 @@
  VICTORY_POINTS_11437: "Днепр"
  VICTORY_POINTS_3457: "Хмельницкий"
  VICTORY_POINTS_11411: "Ивано-Франковск"
+ VICTORY_POINTS_11686: "Тирасполь"
+ VICTORY_POINTS_741: "Раздельная"
