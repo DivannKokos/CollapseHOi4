@@ -150,4 +150,9 @@ spriteTypes = {
 			name = "GFX_portrait_UKR_vladimir_zelenskiy"
 			texturefile = "gfx\\leaders\\UKR\\vladimir_zelensky.dds"
 		}
+		### Турция 
+		spriteType = {
+			name = "GFX_portrait_TUR_rterdogan"
+			textureFile = "gfx\\leaders\\TUR\\Portrait_TUR_rterdogan.dds"
+		}
 }

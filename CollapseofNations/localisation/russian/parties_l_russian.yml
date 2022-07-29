@@ -43,6 +43,7 @@
  libertarian: "Либертарианство"
  liberal_conservatism: "Либеральный Консерватизм"
  social_democracy_subidealogy: "Социальная Демократия"
+ national_conservatism: "Национальный Консерватизм"
 
  ###социализм (коммунизм)
  socialism_subidealogy: "Социализм"
@@ -133,3 +134,16 @@
  
  FUR_autocracy_party: "АТиБ"
  FUR_autocracy_party_long: "Армия Традиции и Благочестия"
+
+ TUR_conservative_democracy_party: "ПСР" ### русское название сокращается до ПСР, турецкое до AKP, при необходимости изменить соответствующе
+ TUR_conservative_democracy_party_long: "Партия Справедливости и развития"
+ TUR_social_democracy_party: "НРП" ### русское название сокращается до НРП, турецкое до CHP, при необходимости изменить соответствующе
+ TUR_social_democracy_party_long: "Народно-республиканская партия"
+ TUR_ultranationalism_party: "ПНР" ### русское название сокращается до ПНД, турецкое до MHP, при необходимости изменить соответствующе
+ TUR_ultranationalism_party_long: "Партия националистического движения"
+ TUR_nationalism_idealogy_party: "Хорошая Партия"
+ TUR_nationalism_idealogy_party_long: "Хорошая Партия"
+ TUR_socialism_party: "ПРТ"
+ TUR_socialism_party_long: "Партия рабочих Турции"
+ TUR_liberal_democracy_party: "ДПН" ### русское название сокращается до ДПН, турецкое до HDP, при необходимости изменить соответствующе
+ TUR_liberal_democracy_party_long: "Демократическая партия народов"
