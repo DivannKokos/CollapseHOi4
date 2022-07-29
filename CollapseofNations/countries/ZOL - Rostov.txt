@@ -1,0 +1,28 @@
+capital = 218
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.5
+
+recruit_character = ZOL_viktor_zolotov
+recruit_character = ZOL_igor_golloev
+recruit_character = ZOL_viktor_strigunov
+recruit_character = ZOL_pavel_dashkov
+recruit_character = ZOL_alexandr_poryadin
+recruit_character = ZOL_alexandr_popov
+recruit_character = ZOL_oleg_plohoi
+recruit_character = ZOL_yuri_yashin
+
+set_popularities = {
+	fascism = 62
+	conservative_democracy = 8
+    liberal_democracy = 15
+    national-socialism = 5
+    autocracy = 10
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "2022.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}

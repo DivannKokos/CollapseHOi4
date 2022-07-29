@@ -113,5 +113,22 @@ characters={
 			logistics_skill = 1
 			legacy_id = 1116
 		}
+                }
+		ZOL_yuri_yashin={
+		name="ZOL_yuri_yashin"
+		portraits={
+			army={
+				large=GFX_portrait_ZOL_yuri_yashin
+			}
+		}
+		corps_commander = {
+			traits = { reckless, Swamp_Fox }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 1117
+		}
 		}
 }

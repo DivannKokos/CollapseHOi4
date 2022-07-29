@@ -34,4 +34,8 @@ spriteTypes = {
 		name = "GFX_portrait_ZOL_oleg_plohoi"
 		texturefile = "gfx\\generals\\ZOL\\general_oleg_plohoi.dds"
 		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_yuri_yashin"
+		texturefile = "gfx\\generals\\ZOL\\general_yuri_yashin.dds"
+		}
 }
