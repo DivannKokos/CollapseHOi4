@@ -1,0 +1,19 @@
+﻿capital = 202 #Kiev
+
+#oob = "UKR_2022"
+
+set_research_slots = 3
+
+recruit_character = UKR_vladymir_zelenskiy
+
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = 2019.05.20
+}
+
+set_popularities = {
+	liberal_democracy = 70
+	conservative_democracy = 20
+	national-socialism = 30
+}
+

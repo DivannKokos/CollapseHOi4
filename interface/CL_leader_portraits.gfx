@@ -145,5 +145,9 @@ spriteTypes = {
 			name = "GFX_portrait_FUR_vitaly_milonov"
 			texturefile = "gfx\\leaders\\FUR\\milonov.dds"
 		}
-                                
+		### Украина
+		spriteType = {
+			name = "GFX_portrait_UKR_vladimir_zelenskiy"
+			texturefile = "gfx\\leaders\\UKR\\vladimir_zelensky.dds"
+		}
 }
