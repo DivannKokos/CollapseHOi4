@@ -122,11 +122,15 @@
 
  ATR_ultranationalism_party: "ДРУГГ"
  ATR_ultranationalism_party_long: "Партия "ДРУГГ""
+ 
  ZOL_fascism_party: "Клика Золотова"
  ZOL_fascism_party_long: "Федеральная служба войск национальной гвардии Российской Федерации"
+ 
  EBL_autocracy_party: "ООО - Ш"
  EBL_autocracy_party_long: "ООО - Шлюпка"
+ 
  DCP_conservative_democracy_party: "РДНС"
  DCP_conservative_democracy_party_long: "Русское Демократическое Национальное Собрание"
+ 
  FUR_autocracy_party: "АТиБ"
  FUR_autocracy_party_long: "Армия Традиции и Благочестия"
