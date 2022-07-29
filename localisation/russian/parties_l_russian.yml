@@ -79,9 +79,9 @@
  ### SOV_socialism_party_russian: "ВКП(б)"
  ### SOV_socialism_party_russian_long: "Всесоюзная коммунистическая партия (большевиков)"
  ### SOV_conservative_democracy_party: "Трудовая группа"
- ### SOV_fascism_party: "РФП"
- ### SOV_fascism_party_russian: "ВФП"
- ### SOV_fascism_party_russian_long: "Всероссийская фашистская партия"
+ ### SOV_nationalism_party: "РФП"
+ ### SOV_nationalism_party_russian: "ВФП"
+ ### SOV_nationalism_party_russian_long: "Всероссийская фашистская партия"
 
  AST_neutrality_idealogy_party: "Зелёные"
  AST_neutrality_idealogy_party_long: "Австралийские зелёные"
