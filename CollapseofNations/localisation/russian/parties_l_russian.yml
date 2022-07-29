@@ -122,10 +122,10 @@
 
  ATR_ultranationalism_party: "ДРУГГ"
  ATR_ultranationalism_party_long: "Партия "ДРУГГ""
- 
+
  ZOL_fascism_party: "Клика Золотова"
  ZOL_fascism_party_long: "Федеральная служба войск национальной гвардии Российской Федерации"
- 
+
  EBL_autocracy_party: "ООО - Ш"
  EBL_autocracy_party_long: "ООО - Шлюпка"
  
@@ -134,6 +134,13 @@
  
  FUR_autocracy_party: "АТиБ"
  FUR_autocracy_party_long: "Армия Традиции и Благочестия"
+
+ SOC_autocracy_party: "РПЦ"
+ SOC_autocracy_party_long: "Русская Православная Церковь"
+
+ KAL_autocracy_party: "Департамент"
+ KAL_autocracy_party_long: "Департамент"
+
 
  TUR_conservative_democracy_party: "ПСР" ### русское название сокращается до ПСР, турецкое до AKP, при необходимости изменить соответствующе
  TUR_conservative_democracy_party_long: "Партия Справедливости и развития"
