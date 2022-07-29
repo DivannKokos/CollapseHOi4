@@ -145,6 +145,17 @@ spriteTypes = {
 			name = "GFX_portrait_FUR_vitaly_milonov"
 			texturefile = "gfx\\leaders\\FUR\\milonov.dds"
 		}
+
+		spriteType = {
+			name = "GFX_portrait_SOC_kirill"
+			texturefile = "gfx\\leaders\\SOC\\Portrait_Patriarch.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KAL_departament"
+			texturefile = "gfx\\leaders\\KAL\\Kazachko_Anatoly_Vasilevich.dds"
+		}
+
 		### Украина
 		spriteType = {
 			name = "GFX_portrait_UKR_vladimir_zelenskiy"
