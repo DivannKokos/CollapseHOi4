@@ -113,7 +113,7 @@ characters={
 			logistics_skill = 1
 			legacy_id = 1116
 		}
-		}
+                }
 		ZOL_yuri_yashin={
 		name="ZOL_yuri_yashin"
 		portraits={
