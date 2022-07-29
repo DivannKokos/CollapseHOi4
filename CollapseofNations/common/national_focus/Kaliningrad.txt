@@ -1,0 +1,402 @@
+focus_tree = {
+	id = kaliningrad_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag	= KGB
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1500
+	}
+
+
+	###POLITICS
+	#FIRST FOCUS
+	focus = {
+		id = kgb_isolated_shard
+		#icon
+		x = 8
+		y = 1
+		#relative_position_id = kgb_
+		cost = 2
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+
+	#BRANCH OPENER
+	focus = {
+		id = kgb_place_in_world
+		#icon
+		prerequisite = {
+		focus = kgb_isolated_shard
+		}
+		x = 8
+		y = 3
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	#BALTICS
+	focus = {
+		id = kgb_baltics
+		#icon
+		prerequisite = {
+		focus = kgb_place_in_world
+		}
+		mutually_exclusive = {
+		focus = kgb_puppet
+		}
+		mutually_exclusive = {
+		focus = kgb_islamic_state
+		}
+		x = 3
+		y = 5
+		#relative_position_id = kgb_
+		cost = 5
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+
+	###BALTIC ALLIANCE
+	focus = {
+		id = kgb_baltics_alliance_one
+		#icon
+		prerequisite = {
+		focus = kgb_baltics
+		}
+		mutually_exclusive = {
+		focus = kgb_baltics_war_one
+		}
+		x = 2
+		y = 6
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = long_vassality
+				add_idea = long_vassality2
+			}
+		}
+	}
+	focus = {
+		id = kgb_baltics_alliance_two
+		#icon
+		prerequisite = {
+		focus = kgb_baltics_alliance_one
+		}
+		x = 2
+		y = 7
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+			swap_ideas = {
+				remove_idea = long_vassality2
+				add_idea = long_vassality3
+			}
+		}
+	}
+
+	###BALTIC WAR
+	focus = {
+		id = kgb_baltics_war_one
+		#icon
+		prerequisite = {
+		focus = kgb_baltics
+		}
+		x = 4
+		y = 6
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.10
+			swap_ideas = {
+				remove_idea = long_vassality
+				add_idea = long_vassality_war_one
+			}
+		}
+	}
+
+	focus = {
+		id = kgb_baltics_war_two
+		#icon
+		prerequisite = {
+		focus = kgb_baltics_war_one
+		}
+		x = 4
+		y = 7
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.10
+			swap_ideas = {
+				remove_idea = long_vassality_war_one
+				add_idea = long_vassality_war_two
+			}
+		}
+	}
+
+
+	#PUPPET OF POLAND OR RPW OR RUSSIA (AGAIN)
+	focus = {
+		id = kgb_puppet
+		#icon
+		prerequisite = {
+		focus = kgb_place_in_world
+		}
+		mutually_exclusive = {
+			focus = kgb_baltics
+			}
+			mutually_exclusive = {
+			focus = kgb_islamic_state
+			}
+		x = 8
+		y = 5
+		#relative_position_id = kgb_
+		cost = 4
+
+		completion_reward = {
+			add_stability = -0.10
+		}
+	}
+
+	focus = {
+		id = kgb_again_with_russia
+		#icon = 
+		cost = 13
+		x = 8
+		y = 8
+		prerequisite = {
+			focus = kgb_puppet
+		}
+		mutually_exclusive = {
+			focus = kgb_puppet_poland_one
+		}
+		mutually_exclusive = {
+			focus = kgb_puppet_rpw_one
+		}
+		completion_reward = { 
+		}
+	}
+	
+	###PUPPET OF POLAND
+	focus = {
+		id = kgb_puppet_poland_one
+		#icon
+		prerequisite = {
+		focus = kgb_puppet
+		}
+		mutually_exclusive = {
+		focus = kgb_puppet_rpw_one
+		}
+		x = 7
+		y = 6
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+			remove_ideas = long_vassality
+		}
+	}
+
+	focus = {
+		id = kgb_puppet_poland_two
+		#icon
+		prerequisite = {
+		focus = kgb_puppet_poland_one
+		}
+		x = 7
+		y = 7
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	###PUPPET OF RPW
+	focus = {
+		id = kgb_puppet_rpw_one
+		#icon
+		prerequisite = {
+		focus = kgb_puppet
+		}
+		x = 9
+		y = 6
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+			remove_ideas = long_vassality
+		}
+	}
+	focus = {
+		id = kgb_puppet_rpw_two
+		#icon
+		prerequisite = {
+		focus = kgb_puppet_rpw_one
+		}
+		mutually_exclusive = {
+			focus = kgb_teuton_one
+		}
+		x = 9
+		y = 7
+		#relative_position_id = kgb_
+		cost = 10
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	#ISLAMIC STATE
+	focus = {
+		id = kgb_islamic_state
+		#icon
+		prerequisite = {
+		focus = kgb_place_in_world
+		}
+		mutually_exclusive = {
+			focus = kgb_baltics
+			}
+			mutually_exclusive = {
+			focus = kgb_puppet
+			}
+		x = 13
+		y = 5
+		#relative_position_id = kgb_
+		cost = 11
+
+		completion_reward = {
+			add_stability = -0.15
+		}
+	}
+
+	focus = {
+		id = kgb_islamic_state_one
+		#icon
+		prerequisite = {
+		focus = kgb_islamic_state
+		}
+		x = 14
+		y = 6
+		#relative_position_id = kgb_
+		cost = 11
+
+		completion_reward = {
+			add_stability = 0.05
+			remove_ideas = long_vassality
+		}
+	}
+	focus = {
+		id = kgb_islamic_state_two
+		#icon
+		prerequisite = {
+		focus = kgb_islamic_state_one
+		}
+		x = 14
+		y = 7
+		#relative_position_id = kgb_
+		cost = 11
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+	###TEUTON ORDER
+	focus = {
+		id = kgb_teuton_one
+		#icon
+		prerequisite = {
+		focus = kgb_puppet_rpw_one
+		}
+		available = {
+			RPW = {
+				has_country_leader_ideology = knightly_neo-feudalism
+			}
+		}
+		x = 12
+		y = 7
+		#relative_position_id = kgb_
+		cost = 8
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+
+
+	###ARMY
+	focus = {
+		id = kgb_army_one
+		#icon = 
+		cost = 9
+		x = 18
+		y = 2
+		available = {
+			has_completed_focus = kgb_place_in_world
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = kgb_army_two
+		#icon = 
+		cost = 9
+		x = 18
+		y = 4
+		prerequisite = {
+			focus = kgb_army_one
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = kgb_army_three
+		#icon = 
+		cost = 9
+		x = 18
+		y = 6
+		prerequisite = {
+			focus = kgb_army_two
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = kgb_army_four
+		#icon = 
+		cost = 9
+		x = 18
+		y = 8
+		prerequisite = {
+			focus = kgb_army_three
+		}
+		completion_reward = { }
+	}
+}

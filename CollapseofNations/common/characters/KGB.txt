@@ -1,0 +1,15 @@
+characters={
+	KGB_elena_dyatlova={
+		name="KGB_elena_dyatlova"
+		portraits={
+			civilian={
+				large=GFX_portrait_KGB_Elena_Dyatlova
+			}
+		}
+		country_leader={
+			ideology=liberal_conservatism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}
