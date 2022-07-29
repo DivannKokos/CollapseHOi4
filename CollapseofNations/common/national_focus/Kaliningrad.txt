@@ -21,7 +21,7 @@ focus_tree = {
 		#icon
 		x = 8
 		y = 1
-		#relative_position_id = kgb_
+		 
 		cost = 2
 
 		completion_reward = {
@@ -38,7 +38,7 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
-		#relative_position_id = kgb_
+		 
 		cost = 4
 
 		completion_reward = {
@@ -61,7 +61,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 5
-		#relative_position_id = kgb_
+		 
 		cost = 5
 
 		completion_reward = {
@@ -82,7 +82,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 6
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -101,7 +101,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 7
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -122,7 +122,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 6
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -143,7 +143,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 7
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -172,7 +172,7 @@ focus_tree = {
 			}
 		x = 8
 		y = 5
-		#relative_position_id = kgb_
+		 
 		cost = 4
 
 		completion_reward = {
@@ -211,7 +211,7 @@ focus_tree = {
 		}
 		x = 7
 		y = 6
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -228,7 +228,7 @@ focus_tree = {
 		}
 		x = 7
 		y = 7
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -245,7 +245,7 @@ focus_tree = {
 		}
 		x = 9
 		y = 6
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -264,7 +264,7 @@ focus_tree = {
 		}
 		x = 9
 		y = 7
-		#relative_position_id = kgb_
+		 
 		cost = 10
 
 		completion_reward = {
@@ -287,7 +287,7 @@ focus_tree = {
 			}
 		x = 13
 		y = 5
-		#relative_position_id = kgb_
+		 
 		cost = 11
 
 		completion_reward = {
@@ -303,7 +303,7 @@ focus_tree = {
 		}
 		x = 14
 		y = 6
-		#relative_position_id = kgb_
+		 
 		cost = 11
 
 		completion_reward = {
@@ -319,7 +319,7 @@ focus_tree = {
 		}
 		x = 14
 		y = 7
-		#relative_position_id = kgb_
+		 
 		cost = 11
 
 		completion_reward = {
@@ -341,7 +341,7 @@ focus_tree = {
 		}
 		x = 12
 		y = 7
-		#relative_position_id = kgb_
+		 
 		cost = 8
 
 		completion_reward = {
