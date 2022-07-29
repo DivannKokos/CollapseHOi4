@@ -15,7 +15,7 @@ country_event = {
 		set_popularities = {
 		liberal_democracy = 40
 		conservative_democracy = 25
-		nationalism = 35
+		nationalism_idealogy = 35
 			}
 		}
 	}

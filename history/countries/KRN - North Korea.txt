@@ -1,9 +1,10 @@
-capital = 526
+capital = 527
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.1
 
 set_popularities = {
+	socialism = 50
 	autocracy = 50
 }
 

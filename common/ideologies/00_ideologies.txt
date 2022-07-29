@@ -261,7 +261,7 @@ ideologies = {
 	
 		types = {
 
-			social_democracy = {
+			social_democracy_subidealogy = {
 			}
 
 		}
@@ -309,7 +309,7 @@ ideologies = {
 			chinese_socialism = {
 			}
 			
-			socialism = {
+			socialism_subidealogy = {
 			}
 		}
 		
@@ -351,7 +351,7 @@ ideologies = {
 
 	}
 
-	nationalism = {
+	nationalism_idealogy = {
 	
 		types = {
 
