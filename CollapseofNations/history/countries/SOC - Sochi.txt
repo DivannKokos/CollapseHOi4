@@ -1,0 +1,19 @@
+capital = 233
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.1
+
+recruit_character = SOC_kirill
+
+set_popularities = {
+	autocracy = 50
+        neutrality = 30
+        conservative_democracy = 20
+}
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "2021.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
