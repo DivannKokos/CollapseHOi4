@@ -105,7 +105,6 @@
  RPW_social_democracy_party: "СДПГ"
  RPW_social_democracy_party_long: "Социал-демократическая партия Германии"
 
-
  CWE_nationalism_party: "ПДА"
  CWE_nationalism_party_long: "Патриотическое движение Англии"
  CWE_liberal_democracy_party: "За Британию"
@@ -122,11 +121,15 @@
 
  ATR_ultranationalism_party: "ДРУГГ"
  ATR_ultranationalism_party_long: "Партия "ДРУГГ""
+ 
  ZOL_fascism_party: "Клика Золотова"
  ZOL_fascism_party_long: "Федеральная служба войск национальной гвардии Российской Федерации"
+ 
  EBL_autocracy_party: "ООО - Ш"
  EBL_autocracy_party_long: "ООО - Шлюпка"
+ 
  DCP_conservative_democracy_party: "РДНС"
  DCP_conservative_democracy_party_long: "Русское Демократическое Национальное Собрание"
+ 
  FUR_autocracy_party: "АТиБ"
  FUR_autocracy_party_long: "Армия Традиции и Благочестия"
