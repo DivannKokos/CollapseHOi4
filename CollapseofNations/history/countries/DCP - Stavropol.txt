@@ -1,0 +1,20 @@
+capital = 235
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.4
+
+recruit_character = DCP_vladimir_medinsky
+
+set_popularities = {
+	conservative_democracy = 60
+    neutrality = 20
+    fascism = 4
+    socialism = 16
+}
+
+set_politics = {
+	ruling_party = conservative_democracy
+	last_election = "2022.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}

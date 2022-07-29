@@ -1,0 +1,37 @@
+﻿l_russian:
+kgb_isolated_shard: "Изолированный Осколок"
+kgb_isolated_shard_desc: "Прошлая власть допустила немало ошибок и мы признём это. \n Но мы не собираемся делать то же самое, и просто помнить об этих ошибках, мы усвоем урок, и сделаем лучшее государство, чем то, что было главнее нас."
+
+kgb_place_in_world: "Наше место в мире"
+kgb_place_in_world_desc: "Теперь мы здесь главные, и мы решаем, куда пойдёт наша страна, после того как мы пережили события в России, они частично нас не затронули, так как мы не находимся непосредственно рядом с Россией, но тем не менее, родственники наших граждан, жили там, и теперь они ушли в иной мир."
+
+#baltics
+ kgb_baltics: "Прибалтика"
+ kgb_baltics_alliance_one: "Балтийский Союз"
+ kgb_baltics_alliance_two: "Балтийский Союз 2"
+ kgb_baltics_war_one: "Война с Прибалтикой"
+ kgb_baltics_war_two: "Война с Прибалтикой 2"
+
+#puppet
+ kgb_puppet: "Союз"
+ kgb_puppet_poland_one: "В руках Польши"
+ kgb_puppet_poland_two: "Зависимы вновь"
+ kgb_puppet_rpw_one: "В руках Вестфалии"
+ kgb_puppet_rpw_two: "Союз с Вестфалией"
+
+#islamic_state
+ kgb_islamic_state: "Союз со Злом"
+ kgb_islamic_state_one: "Государство Ислама"
+ kgb_islamic_state_two: "Государство Ислама 2"
+
+#teuton
+ kgb_teuton_one: "Тевтонский Орден"
+
+#again with russia
+ kgb_again_with_russia: "Снова к России"
+
+#army focuses
+ kgb_army_one: "REPLACE_ME"
+ kgb_army_two: "REPLACE_ME"
+ kgb_army_three: "REPLACE_ME"
+ kgb_army_four: "REPLACE_ME"

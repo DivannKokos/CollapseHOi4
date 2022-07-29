@@ -1,0 +1,14 @@
+spriteTypes = {
+	###COUNTRY EVENTS
+	###Ireland Civil War
+	spriteType = {
+		name = "GFX_event_IRE_irelands_revolt"
+		texturefile = "gfx\\event_pictures\\irelands_revolt.dds"
+		}
+	###NEWS EVENTS
+	###MUSIC EVENTS
+	spriteType = {
+		name = "GFX_news_event_oasis_reunion"
+		texturefile = "gfx\\event_pictures\\oasis_reunion.dds"
+	}
+}

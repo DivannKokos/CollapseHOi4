@@ -1,0 +1,31 @@
+﻿capital = 285
+
+###oob = "AST_2022"
+set_stability = 0.8
+set_war_support = 0.3
+
+recruit_character = AST_mick_gordon
+recruit_character = AST_peter_dutton
+recruit_character = AST_fiona_patten
+recruit_character = AST_anthony_albanese
+recruit_character = AST_adam_bandt
+recruit_character = AST_clive_palmer
+recruit_character = AST_chris_hemsworth
+recruit_character = AST_luke_hemsworth
+
+	###set_naval_oob = "AST_2022_naval"
+
+	set_politics = {
+		ruling_party = social_democracy
+		last_election = "2022.5.23"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		social_democracy = 60
+        liberal_democracy = 18
+        conservative_democracy = 17
+	    neutrality = 4
+	    ultranationalism = 1
+	}

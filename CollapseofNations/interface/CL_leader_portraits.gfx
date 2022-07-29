@@ -1,0 +1,153 @@
+spriteTypes = {
+        ### Australia
+
+		spriteType = {
+		name = "GFX_portrait_AST_mick_gordon"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Mick_Gordon.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_AST_peter_dutton"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Peter_Dutton.dds"
+        }
+
+		spriteType = {
+		name = "GFX_portrait_AST_fiona_patten"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Fiona_Patten.dds"
+        }
+
+		spriteType = {
+		name = "GFX_portrait_AST_anthony_albanese"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Anthony_Albanese.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_AST_adam_bandt"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Adam_Bandt.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_AST_clive_palmer"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Clive_Palmer.dds"
+		}
+
+        ### USA
+
+	    spriteType = {
+		name = "GFX_portrait_USA_postal_dude"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Postal_Dude.dds"
+		}
+
+        ### Germany     
+
+		spriteType = {
+		name = "GFX_portrait_GER_haluk_yildiz"
+		textureFile = "gfx\\leaders\\GER\\Portrait_Germany_Haluk_Yildiz.dds"
+		}
+		
+      	spriteType = {
+		name = "GFX_portrait_GER_hansi_kursch"
+		texturefile = "gfx\\leaders\\GER\\Portrait_Germany_Hansi_Kursch.dds"
+		}
+
+        ### Вестфалия
+
+		spriteType = {
+		name = "GFX_portrait_RPW_frauke_petry"
+		textureFile = "gfx\\leaders\\RPW\\Portrait_Rheinland_Frauke_Petry.dds"
+		}
+		
+		spriteType = {
+		name = "GFX_portrait_RPW_olaf_scholz"
+		textureFile = "gfx\\leaders\\RPW\\Portrait_Rheinland_Olaf_Scholz.dds"
+		}
+		### English Patriot Movement
+
+		spriteType = {
+		name = "GFX_portrait_CWE_tommy_robinson"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Tommy_Robinson.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_paul_golding"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Paul_Gaulding.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_anne_marie_waters"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Anne_Marie_Waters.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_richard_dawkins"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Richard_Dawkins.dds"
+		}
+
+		### Великобритания
+
+		spriteType = {
+		name = "GFX_portrait_ENG_ben_wallace"
+		textureFile = "gfx\\leaders\\ENG\\Portrait_England_Ben_Wallace.dds"
+		}
+
+		### Ирландия
+
+		spriteType = {
+		name = "GFX_portrait_IRE_michael_higgins"
+		textureFile = "gfx\\leaders\\IRE\\Portrait_Ireland_Michael_Higgins.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_IRE_ira_council"
+		textureFile = "gfx\\leaders\\IRE\\Portrait_Ireland_IRA_Council.dds"
+		}
+
+		### Калининград
+
+		spriteType = {
+			name = "GFX_portrait_KGB_Elena_Dyatlova"
+			texturefile = "gfx\\leaders\\KGB\\Portrait_KGB_Elena_Dyatlova.dds"
+		}
+
+		### Поволжские персы
+
+		spriteType = {
+			name = "GFX_portrait_ATR_grigori_grabovoi"
+			texturefile = "gfx\\leaders\\ATR\\Portrait_Astrakhan_Grigori_Grabovoi.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KND_ilya_varlamov"
+			texturefile = "gfx\\leaders\\KND\\Portrait_Krasnodar_Ilya_Varlamov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KND_maxim_katz"
+			texturefile = "gfx\\leaders\\KND\\Portrait_Krasnodar_Maxim_Katz.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_ZOL_viktor_zolotov"
+			texturefile = "gfx\\leaders\\ZOL\\Portrait_Viktor_Zolotov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_EBL_sergei_aksyonov"
+			texturefile = "gfx\\leaders\\EBL\\aksyonov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_DCP_vladimir_medinsky"
+			texturefile = "gfx\\leaders\\DCP\\Portrait_Vladimir_Medinsky.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_FUR_vitaly_milonov"
+			texturefile = "gfx\\leaders\\FUR\\milonov.dds"
+		}
+		### Украина
+		spriteType = {
+			name = "GFX_portrait_UKR_vladimir_zelenskiy"
+			texturefile = "gfx\\leaders\\UKR\\vladimir_zelensky.dds"
+		}
+}
