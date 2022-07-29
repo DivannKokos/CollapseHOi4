@@ -5,29 +5,16 @@ spriteTypes = {
 		name = "GFX_event_IRE_irelands_revolt"
 		texturefile = "gfx\\event_pictures\\irelands_revolt.dds"
 		}
-
-        ###Astrakhan events
-
-        spriteType = {  
-	name = "GFX_news_event_prophet_return"  
-	texturefile = "gfx/event_pictures/grabovoi_return.dds"
-        }
-
 	###NEWS EVENTS
+	###Astrakhan exlusive
+        spriteType = {
+		name = "GFX_news_event_prophet_return"
+		texturefile = "gfx\\event_pictures\\grabovoi_return.dds"
+        }
+	
 	###MUSIC EVENTS
 	spriteType = {
 		name = "GFX_news_event_oasis_reunion"
 		texturefile = "gfx\\event_pictures\\oasis_reunion.dds"
 	}
 }
-
-
-
-
-
-
-
-
-
-
-grabovoi_return
