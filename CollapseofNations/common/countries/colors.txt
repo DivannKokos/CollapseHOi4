@@ -864,3 +864,13 @@ FUR = {
 	color = rgb { 183 65 14 }
 	color_ui = rgb { 183 65 14 }
 }
+
+SOC = {
+	color = rgb { 47 109 76 }
+	color_ui = rgb { 47 109 76 }
+}
+
+KAL = {
+	color = rgb { 170 240 209 }
+	color_ui = rgb { 170 240 209 }
+}
