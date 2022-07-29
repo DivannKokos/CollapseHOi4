@@ -1,0 +1,20 @@
+﻿capital = 219
+
+starting_train_buffer = 3.0
+	#set_oob = "SOV_2022"
+	#set_naval_oob = "SOV_2022_naval"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 500
+
+set_politics = {
+	ruling_party = conservative_democracy
+	last_election = "2018.3.13"
+	election_frequency = 96
+	elections_allowed = no
+}
+set_popularities = {
+	conservative_democracy = 100
+}

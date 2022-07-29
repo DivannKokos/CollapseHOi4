@@ -11,23 +11,6 @@ set_research_slots = 4
 set_stability = 0.75 
 set_war_support = 0.3
 
-
-
-1939.1.1 = {
-
-	#ТУТ ВАНИЛЬНЫЙ ПАКТ МОЛОТОВА РИББЕНТРОПА, ПОТОМ НУЖНО БУДЕТ УДАЛИТЬ, ПАКТ ИМЕЕТ КУСОК В ИСТОРИИ СОВЕТОВ/РОССИИ
-	unlock_national_focus = GER_mol_rib_pact
-	every_other_country = {
-		limit = {
-			has_government = nationalism_idealogy 
-		}
-		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
-	}
-	diplomatic_relation = { country = SOV relation = non_aggression_pact }
-	add_opinion_modifier = { target = SOV modifier = MR_pact }
-	#MR pact end
-}
-
 set_politics = {
 	ruling_party = social_democracy
 	last_election = "2022.12.8"
@@ -39,4 +22,3 @@ set_popularities = {
 	liberal_democracy = 20
 	social_democracy = 60
 }
-
