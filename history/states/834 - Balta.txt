@@ -1,0 +1,21 @@
+
+state = {
+	id = 834
+	name = "STATE_834"
+	manpower = 183748
+	
+	state_category = rural
+
+	history = {
+		owner = UKR
+		victory_points = {
+			3757 2 
+		}
+		add_core_of = UKR
+	}
+
+	provinces = {
+		3757 9576
+	}
+	local_supplies = 6.0 
+}

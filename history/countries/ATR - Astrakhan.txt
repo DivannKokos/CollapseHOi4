@@ -15,8 +15,8 @@ set_politics = {
 }
 
 set_popularities = {
-	ultranationalism = 73
-	nationalism = 23
+	ultranationalism = 72
+	nationalism_idealogy = 23
 	autocracy = 5
 
 }

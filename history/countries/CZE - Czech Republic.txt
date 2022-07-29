@@ -14,6 +14,6 @@ set_politics = {
 set_popularities = {
 	liberal_democracy = 65
 	neutrality = 20
-	nationalism = 5
+	nationalism_idealogy = 5
 	socialism = 10
 }

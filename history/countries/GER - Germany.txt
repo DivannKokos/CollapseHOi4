@@ -19,7 +19,7 @@ set_war_support = 0.3
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = nationalism 
+			has_government = nationalism_idealogy 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
