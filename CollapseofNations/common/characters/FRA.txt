@@ -1,0 +1,57 @@
+characters={
+	FRA_emmanuel_macron={
+		name="FRA_emmanuel_macron"
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_emmanuel_macron
+			}
+		}
+		country_leader={
+			ideology=ultranationalism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+
+	FRA_emmanuel_macron2={
+		name="FRA_emmanuel_macron2"
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_emmanuel_macron2
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+
+	FRA_jean-luc_melenchon={
+		name="FRA_jean-luc_melenchon"
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_jean-luc_melenchon
+			}
+		}
+		country_leader={
+			ideology=social_democracy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+
+	FRA_napoleon_vii={
+		name="FRA_napoleon_vii"
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_napoleon_vii
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}

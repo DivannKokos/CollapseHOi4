@@ -154,3 +154,12 @@
  TUR_socialism_party_long: "Партия рабочих Турции"
  TUR_liberal_democracy_party: "ДПН" ### русское название сокращается до ДПН, турецкое до HDP, при необходимости изменить соответствующе
  TUR_liberal_democracy_party_long: "Демократическая партия народов"
+
+ FRA_liberal_democracy_party: "Возрождение"
+ FRA_liberal_democracy_party_long: "Возрождение"
+ FRA_ultranationalism_party: "Возрождение - УП"
+ FRA_ultranationalism_party_long: "Возрождение - УП"
+ FRA_social_democracy_party: "Непокорённая Франция"
+ FRA_social_democracy_party_long: "Непокорённая Франция"
+ FRA_neutrality_party: "Монархисты"
+ FRA_neutrality_party_long: "Коалиция Монархистов"

@@ -166,4 +166,22 @@ spriteTypes = {
 			name = "GFX_portrait_TUR_rterdogan"
 			textureFile = "gfx\\leaders\\TUR\\Portrait_TUR_rterdogan.dds"
 		}
+
+		### Франция
+		spriteType = {
+			name = "GFX_portrait_FRA_emmanuel_macron"
+			texturefile = "gfx\\leaders\\FRA\\Portrait_Emmanuel_Macron_Ultranationalism.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_FRA_emmanuel_macron2"
+			texturefile = "gfx\\leaders\\FRA\\Portrait_Emmanuel_Macron_Liberalism.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_FRA_napoleon_vii"
+			texturefile = "gfx\\leaders\\FRA\\Portrait_NapoleionVII.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_FRA_jean-luc_melenchon"
+			texturefile = "gfx\\leaders\\FRA\\Poratrait_Jean-Luc_Melenchon.dds"
+		}
 }
