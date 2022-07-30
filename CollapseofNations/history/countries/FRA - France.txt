@@ -1,0 +1,28 @@
+capital = 16
+
+###oob = "FRA_2022"
+set_stability = 0.6
+set_war_support = 0.8
+
+recruit_character = FRA_emmanuel_macron
+recruit_character = FRA_emmanuel_macron2
+recruit_character = FRA_jean-luc_melenchon
+recruit_character = FRA_FRA_napoleon_vii
+
+	###set_naval_oob = "FRA_2022_naval"
+
+	set_politics = {
+		ruling_party = ultranationalism
+		last_election = "2022.10.26"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		ultranationalism = 56
+                social_democracy = 23
+                conservative_democracy = 5
+                socialism = 10
+                neutrality = 2
+                conservative_democracy = 4
+	}
