@@ -1,4 +1,10 @@
 characters={
+	###МАКРОНЫ НАЧАЛИСЬ
+	###МОЖНО СДЕЛАТЬ ОДНОГО МАКРОНЫ ЧЕРЕЗ set_country_leader_ideology = нужная саб идеалогия в ивенте или фокусе
+	###портрет через set_country_leader_portrait = {
+	###ideology = сабидеалогия
+	###portrait = GFX_portrait_FRA_emmanuel_macron2 (например)
+	#}
 	FRA_emmanuel_macron={
 		name="FRA_emmanuel_macron"
 		portraits={
@@ -26,7 +32,7 @@ characters={
 			id=-1
 		}
 	}
-
+	###МАКРОНЫ КОНЧИЛИСЬ
 	FRA_jean-luc_melenchon={
 		name="FRA_jean-luc_melenchon"
 		portraits={
