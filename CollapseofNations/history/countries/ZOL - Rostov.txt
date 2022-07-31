@@ -10,6 +10,7 @@ recruit_character = ZOL_pavel_dashkov
 recruit_character = ZOL_alexandr_poryadin
 recruit_character = ZOL_alexandr_popov
 recruit_character = ZOL_oleg_plohoi
+recruit_character = ZOL_yuri_yashin
 
 set_popularities = {
 	fascism = 62
