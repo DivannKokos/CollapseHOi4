@@ -8,6 +8,14 @@ recruit_character = FRA_emmanuel_macron
 recruit_character = FRA_emmanuel_macron2
 recruit_character = FRA_jean-luc_melenchon
 recruit_character = FRA_napoleon_vii
+recruit_character = FRA_alain_lardet
+recruit_character = FRA_christian_rodrigues
+recruit_character = FRA_denis_mistral
+recruit_character = FRA_eric_bellot_des_minieres
+recruit_character = FRA_francois_lecointre
+recruit_character = FRA_hubert_cottereau
+recruit_character = FRA_pierre_schill
+recruit_character = FRA_thierry_burkhard
 
 	###set_naval_oob = "FRA_2022_naval"
 
