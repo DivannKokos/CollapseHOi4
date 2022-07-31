@@ -837,3 +837,11 @@ KAL = {
 	color = rgb { 170 240 209 }
 	color_ui = rgb { 170 240 209 }
 }
+KRS = {
+	color = rgb { 75 184 203 }
+	color_ui = rgb { 75 184 203 }
+}
+KRN = {
+	color = rgb { 201 74 74 }
+	color_ui = rgb { 201 74 74 }
+}
