@@ -2,16 +2,16 @@ spriteTypes = {
 
       spriteType = {
             name = "GFX_ideology_ATR_ultranationalism"
-            texturefile = "gfx/interface/ideologies/grabovoi_cult.dds"
+            texturefile = "gfx\\interface\\ideologies\\grabovoi_cult.dds"
       }
 
       spriteType = {
             name = "GFX_ideology_nationalism_group"
-            texturefile = "gfx/interface/ideologies/nationalism.dds"
+            texturefile = "gfx\\interface\\ideologies\\nationalism.dds"
       }
 
       spriteType = {
             name = "GFX_ideology_SOC_autocracy"
-            texturefile = "gfx/interface/ideologies/rus_orthodox.dds"
+            texturefile = "gfx\\interface\\ideologies\\rus_orthodox.dds"
       }
 }	
