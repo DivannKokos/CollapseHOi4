@@ -48,6 +48,11 @@ SOC_kirill: "Патриарх Кирилл"
 
 KAL_departament: "Департамент"
 
+FRA_emmanuel_macron: "Эмманюэль Макрон"
+FRA_emmanuel_macron2: "Эмманюэль Макрон"
+FRA_jean-luc_melenchon: "Жан-Люк Меланшон"
+FRA_napoleon_vii: "Наполеон VII"
+
 ###генералы
 AST_chris_hemsworth: "Крис Хэмсворт"
 AST_luke_hemsworth: "Люк Хэмсворт" 

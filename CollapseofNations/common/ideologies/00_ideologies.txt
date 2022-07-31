@@ -170,6 +170,8 @@ ideologies = {
 			}
 			knightly_neo-feudalism = {
 			}
+                        constitutional_monarchy = {
+                        }
 		}
 
 		dynamic_faction_names = {
