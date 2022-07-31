@@ -7,7 +7,7 @@ set_war_support = 0.8
 recruit_character = FRA_emmanuel_macron
 recruit_character = FRA_emmanuel_macron2
 recruit_character = FRA_jean-luc_melenchon
-recruit_character = FRA_FRA_napoleon_vii
+recruit_character = FRA_napoleon_vii
 
 	###set_naval_oob = "FRA_2022_naval"
 
