@@ -1,4 +1,4 @@
-path="mod/CollapseofNations"
+path="mod/Collapse of Nations"
 name="Collapse of Nations"
 replace_path="common/bookmarks"
 replace_path="common/characters"

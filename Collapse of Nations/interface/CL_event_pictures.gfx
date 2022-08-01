@@ -7,11 +7,10 @@ spriteTypes = {
 		}
 	###NEWS EVENTS
 	###Astrakhan exclusive
-        spriteType = {
+    spriteType = {
 		name = "GFX_news_event_prophet_return"
 		texturefile = "gfx\\event_pictures\\grabovoi_return.dds"
         }
-	
 	###MUSIC EVENTS
 	spriteType = {
 		name = "GFX_news_event_oasis_reunion"
