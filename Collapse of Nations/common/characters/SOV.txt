@@ -1,0 +1,15 @@
+characters={
+	SOV_putin={
+		name="SOV_putin"
+		portraits={
+			civilian={
+				large=GFX_portrait_SOV_putin
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,8 +1,10 @@
 ﻿capital = 219
 
 starting_train_buffer = 3.0
-	#set_oob = "SOV_2022"
-	#set_naval_oob = "SOV_2022_naval"
+#set_oob = "SOV_2022"
+#set_naval_oob = "SOV_2022_naval"
+
+recruit_character = SOV_putin
 
 set_research_slots = 3
 set_stability = 0.5
@@ -50,4 +52,21 @@ set_technology = {
 	atomic_research = 1
 	experimental_rockets = 1
 	basic_machine_tools = 1
+}
+ ###не работает но предпологается что на хэллоуин портрет путина сменится на альтернативный, а потом обратно
+	if = {
+		limit = {
+		#date > 2023.10.30
+		#date < 2023.11.2
+		date > 2023.1.2 #для теста что бы не ждать
+		date < 2023.1.4
+		}
+	set_country_leader_portrait = {
+	portrait = GFX_portrait_SOV_putin_alternate
+	}
+	else = {
+	set_country_leader_portrait = {
+	portrait = GFX_portrait_SOV_putin
+	}
+}
 }

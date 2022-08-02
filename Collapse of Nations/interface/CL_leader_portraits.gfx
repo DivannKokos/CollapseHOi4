@@ -184,4 +184,14 @@ spriteTypes = {
 			name = "GFX_portrait_FRA_jean-luc_melenchon"
 			texturefile = "gfx\\leaders\\FRA\\Poratrait_Jean-Luc_Melenchon.dds"
 		}
+
+		
+		spriteType = {
+			name = "GFX_portrait_SOV_putin"
+			textureFile = "gfx\\leaders\\SOV\\Portrait_Russia_Putin.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_SOV_putin_alternate"
+			textureFile = "gfx\\leaders\\SOV\\Portrait_Russia_Putin_Alternate_Devil.dds"
+		}
 }
