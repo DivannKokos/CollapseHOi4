@@ -1,0 +1,18 @@
+add_namespace = atr_true_truth
+
+news_event = {
+	id = atr_true_truth.1
+	title = atr_true_truth.1.t
+	desc = atr_true_truth.1.d
+	picture = GFX_news_event_true_truth
+
+	is_triggered_only = yes
+
+	#trigger = {
+        #has_completed_focus = ATR_true_truth
+	#}
+	
+	option = {
+		name = atr_true_truth
+}
+}

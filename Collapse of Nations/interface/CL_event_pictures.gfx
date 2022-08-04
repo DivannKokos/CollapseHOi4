@@ -11,6 +11,14 @@ spriteTypes = {
 		name = "GFX_news_event_prophet_return"
 		texturefile = "gfx\\event_pictures\\grabovoi_return.dds"
         }
+    spriteType = {
+		name = "GFX_news_event_warriors_of_doomsday"
+		texturefile = "gfx\\event_pictures\\warriors_of_doomsday.dds"
+        }
+    spriteType = {
+		name = "GFX_news_event_true_truth"
+		texturefile = "gfx\\event_pictures\\true_truth.dds"
+        }
 	###MUSIC EVENTS
 	spriteType = {
 		name = "GFX_news_event_oasis_reunion"
