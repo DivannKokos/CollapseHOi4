@@ -181,6 +181,7 @@ focus_tree = {
 		x = 8
 		y = 1
 		completion_reward = {
+                news_event = atr_warriors_of_doomsday.1
                 add_war_support = 0.05
                 army_experience = 30
 		}
@@ -195,6 +196,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		completion_reward = {
+                news_event = atr_true_truth.1
                 add_stability = 0.23
 		}
 	}
