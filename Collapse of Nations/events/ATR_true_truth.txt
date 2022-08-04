@@ -8,9 +8,9 @@ news_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-        has_completed_focus = ATR_true_truth
-	}
+	#trigger = {
+        #has_completed_focus = ATR_true_truth
+	#}
 	
 	option = {
 		name = atr_true_truth
