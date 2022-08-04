@@ -8,9 +8,9 @@ news_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-        has_completed_focus = ATR_warriors_of_doomsday
-	}
+	#trigger = {
+        #has_completed_focus = ATR_warriors_of_doomsday
+	#}
 	
 	option = {
 		name = atr_warriors_of_doomsday
