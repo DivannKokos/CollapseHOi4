@@ -845,3 +845,11 @@ KRN = {
 	color = rgb { 201 74 74 }
 	color_ui = rgb { 201 74 74 }
 }
+EKB = {
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
+}
+PTS = {
+	color = rgb { 0 153 204 }
+	color_ui = rgb { 0 153 204 }
+}

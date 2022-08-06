@@ -194,4 +194,16 @@ spriteTypes = {
 			name = "GFX_portrait_SOV_putin_alternate"
 			textureFile = "gfx\\leaders\\SOV\\Portrait_Russia_Putin_Alternate_Devil.dds"
 		}
+
+        ### ros partisans
+		
+		spriteType = {
+			name = "GFX_portrait_EKB_evgeny_roizman"
+			textureFile = "gfx\\leaders\\EKB\\Portrait_Ural_Roizman.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_PTS_bebei"
+			textureFile = "gfx\\leaders\\PTS\\beb.dds"
+		}
+
 }
