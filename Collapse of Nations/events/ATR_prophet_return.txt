@@ -8,11 +8,11 @@ news_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-        has_completed_focus = ATR_return_of_prophet
-	}
+	#trigger = {
+    #    has_completed_focus = ATR_return_of_prophet
+	#}
 	
 	option = {
 		name = atr_prophet
-}
+	}
 }

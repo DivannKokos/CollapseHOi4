@@ -9,14 +9,14 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = uraL_revolt
+		id = ural_revolt
 		icon = GFX_goal_generic_demand_territory
 		cost = 1
 		x = 4
 		y = 0
 		completion_reward ={
                 news_event = russian_ural_partisans.1
-	      }
+	    }
 	}
 	focus = {
 		id = partisan_revolt
@@ -27,8 +27,8 @@ focus_tree = {
 		}
 		x = 4
 		y = 2
-		completion_reward ={
+		completion_reward = {
                 news_event = russian_partisans.1
-	      }
+	    }
 	}
 }
