@@ -23,7 +23,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		cost = 1
 		prerequisite = {
-			focus = uraL_revolt
+			focus = ural_revolt
 		}
 		x = 4
 		y = 2
