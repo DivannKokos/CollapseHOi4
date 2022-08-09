@@ -25,4 +25,17 @@ characters={
 			id=-1
 		}
 	}
+	        KND_yuri_morozilka={
+		name="KND_yuri_morozilka"
+		portraits={
+			civilian={
+				large=GFX_portrait_KND_yuri_morozilka
+			}
+		}
+		country_leader={
+			ideology=agrarian_spartanism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
 }
