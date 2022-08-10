@@ -484,6 +484,8 @@ ideologies = {
 			}
 			ultra-atheism = {
 			}
+                        agrarian_spartanism = {
+			}
 		}
 		
 		dynamic_faction_names = {

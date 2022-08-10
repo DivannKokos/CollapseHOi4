@@ -14,4 +14,11 @@ spriteTypes = {
             name = "GFX_ideology_SOC_autocracy"
             texturefile = "gfx\\interface\\ideologies\\rus_orthodox.dds"
       }
+
+      spriteType = {
+            name = "GFX_ideology_KND_ultranationalism"
+            texturefile = "gfx\\interface\\ideologies\\agrarian_spartanism.dds"
+      }                                              
 }	
+
+

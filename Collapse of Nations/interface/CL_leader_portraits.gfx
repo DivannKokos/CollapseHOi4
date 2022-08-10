@@ -156,6 +156,12 @@ spriteTypes = {
 			texturefile = "gfx\\leaders\\KAL\\Kazachko_Anatoly_Vasilevich.dds"
 		}
 
+		spriteType = {
+			name = "GFX_portrait_KND_yuri_morozilka"
+			texturefile = "gfx\\leaders\\KND\\KND_Portrait_Yuri_Morozilka.dds"
+		}
+
+
 		### Украина
 		spriteType = {
 			name = "GFX_portrait_UKR_vladimir_zelenskiy"
