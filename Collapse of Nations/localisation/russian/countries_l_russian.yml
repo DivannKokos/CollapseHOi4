@@ -3532,49 +3532,70 @@
  GER_neutrality_DEF: "Королевство Германия"
  GER_autocracy: "Германская империя"
  GER_autocracy_DEF: "Германская империя"
+
  AST_autocracy: "Суверенная Австралийская Держава"
  AST_autocracy_DEF: "Суверенная Австралийская Держава"
  AST_neutrality: "Австралия"
  AST_neutrality_DEF: "Австралия"
+
  KGB: "Калининград"
  KGB_DEF: "Калининград"
  KGB_ADJ: "Калининградская"
  KGB_conservative_democracy: "Калининград"
  KGB_conservative_democracy_DEF: "Калининград"
  KGB_conservative_democracy_ADJ: "Калининградская"
+
  RPW: "Рейнланд-Пфальц-Вестфалия"
  RPW_DEF: "Рейнланд-Пфальц-Вестфалия"
  RPW_ADJ: "Рейнланд-Пфальц-Вестфальская"
  RPW_conservative_democracy: "Рейнланд-Пфальц-Вестфалия"
  RPW_conservative_democracy_DEF: "Рейнланд-Пфальц-Вестфалия"
  RPW_conservative_democracy_ADJ: "Рейнланд-Пфальц-Вестфальская"
+
  CZE: "Чехия"
  CZE_DEF: "Чехия"
  CZE_ADJ: "Чешская"
  CZE_liberal_democracy: "Чехия"
  CZE_liberal_democracy_DEF: "Чехия"
  CZE_liberal_democracy_ADJ: "Чешская"
+
  SLO_ADJ: "Словацкая"
+
  CWE: "Англия"
  CWE_DEF: "Патриотическое Движение Англии"
  CWE_ADJ: "Английская"
  CWE_autocracy: "Англия"
  CWE_autocracy_DEF: "Патриотическое Движение Англии"
  CWE_autocracy_ADJ: "Английская"
- ATR: "Священная Земля Астрахань"
- ATR_DEF: "Священная Земля Астрахань"
+
+ ATR: "Астрахань"
+ ATR_DEF: "Астрахань"
  ATR_ADJ: "Астраханская"
  ATR_ultranationalism: "Священная Земля Астрахань"
- ATR_ultranationalism_DEF: "Священная Земля Астрахань"
- ATR_ultranationalism_ADJ: "Астраханская"
+ ATR_ultranationalism_DEF: "Астрахань"
+
  KND: "Краснодар"
  KND_ultranationalism: "Новая Краснодарская Эллиада"
+ KND_DEF: "Краснодар"
+
  ZOL: "Ростовская Директория"
+ ZOL_DEF: "Ростов"
+
  EBL: "Морской Союз Крыма"
+ EBL_DEF: "Крым"
+
  DCP: "Ставропольское Регентство"
+ DCP_DEF: "Ставрополь"
+
  FUR: "Волгодонское Воинство"
+ FUR_DEF: "Волгодонское Воинство"
+
  SOC: "Патриархат Сочи"
+ SOC_DEF: "Сочи"
+
  KAL: "Оперативное Самоуправление Калмыкии"
+ KAL_DEF: "Калмыкия"
+
  FRA_nationalism: "Франция" ###изменить
  FRA_nationalism_DEF: "Французское Государство" ###изменить
  FRA_liberal_democracy: "Франция"
@@ -3590,8 +3611,12 @@
  FRA: "Франция"
  FRA_DEF: "Франция"
  FRA_ADJ: "Французск."
+
  KRS: "Южная Корея"
  KRN: "КНДР"
+ KRS_DEF: "Южная Корея"
+ KRN_DEF: "Корейская Народно-Демократическая Республика"
+
  JAP_nationalism: "Японский сёгунат"
  JAP_nationalism_DEF: "Японский сёгунат"
  JAP_liberal_democracy: "Япония"
@@ -3609,11 +3634,13 @@
  JAP: "Япония"
  JAP_DEF: "Япония"
  JAP_ADJ: "Японск."
+
  UKR_socialism: "Украина"
  UKR_socialism_DEF: "Украинская социалистическая республика"
  UKR: "Украина"
  UKR_DEF: "Украина"
  UKR_ADJ: "Украинск."
+
  BLR_nationalism: "Националистическая Беларусь"
  BLR_nationalism_DEF: "Националистическая Беларусь"
  BLR_socialism: "Белоруссия"
@@ -3621,6 +3648,7 @@
  BLR: "Беларусь"
  BLR_DEF: "Беларусь"
  BLR_ADJ: "Белорусск."
+
  EST_nationalism: "Вапсовская Эстония" ###чё это нахуй значит
  EST_nationalism_DEF: "Вапсовская Эстония"
  EST_socialism: "Эстония"
@@ -3628,6 +3656,7 @@
  EST: "Эстония"
  EST_DEF: "Эстония"
  EST_ADJ: "Эстонск."
+
  LAT_nationalism: "Латвия Громового Креста" ###чё нахуй
  LAT_nationalism_DEF: "Латвия Громового Креста"
  LAT_socialism: "Латвия"
@@ -3635,6 +3664,7 @@
  LAT: "Латвия"
  LAT_DEF: "Латвия"
  LAT_ADJ: "Латвийск."
+
  LIT_nationalism: "Фашистская Литва" ###остальные балты оригинальнее
  LIT_nationalism_DEF: "Фашистская Литва"
  LIT_socialism: "Литва"
@@ -3642,6 +3672,7 @@
  LIT: "Литва"
  LIT_DEF: "Литва"
  LIT_ADJ: "Литовск."
+
  POL_nationalism: "Польша"
  POL_nationalism_DEF: "Фалангистская Польша"
  POL_neutrality: "Речь Посполитая"
@@ -3651,6 +3682,7 @@
  POL: "Польша"
  POL_DEF: "Польша"
  POL_ADJ: "Польск."
+
  ETH_nationalism: "Ликторская Эфиопия" ###???
  ETH_nationalism_DEF: "Ликторская Эфиопия"
  ETH_liberal_democracy_DEF: "ФДРЭ"
@@ -3659,9 +3691,11 @@
  ETH: "Эфиопия"
  ETH_DEF: "Эфиопия"
  ETH_ADJ: "Эфиопск."
+
  EKB: "Уральская Республика"
  EKB_DEF: "Уральская Республика"
  EKB_ADJ: "Уральск."
+
  PTS: "Содружество Партизанов России"
  PTS_DEF: "Содружество Партизанов России"
  PTS_ADJ: "Партизанск."
