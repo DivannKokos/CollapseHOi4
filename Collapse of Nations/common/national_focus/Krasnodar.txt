@@ -1,0 +1,152 @@
+focus_tree = {
+	id = Krasnodar
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KND
+		}
+	}
+	default = no
+	focus = {
+		id = land_of_strong
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = new_spartans
+		icon = GFX_goal_generic_major_war
+		cost = 0
+		prerequisite = {
+			focus = land_of_strong
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = challange_for_the_worthy
+		icon = GFX_goal_generic_political_pressure
+		cost = 0
+		prerequisite = {
+			focus = land_of_strong
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = fate_of_weaks
+		icon = GFX_goal_generic_construction2
+		cost = 0
+		prerequisite = {
+			focus = new_spartans
+		}
+		prerequisite = {
+			focus = challange_for_the_worthy
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = work_for_future
+		icon = GFX_goal_generic_construct_civilian
+		cost = 0
+		prerequisite = {
+			focus = fate_of_weaks
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = hierarchy
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0
+		prerequisite = {
+			focus = fate_of_weaks
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = honor_of_warriors
+		icon = GFX_goal_generic_defence
+		cost = 0
+		prerequisite = {
+			focus = land_of_strong
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = cult_of_leonid
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = honor_of_warriors
+		}
+		prerequisite = {
+			focus = challange_for_the_worthy
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = true_heiers
+		icon = GFX_goal_generic_fortify_city
+		cost = 0
+		prerequisite = {
+			focus = cult_of_leonid
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = our_way
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = cult_of_leonid
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = worthy_culture
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = hierarchy
+		}
+		prerequisite = {
+			focus = work_for_future
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = actuall_question
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = hierarchy
+		}
+		prerequisite = {
+			focus = work_for_future
+		}
+		x = 6
+		y = 4
+
+	}
+}
