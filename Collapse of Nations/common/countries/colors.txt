@@ -853,3 +853,19 @@ PTS = {
 	color = rgb { 0 153 204 }
 	color_ui = rgb { 0 153 204 }
 }
+WAG = {
+	color = rgb { 106 95 49 }
+	color_ui = rgb { 106 95 49 }
+}
+CHE = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
+}
+CHE = {
+	color = rgb { 30 153 70 }   
+	color_ui = rgb { 30 153 70 }
+}
+KBB = {
+	color = rgb { 87 166 57 }   
+	color_ui = rgb { 87 166 57 }
+}
