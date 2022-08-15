@@ -867,9 +867,13 @@ CHE = {
 }
 KBB = {
 	color = rgb { 87 166 57 }   
-	color_ui = rgb { 87 166 57 }
+	color_ui = rgb { 87 166 57 }  
 }
 CLF = {
 	color = rgb { 252 108 133 }   
 	color_ui = rgb { 252 108 133 }
+}
+MCH = {
+	color = rgb { 252 0 19 }   
+	color_ui = rgb { 252 0 19 }
 }

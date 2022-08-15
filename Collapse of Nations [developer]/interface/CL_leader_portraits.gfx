@@ -245,4 +245,11 @@ spriteTypes = {
 			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_Bernie_Sanders.dds"
 		}
 
+        ### Michigan
+
+		spriteType = {
+			name = "GFX_portrait_MCH_john_batchell"
+			textureFile = "gfx\\leaders\\MCH\\Portrait_MCH_john_batchell.dds"
+		}
+
 }
