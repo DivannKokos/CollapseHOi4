@@ -1,0 +1,15 @@
+characters={
+	MCH_john_batchell={
+		name="MCH_john_batchell"
+		portraits={
+			civilian={
+				large=GFX_portrait_MCH_john_batchell
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}
