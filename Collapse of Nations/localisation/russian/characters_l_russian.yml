@@ -1,0 +1,90 @@
+﻿l_russian:
+###лидеры
+AST_mick_gordon: "Мик Гордон"
+AST_peter_dutton: "Питер Даттон"
+AST_fiona_patten: "Фиона Паттен"
+AST_anthony_albanese: "Энтони Албаниз"
+AST_adam_bandt: "Адам Бандт"
+AST_clive_palmer: "Клайв Палмер"
+
+USA_joe_biden: "Джо Байден"
+USA_kamala_harris: "Камала Харрис"
+USA_dan_crenshaw: "Дэн Креншо"
+USA_steven_walker: "Стивен Волкер"
+USA_george_soros: "Джордж Сорос"
+USA_postal_dude: "Чувак"
+
+GER_hansi_kursch: "Ханси Кюрш"
+GER_haluk_yildiz: "Халюк Йылдиз"
+
+RPW_frauke_petry: "Фрауке Петри"
+RPW_olaf_scholz: "Олаф Шольц"
+
+CWE_tommy_robinson: "Томми Робинсон"
+CWE_paul_golding: "Пол Голдинг"
+CWE_anne_marie_waters: "Энн Мари Уотерс"
+CWE_richard_dawkins: "Ричард Докинз"
+
+ENG_ben_wallace: "Бен Уоллес"
+
+KGB_elena_dyatlova: "Елена Дятлова"
+
+IRE_michael_higgins: "Майкл Д. Хиггинс"
+IRE_ira_council: "Единый Совет ИРА"
+
+ATR_grigori_grabovoi: "Григорий Грабовой"
+
+KND_ilya_varlamov: "Илья Варламов"
+KND_maxim_katz: "Максим Кац"
+KND_yuri_morozilka: "Юрий I"
+
+ZOL_viktor_zolotov: "Виктор Золотов"
+
+EBL_sergei_aksyonov: "Сергей Аксёнов"
+
+DCP_vladimir_medinsky: "Владимир Мединский"
+
+FUR_vitaly_milonov: "Виталий Милонов"
+
+UKR_vladymir_zelenskiy: "Владимир Зеленский"
+
+TUR_rterdogan: "Реджеп Тайип Эрдоган"
+
+SOC_kirill: "Патриарх Кирилл"
+
+KAL_departament: "Департамент"
+
+FRA_emmanuel_macron: "Эмманюэль Макрон"
+FRA_emmanuel_macron2: "Эмманюэль Макрон"
+FRA_jean-luc_melenchon: "Жан-Люк Меланшон"
+FRA_napoleon_vii: "Наполеон VII"
+
+SOV_putin: "Владимир Путин"
+
+EKB_evgeny_roizman: "Евгений Ройзман"
+PTS_bebei: "Бебей"
+
+CLF_bernie_sanders: "Берни Сандерс"
+
+MCH_john_batchell: "Джон Батчелл"
+
+###генералы
+AST_chris_hemsworth: "Крис Хэмсворт"
+AST_luke_hemsworth: "Люк Хэмсворт" 
+
+ZOL_alexandr_popov: "Александр Попов"
+ZOL_alexandr_poryadin: "Александр Порядин"
+ZOL_igor_golloev: "Игорь Голлоев"
+ZOL_oleg_plohoi: "Олег Плохой"
+ZOL_pavel_dashkov: "Павел Дашков"
+ZOL_viktor_strigunov: "Виктор Стригунов"
+ZOL_yuri_yashin: "Юрий Яшин"
+
+FRA_alain_lardet: "Ален Ларде"
+FRA_christian_rodrigues: "Кристиан Родригес"
+FRA_denis_mistral: "Денис Мистраль"
+FRA_eric_bellot_des_minieres: "Эрик Белло де Миньер"
+FRA_francois_lecointre: "Франсуа Лекуантр"
+FRA_hubert_cottereau: "Хьюбер Коттеро"
+FRA_pierre_schill: "Пьер Шилль"
+FRA_thierry_burkhard: "Тьерри Буркхард"

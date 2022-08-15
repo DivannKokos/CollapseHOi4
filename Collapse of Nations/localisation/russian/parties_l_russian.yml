@@ -1,0 +1,184 @@
+﻿l_russian:
+ ###названия добавленных идеологий, заменённых
+ conservative_democracy: "Консерватизм"
+ conservative_democracy_noun: "Консерватизм"
+ liberal_democracy: "Либерализм"
+ liberal_democracy_noun: "Либерализм"
+ social_democracy: "Социал-демократия"
+ social_democracy_noun: "Социал-демократия"
+ national-socialism: "Национал-социализм"
+ national-socialism_noun: "Национал-социализм"
+ fascism: "Фашизм"
+ fascism_noun: "Фашизм"
+ autocracy: "Автократия"
+ autocracy_noun: "Автократия"
+ ultranationalism: "Ультранационализм"
+ ultranationalism_noun: "Ультранационализм"
+ socialism: "Социализм"
+ socialism_noun: "Социализм"
+ nationalism_idealogy: "Национализм"
+ centrism_idealogy: "Центризм"
+
+ ###названия стандартных идеологий
+ neutrality: "Нейтралитет"
+ neutrality_noun: "Нейтралитет"
+
+ ###правительство (демократия):
+ conservative_democracy_desc: "Консервативное"
+ liberal_democracy_desc: "Либеральное"
+ social_democracy_desc: "Демократическое"
+
+ ###правительство (фашизм, коммунизм):
+ nationalism_idealogy_desc: "Националистическое"
+ socialism_desc: "Социалистическое"
+
+ neutrality_desc: "Авторитарное"
+
+ ###названия сабидеалогий (где они показываются?) и описания к ним
+ ###демократия
+ conservatism: "Консервативная Демократия" ###думал найду где это показывается если оно не совпадает с названием идеологии, но нет не вижу
+ conservatism_desc: "Консерваторы считают, что быстрые изменения идут только во вред обществу; они поддерживают традиционные ценности и выступают за умеренные реформы, иногда ратуя за возврат к старым добрым временам."
+ liberalism: "Либерализм"
+ liberalism_desc: "Либерализм, основанный на давней философской традиции уважения личной свободы, считает защиту прав человека основной функцией государства."
+ libertarian: "Либертарианство"
+ liberal_conservatism: "Либеральный Консерватизм"
+ social_democracy_subidealogy: "Социальная Демократия"
+ national_conservatism: "Национальный Консерватизм"
+
+ ###социализм (коммунизм)
+ socialism_subidealogy: "Социализм"
+ #socialism_desc: "Социал-демократы проповедуют социальное равенство, добиваться которого призывают посредством реформ; по их мнению, общество должно ограничивать крайние проявления капитализма."
+ chinese_socialism: "Китайский Социализм"
+ #chinese_socialism_desc: "Марксизм охватывает широкий спектр экономических и исторических воззрений. Политики-марксисты пытаются использовать идеи Маркса в социальной практике. Общее для всех марксистских идеологий — признание классовой борьбы и необходимости перехода к общественной собственности."
+
+ ###национализм
+ italian_nationalism: "Итальянский Национализм"
+ #italian_nationalism_desc: "Фашизм, охватывающий разнообразные ультранационалистические движения, обычно превозносит преданность государству и стремится объединить нацию под руководством сильного лидера."
+ hispanic_nationalism: "Испанский Национализм"
+ hispanic_nationalism_desc: "Фалангизм — авторитарная идеология с чертами фашизма и консерватизма, делающая ставку на национальное и католическое самосознание."
+ nationalism_subidealogy: "Национализм"
+ #nationalism_subidealogy: ""
+
+ ###нейтралитет
+ knightly_neo-feudalism: "Рыцарский Неофеодализм"
+ moderatism: "Модератизм"
+ moderatism_desc: "Модератизм — форма правления, при которой стараются избегать крайне левых и крайне правых взглядов, занимая политически умеренную позицию."
+
+ centrism: "Центризм"
+ centrism_desc: "Центризм — форма правления, при которой стараются принимать разумные решения, отвечающие текущим и будущим запросам нации, не подрывающие доверие общества и служащие общему благу с учетом рисков и контекста этих запросов."
+
+ ###названия партий в странах конкретных
+ GER_national-socialism_party: "НСДАП"
+ GER_national-socialism_long: "Национал-социалистическая немецкая рабочая партия"
+ GER_socialism_party: "Коммунистическая партия Германии"
+ GER_democratic_party: "Партия Центра"
+ GER_autocracy_party: "ПА"
+ GER_autocracy_party_long: "Партия Автократов"
+ GER_neutrality_idealogy_party: "ПНТЗ"
+ GER_neutrality_idealogy_party_long: "Партия Наследия Тёмной Земли"
+ ### SOV_socialism_party: "ВКП(б)"
+ ### SOV_socialism_party_russian: "ВКП(б)"
+ ### SOV_socialism_party_russian_long: "Всесоюзная коммунистическая партия (большевиков)"
+ ### SOV_conservative_democracy_party: "Трудовая группа"
+ ### SOV_nationalism_party: "РФП"
+ ### SOV_nationalism_party_russian: "ВФП"
+ ### SOV_nationalism_party_russian_long: "Всероссийская фашистская партия"
+
+ AST_neutrality_idealogy_party: "Зелёные"
+ AST_neutrality_idealogy_party_long: "Австралийские зелёные"
+ AST_conservative_democracy_party: "ЛПА"
+ AST_conservative_democracy_party_long: "Либеральная партия Австралии"
+ AST_liberal_democracy_party: "ПА"
+ AST_liberal_democracy_party_long: "Партия Разума"
+ AST_nationalism_party: "Центральная партия"
+ AST_nationalism_party_long: "Центральная партия"
+ AST_social_democracy_party: "АЛП"
+ AST_social_democracy_party_long: "Австралийская лейбористская партия"
+ AST_socialism_party: "КПА"
+ AST_socialism_party_long: "Коммунистическая партия Австралии"
+ AST_ultranationalism_party: "АППИ"
+ AST_ultranationalism_party_long: "Австралийская партия Познавших Истину"
+ AST_autocracy_party: "Объединённая Австралия"
+ AST_autocracy_party_long: "Объединённая партия Австралии"
+
+ RPW_conservative_democracy_party: "АдГ"
+ RPW_conservative_democracy_party_long: "Альтернатива для Германии"
+ RPW_social_democracy_party: "СДПГ"
+ RPW_social_democracy_party_long: "Социал-демократическая партия Германии"
+
+ CWE_nationalism_party: "ПДА"
+ CWE_nationalism_party_long: "Патриотическое движение Англии"
+ CWE_liberal_democracy_party: "За Британию"
+ CWE_liberal_democracy_party_long: "Движение за Британию"
+ CWE_national-socialism_party: "БпС"
+ CWE_national-socialism_party_long: "Британия превыше всего"
+ CWE_ultranationalism_party: "НПБПК"
+ CWE_ultranationalism_party_long: "Научная Партия Британии Противостояния Креационизму" 
+
+ KND_liberal_democracy_party: "Клика "Друзья" - Р"
+ KND_liberal_democracy_party_long: "Клика "Друзья" - Русские"
+ KND_social_democracy_party: "Клика "Друзья" - Е"
+ KND_social_democracy_party_long: "Клика "Друзья" - Евреи"
+ KND_ultranationalism_party: "Лоялисты"
+ KND_ultranationalism_party_long: "Интернет Лоялисты Царя"
+
+ ATR_ultranationalism_party: "ДРУГГ"
+ ATR_ultranationalism_party_long: "Партия "ДРУГГ""
+
+ ZOL_fascism_party: "Клика Золотова"
+ ZOL_fascism_party_long: "Федеральная служба войск национальной гвардии Российской Федерации"
+
+ EBL_autocracy_party: "ООО - Ш"
+ EBL_autocracy_party_long: "ООО - Шлюпка"
+ 
+ DCP_conservative_democracy_party: "РДНС"
+ DCP_conservative_democracy_party_long: "Русское Демократическое Национальное Собрание"
+ 
+ FUR_autocracy_party: "АТиБ"
+ FUR_autocracy_party_long: "Армия Традиции и Благочестия"
+
+ SOC_autocracy_party: "РПЦ"
+ SOC_autocracy_party_long: "Русская Православная Церковь"
+
+ KAL_autocracy_party: "Департамент"
+ KAL_autocracy_party_long: "Департамент"
+
+
+ TUR_conservative_democracy_party: "ПСР" ### русское название сокращается до ПСР, турецкое до AKP, при необходимости изменить соответствующе
+ TUR_conservative_democracy_party_long: "Партия Справедливости и развития"
+ TUR_social_democracy_party: "НРП" ### русское название сокращается до НРП, турецкое до CHP, при необходимости изменить соответствующе
+ TUR_social_democracy_party_long: "Народно-республиканская партия"
+ TUR_ultranationalism_party: "ПНР" ### русское название сокращается до ПНД, турецкое до MHP, при необходимости изменить соответствующе
+ TUR_ultranationalism_party_long: "Партия националистического движения"
+ TUR_nationalism_idealogy_party: "Хорошая Партия"
+ TUR_nationalism_idealogy_party_long: "Хорошая Партия"
+ TUR_socialism_party: "ПРТ"
+ TUR_socialism_party_long: "Партия рабочих Турции"
+ TUR_liberal_democracy_party: "ДПН" ### русское название сокращается до ДПН, турецкое до HDP, при необходимости изменить соответствующе
+ TUR_liberal_democracy_party_long: "Демократическая партия народов"
+
+ FRA_liberal_democracy_party: "Возрождение"
+ FRA_liberal_democracy_party_long: "Возрождение"
+ FRA_ultranationalism_party: "Возрождение - УП"
+ FRA_ultranationalism_party_long: "Возрождение - УП"
+ FRA_social_democracy_party: "Непокорённая Франция"
+ FRA_social_democracy_party_long: "Непокорённая Франция"
+ FRA_neutrality_party: "Монархисты"
+ FRA_neutrality_party_long: "Коалиция Монархистов"
+ 
+ CLF_social_democracy_party: "ПДСК"
+ CLF_social_democracy_party_long: "Партия Демократических Социалистов Калифорнии"
+
+ USA_liberal_democracy_party: "Демократы"
+ USA_liberal_democracy_party_long: "Демократическая Партия"
+ USA_autocracy_party: "Демократы"
+ USA_autocracy_party_long: "Демократическая Партия"
+ USA_conservative_democracy_party: "Республиканцы"
+ USA_conservative_democracy_party_long: "Республиканская Партия"
+ USA_fascism_party: "УПИПМО"
+ USA_fascism_party_long: "Агентство УПИПМО"
+ USA_ultranationalism_party: "Сторонники"
+ USA_ultranationalism_party_long: "Сторонники Альянса"
+
+ MCH_socialism_party: "КП США"
+ MCH_socialism_party_long: "Коммунистическая партия США"
