@@ -165,3 +165,17 @@
  FRA_social_democracy_party_long: "Непокорённая Франция"
  FRA_neutrality_party: "Монархисты"
  FRA_neutrality_party_long: "Коалиция Монархистов"
+ 
+ CLF_social_democracy_party: "ПДСК"
+ CLF_social_democracy_party_long: "Партия Демократических Социалистов Калифорнии"
+
+ USA_liberal_democracy_party: "Демократы"
+ USA_liberal_democracy_party_long: "Демократическая Партия"
+ USA_autocracy_party: "Демократы"
+ USA_autocracy_party_long: "Демократическая Партия"
+ USA_conservative_democracy_party: "Республиканцы"
+ USA_conservative_democracy_party_long: "Республиканская Партия"
+ USA_fascism_party: "УПИПМО"
+ USA_fascism_party_long: "Агентство УПИПМО"
+ USA_ultranationalism_party: "Сторонники"
+ USA_ultranationalism_party_long: "Сторонники Альянса"

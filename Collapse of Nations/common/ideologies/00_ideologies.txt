@@ -64,6 +64,8 @@ ideologies = {
 			}
 			national_conservatism = {
 			}
+			neoconservatism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -267,7 +269,6 @@ ideologies = {
 
 			social_democracy_subidealogy = {
 			}
-
 		}
 		
 		dynamic_faction_names = {
@@ -408,7 +409,8 @@ ideologies = {
 		types = {
 			fascism = {
 			}
-
+                        technofascism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -485,6 +487,8 @@ ideologies = {
 			ultra-atheism = {
 			}
                         agrarian_spartanism = {
+			}
+                        alliance = {
 			}
 		}
 		

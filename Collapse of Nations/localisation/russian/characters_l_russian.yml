@@ -7,6 +7,11 @@ AST_anthony_albanese: "Энтони Албаниз"
 AST_adam_bandt: "Адам Бандт"
 AST_clive_palmer: "Клайв Палмер"
 
+USA_joe_biden: "Джо Байден"
+USA_kamala_harris: "Камала Харрис"
+USA_dan_crenshaw: "Дэн Креншо"
+USA_steven_walker: "Стивен Волкер"
+USA_george_soros: "Джордж Сорос"
 USA_postal_dude: "Чувак"
 
 GER_hansi_kursch: "Ханси Кюрш"
@@ -58,6 +63,8 @@ SOV_putin: "Владимир Путин"
 
 EKB_evgeny_roizman: "Евгений Ройзман"
 PTS_bebei: "Бебей"
+
+CLF_bernie_sanders: "Берни Сандерс"
 
 ###генералы
 AST_chris_hemsworth: "Крис Хэмсворт"
