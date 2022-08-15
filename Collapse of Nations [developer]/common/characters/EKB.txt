@@ -1,0 +1,15 @@
+characters={
+	EKB_evgeny_roizman={
+		name="EKB_evgeny_roizman"
+		portraits={
+			civilian={
+				large=GFX_portrait_EKB_evgeny_roizman
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}
