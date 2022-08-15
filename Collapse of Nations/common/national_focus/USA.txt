@@ -97,7 +97,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 118_congress
+		id = congress_118
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 0
 		prerequisite = {
@@ -112,7 +112,7 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		cost = 0
 		prerequisite = {
-			focus = 118_congress
+			focus = congress_118
 		}
 		mutually_exclusive = {
 			focus = intervent
@@ -126,7 +126,7 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 0
 		prerequisite = {
-			focus = 118_congress
+			focus = congress_118
 		}
 		mutually_exclusive = {
 			focus = isolation
@@ -147,7 +147,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 23years_plan
+		id = plan_of_23years
 		icon = GFX_goal_generic_air_fighter
 		cost = 0
 		prerequisite = {
@@ -198,7 +198,7 @@ focus_tree = {
 			focus = citizen_defend
 			focus = last_beacon
 			focus = unn_petition
-			focus = 23years_plan
+			focus = plan_of_23years
 			focus = border_close
 		}
 		x = 6
