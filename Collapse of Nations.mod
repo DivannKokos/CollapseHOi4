@@ -1,4 +1,10 @@
-path="mod/Collapse of Nations"
+version="0.1.0-alpha"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"Ideologies"
+	"Events"
+}
 name="Collapse of Nations"
 replace_path="common/bookmarks"
 replace_path="common/characters"
@@ -12,10 +18,6 @@ replace_path="history/countries"
 replace_path="history/general"
 replace_path="portraits"
 replace_path="music"
-tags={
-	"Alternative History"
-	"Gameplay"
-	"Ideologies"
-	"Events"
-}
 supported_version="1.11.12"
+path="mod/Collapse of Nations"
+remote_file_id="2849576648"

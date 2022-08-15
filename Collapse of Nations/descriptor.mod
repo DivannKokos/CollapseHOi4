@@ -1,4 +1,4 @@
-version="2022.7"
+version="0.1.0-alpha"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -6,7 +6,6 @@ tags={
 	"Events"
 }
 name="Collapse of Nations"
-supported_version="1.11.12"
 replace_path="common/bookmarks"
 replace_path="common/characters"
 replace_path="common/countries"
@@ -19,3 +18,5 @@ replace_path="history/countries"
 replace_path="history/general"
 replace_path="portraits"
 replace_path="music"
+supported_version="1.11.12"
+remote_file_id="2849576648"
