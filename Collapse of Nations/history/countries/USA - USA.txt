@@ -5,12 +5,18 @@ capital = 361
 starting_train_buffer = 5
 
 #set_naval_oob = "USA_2022_naval"
+
+recruit_character = USA_joe_biden
+recruit_character = USA_kamala_harris
+recruit_character = USA_dan_crenshaw
+recruit_character = USA_george_soros
+recruit_character = USA_steven_walker
 recruit_character = USA_postal_dude
 
 set_research_slots = 4
 set_stability = 0.75
-set_war_support = 0
-add_command_power = 20
+set_war_support = 0.50
+add_command_power = 40
 # set_variable = { var = senators_support value = 48 }
 # set_variable = { var = senators_total value = 96 }
 # set_variable = { var = representatives_support value = 218 }

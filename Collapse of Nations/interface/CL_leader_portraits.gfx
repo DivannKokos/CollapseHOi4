@@ -34,6 +34,32 @@ spriteTypes = {
         ### USA
 
 	    spriteType = {
+		name = "GFX_portrait_USA_joe_biden"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Joe_Biden.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_kamala_harris"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Kamala_Harris.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_dan_crenshaw"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Dan_Crenshaw.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_george_soros"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_George_Soros.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_steven_walker"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Steven_Walker.dds"
+		}
+
+
+	    spriteType = {
 		name = "GFX_portrait_USA_postal_dude"
 		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Postal_Dude.dds"
 		}
@@ -210,6 +236,13 @@ spriteTypes = {
 		spriteType = {
 			name = "GFX_portrait_PTS_bebei"
 			textureFile = "gfx\\leaders\\PTS\\beb.dds"
+		}
+
+        ### California guys
+		
+		spriteType = {
+			name = "GFX_portrait_CLF_bernie_sanders"
+			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_Bernie_Sanders.dds"
 		}
 
 }
