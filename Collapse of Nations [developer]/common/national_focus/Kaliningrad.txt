@@ -120,6 +120,9 @@ focus_tree = {
 		prerequisite = {
 		focus = kgb_baltics
 		}
+		mutually_exclusive = {
+		focus = kgb_baltics_alliance_one
+		}
 		x = 4
 		y = 6
 		 
@@ -165,11 +168,11 @@ focus_tree = {
 		focus = kgb_place_in_world
 		}
 		mutually_exclusive = {
-			focus = kgb_baltics
-			}
-			mutually_exclusive = {
-			focus = kgb_islamic_state
-			}
+		focus = kgb_baltics
+		}
+		mutually_exclusive = {
+		focus = kgb_islamic_state
+		}
 		x = 8
 		y = 5
 		 
@@ -205,6 +208,9 @@ focus_tree = {
 		#icon
 		prerequisite = {
 		focus = kgb_puppet
+		}
+		mutually_exclusive = {
+		focus = kgb_again_with_russia
 		}
 		mutually_exclusive = {
 		focus = kgb_puppet_rpw_one
@@ -243,6 +249,12 @@ focus_tree = {
 		prerequisite = {
 		focus = kgb_puppet
 		}
+		mutually_exclusive = {
+		focus = kgb_puppet_poland_one
+		}
+		mutually_exclusive = {
+		focus = kgb_again_with_russia
+		}
 		x = 9
 		y = 6
 		 
@@ -260,7 +272,7 @@ focus_tree = {
 		focus = kgb_puppet_rpw_one
 		}
 		mutually_exclusive = {
-			focus = kgb_teuton_one
+		focus = kgb_teuton_one
 		}
 		x = 9
 		y = 7
@@ -280,11 +292,11 @@ focus_tree = {
 		focus = kgb_place_in_world
 		}
 		mutually_exclusive = {
-			focus = kgb_baltics
-			}
-			mutually_exclusive = {
-			focus = kgb_puppet
-			}
+		focus = kgb_baltics
+		}
+		mutually_exclusive = {
+		focus = kgb_puppet
+		}
 		x = 13
 		y = 5
 		 
@@ -333,6 +345,9 @@ focus_tree = {
 		#icon
 		prerequisite = {
 		focus = kgb_puppet_rpw_one
+		}
+		mutually_exclusive = {
+		focus = kgb_puppet_rpw_two
 		}
 		available = {
 			RPW = {

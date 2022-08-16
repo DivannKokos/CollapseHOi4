@@ -14,7 +14,7 @@ set_politics = {
 set_popularities = {
 	liberal_democracy = 70
 	conservative_democracy = 20
-	national-socialism = 30
+	national-socialism = 10
 }
 
 set_technology = {
