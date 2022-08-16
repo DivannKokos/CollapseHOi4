@@ -877,3 +877,7 @@ MCH = {
 	color = rgb { 252 0 19 }   
 	color_ui = rgb { 252 0 19 }
 }
+ARZ = {
+	color = rgb { 245 220 0 }   
+	color_ui = rgb { 245 220 0 }
+}
