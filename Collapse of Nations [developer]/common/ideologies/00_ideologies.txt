@@ -563,7 +563,7 @@ ideologies = {
             agrarian_spartanism = {
 			}
 
-            alliance = {
+            alliance_subidealogy = {
 			}
 		}
 		
