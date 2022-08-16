@@ -3575,8 +3575,8 @@
  ATR_ultranationalism_idealogy_DEF: "Астрахань"
 
  KND: "Краснодар"
- KND_ultranationalism_idealogy: "Новая Краснодарская Эллиада"
- KND_DEF: "Краснодар"
+ KND_ultranationalism_idealogy: "Краснодарская Эллиада"
+ KND_DEF: "Новая Краснодарская Эллиада"
 
  ZOL: "Ростовская Директория"
  ZOL_DEF: "Ростов"
@@ -3710,6 +3710,6 @@
 
  ARZ: "Фронт Уничтожения Этатизма"
  ARZ_DEF: "Фронт Уничтожения Этатизма"
- ARZ_ADJ: "Либертарианск."
+ ARZ_ADJ: "Либертарианск." #что то надо сделать с этим
  ARZ_neutrality: "Амазон"
  ARZ_neutrality_DEF: "Амазон."
