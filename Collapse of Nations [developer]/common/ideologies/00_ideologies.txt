@@ -10,6 +10,8 @@ ideologies = {
 			}
 			national-liberalism = {
 			}
+			market_liberal = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -65,6 +67,8 @@ ideologies = {
 			national_conservatism = {
 			}
 			neoconservatism = {
+			}
+			venture_capitalism = {
 			}
 		}
 		
@@ -174,6 +178,8 @@ ideologies = {
 			}
             constitutional_monarchy = {
             }
+            n_corporatocracy = {
+            }
 		}
 
 		dynamic_faction_names = {
@@ -223,11 +229,17 @@ ideologies = {
 			
 			libertarianism = {
 			}
+			
 			market_liberalism = {
 			}
+			
 			minarchism = {
 			}
+			
 			ancap = {
+			}
+			
+            radical_libertarian = {
 			}
 		}
 		
@@ -279,7 +291,11 @@ ideologies = {
 
 			autocracy_subidealogy = {
 			}
+			
             right_populism = {
+			}
+			
+            commercial_militarism = {
 			}
 		}
 		
