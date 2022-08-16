@@ -1,4 +1,4 @@
-version="0.7.0-alpha"
+version="0.7.2-alpha"
 tags={
 	"Alternative History"
 	"Gameplay"
