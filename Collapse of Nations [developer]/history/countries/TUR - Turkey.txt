@@ -28,7 +28,7 @@ set_popularities = { ###популярность сделана на основ�
 	conservative_democracy = 75 ###https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Turkey)
 	liberal_democracy = 4 ###https://en.wikipedia.org/wiki/Peoples'_Democratic_Party_(Turkey)
 	socialism = 1 ###https://en.wikipedia.org/wiki/Workers'_Party_of_Turkey_(2017)
-	ultranationalism = 5 ###https://en.wikipedia.org/wiki/Nationalist_Movement_Party
+	ultranationalism_idealogy = 5 ###https://en.wikipedia.org/wiki/Nationalist_Movement_Party
 	nationalism_idealogy = 5 ###https://en.wikipedia.org/wiki/Good_Party
 }
 
