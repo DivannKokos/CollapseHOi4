@@ -13,7 +13,7 @@ country_event = {
 		if = {
 			limit = {tag = IRE}
 			start_civil_war = {
-				ideology = ultranationalism
+				ideology = ultranationalism_idealogy
 				size = 0.5
 				capital = 134
 				states = { 134 }
@@ -27,7 +27,7 @@ country_event = {
 		if = {
 			limit = {tag = IRE}
 			start_civil_war = {
-			ideology = ultranationalism
+			ideology = ultranationalism_idealogy
 			size = 0.5
 			capital = 134
 			states = { 134 }

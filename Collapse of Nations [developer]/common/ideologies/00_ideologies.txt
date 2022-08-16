@@ -217,7 +217,7 @@ ideologies = {
 
 	}
 
-	libertarianism = {
+	libertarianism_idealogy = {
 	
 		types = {
 			
@@ -277,7 +277,7 @@ ideologies = {
 	
 		types = {
 
-			autocracy = {
+			autocracy_subidealogy = {
 			}
             right_populism = {
 			}
@@ -463,9 +463,9 @@ ideologies = {
 	fascism = {
 	
 		types = {
-			fascism = {
+			fascism_subidealogy = {
 			}
-                        technofascism = {
+            technofascism = {
 			}
 		}
 		
@@ -501,7 +501,7 @@ ideologies = {
 	national-socialism = {
 	
 		types = {
-			national-socialism = {
+			natsoc = {
 			}
 
 		}
@@ -535,16 +535,19 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
-	ultranationalism = {
+	ultranationalism_idealogy = {
 	
 		types = {
 			ultranationalism = {
 			}
+
 			ultra-atheism = {
 			}
-                        agrarian_spartanism = {
+
+            agrarian_spartanism = {
 			}
-                        alliance = {
+
+            alliance = {
 			}
 		}
 		

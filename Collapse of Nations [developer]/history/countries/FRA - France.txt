@@ -20,14 +20,14 @@ recruit_character = FRA_thierry_burkhard
 	###set_naval_oob = "FRA_2022_naval"
 
 	set_politics = {
-		ruling_party = ultranationalism
+		ruling_party = ultranationalism_idealogy
 		last_election = "2022.10.26"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		ultranationalism = 56
+		ultranationalism_idealogy = 56
                 social_democracy = 17
                 liberal_democracy = 9
                 conservative_democracy = 6

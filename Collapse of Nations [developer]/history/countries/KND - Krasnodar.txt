@@ -8,13 +8,13 @@ recruit_character = KND_maxim_katz
 recruit_character = KND_yuri_morozilka
 
 set_popularities = {
-        ultranationalism = 90
+        ultranationalism_idealogy = 90
 	liberal_democracy = 5
 	social_democracy = 5
 }
 
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = ultranationalism_idealogy
 	last_election = "2022.11.8"
 	election_frequency = 48
 	elections_allowed = no

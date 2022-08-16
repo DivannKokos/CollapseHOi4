@@ -27,7 +27,7 @@ set_popularities = {
     liberal_democracy = 18
     conservative_democracy = 17
 	 neutrality = 4
-	ultranationalism = 1
+	ultranationalism_idealogy = 1
 }
 
 set_technology = {

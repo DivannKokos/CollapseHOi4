@@ -8,14 +8,14 @@ recruit_character = ATR_grigori_grabovoi
 
 
 set_politics = {
-	ruling_party = ultranationalism
+	ruling_party = ultranationalism_idealogy
 	last_election = "2022.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	ultranationalism = 72
+	ultranationalism_idealogy = 72
 	nationalism_idealogy = 23
 	autocracy = 5
 

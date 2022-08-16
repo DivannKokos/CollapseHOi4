@@ -18,7 +18,7 @@ recruit_character = GER_hansi_kursch
                 social_democracy = 20
                 liberal_democracy = 9
                 neutrality = 8
-                ultranationalism = 10
+                ultranationalism_idealogy = 10
 	}
 
 	set_technology = {

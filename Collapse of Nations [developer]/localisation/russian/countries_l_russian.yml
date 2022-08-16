@@ -3571,11 +3571,11 @@
  ATR: "Астрахань"
  ATR_DEF: "Астрахань"
  ATR_ADJ: "Астраханская"
- ATR_ultranationalism: "Священная Земля Астрахань"
- ATR_ultranationalism_DEF: "Астрахань"
+ ATR_ultranationalism_idealogy: "Священная Земля Астрахань"
+ ATR_ultranationalism_idealogy_DEF: "Астрахань"
 
  KND: "Краснодар"
- KND_ultranationalism: "Новая Краснодарская Эллиада"
+ KND_ultranationalism_idealogy: "Новая Краснодарская Эллиада"
  KND_DEF: "Краснодар"
 
  ZOL: "Ростовская Директория"
