@@ -8,11 +8,12 @@ news_event = {
 	trigger = {
         country_exists = EKB
 	}
-
-	fire_only_once = no
+	major = yes
+	#fire_only_once = no
 	option = {
 		name = china_declare_war.1.option.one
 		if = {
+			limit = {tag = PRC}
 			PRC = {
 			declare_war_on = {
 				target = EKB
