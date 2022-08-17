@@ -1,4 +1,4 @@
-capital = 126
+capital = 838
 
 ###oob = "ENG_2022"
 set_stability = 0.8

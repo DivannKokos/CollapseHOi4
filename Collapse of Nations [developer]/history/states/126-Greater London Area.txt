@@ -1,0 +1,21 @@
+state={
+	id=126
+	name="STATE_126"
+	manpower=9814296
+	
+	state_category = megalopolis
+
+	history={
+		owner = ENG
+		#victory_points = {
+			#6103 50 
+		#}
+		add_core_of = ENG
+	}
+
+	provinces={
+		6103 9239 11333 11374 13236
+	}
+
+	local_supplies=0.0 
+}
