@@ -5,9 +5,9 @@ news_event = {
 	desc = china_declare_war.1.desc
 	is_triggered_only = yes
 
-	trigger = {
-        country_exists = EKB
-	}
+	#trigger = {
+    #    country_exists = EKB
+	#}
 	major = yes
 	#fire_only_once = no
 	option = {
