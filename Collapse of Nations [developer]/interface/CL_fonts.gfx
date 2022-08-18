@@ -1,9 +1,0 @@
-bitmapfonts = {
-    bitmapfont = {
-        name = "main_text12"
-        fontfiles = {
-            "gfx/fonts/main_text12"
-        }
-        color = 0xffffffff
-    }
-}

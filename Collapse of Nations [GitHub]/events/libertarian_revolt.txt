@@ -1,0 +1,28 @@
+add_namespace = libertarian_revolt
+news_event = {
+	id = libertarian_revolt.1
+	title = libertarian_revolt.1.t
+	desc = libertarian_revolt.1.d
+	is_triggered_only = yes
+
+	#trigger = {
+    #    country_exists = CLF
+	#}
+
+	#fire_only_once = yes
+	major = yes
+	option = {
+		name = libertarian_revolt.1.option.one
+		if = {
+			limit = {tag = USA}
+			ARZ = {
+			transfer_state = 379
+			transfer_state = 377
+			transfer_state = 376
+			add_state_core = 379
+			add_state_core = 377
+			add_state_core = 376
+		}
+	}
+	}
+}

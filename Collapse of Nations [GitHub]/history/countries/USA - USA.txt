@@ -1,0 +1,76 @@
+capital = 361
+
+#oob = "USA_2022"
+
+starting_train_buffer = 5
+
+#set_naval_oob = "USA_2022_naval"
+
+recruit_character = USA_joe_biden
+recruit_character = USA_kamala_harris
+recruit_character = USA_dan_crenshaw
+recruit_character = USA_george_soros
+recruit_character = USA_steven_walker
+recruit_character = USA_postal_dude
+
+set_research_slots = 4
+set_stability = 0.75
+set_war_support = 0.50
+add_command_power = 40
+# set_variable = { var = senators_support value = 48 }
+# set_variable = { var = senators_total value = 96 }
+# set_variable = { var = representatives_support value = 218 }
+# set_variable = { var = representatives_total value = 435 }
+# set_variable = { var = quorum_low value = 39 }
+# set_variable = { var = quorum_medium value = 49 }
+# set_variable = { var = quorum_high value = 58 }
+# USA_recalc_congress_icon_frames = yes
+# USA = {
+# 	country_event = { id = usa.50 days = 2 }
+# 	country_event = { id = usa.51 days = 2 }
+# }
+
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = "2021.1.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberal_democracy = 56
+	conservative_democracy = 40
+	social_democracy = 4
+}
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_maintenance_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1	
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	basic_train = 1
+	fuel_silos = 1
+	gwtank = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1 ###авиапароход
+	transport = 1
+	electronic_mechanical_engineering = 1
+	atomic_research = 1
+	experimental_rockets = 1
+	basic_machine_tools = 1
+}

@@ -1,0 +1,75 @@
+spriteTypes = {
+	###Australia
+	spriteType = {
+		name = "GFX_portrait_AST_chris_hemsworth"
+		texturefile = "gfx\\generals\\AST\\Portrait_Australia_Chris_Hemsworth.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_AST_luke_hemsworth"
+		texturefile = "gfx\\generals\\AST\\Portrait_Australia_Luke_Hemsworth.dds"
+	}
+
+        ###Rostov
+	spriteType = {
+		name = "GFX_portrait_ZOL_viktor_strigunov"
+		texturefile = "gfx\\generals\\ZOL\\general_viktor_strigunov.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_igor_golloev"
+		texturefile = "gfx\\generals\\ZOL\\general_igor_golloev.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_pavel_dashkov"
+		texturefile = "gfx\\generals\\ZOL\\general_pavel_dashkov.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_alexandr_popov"
+		texturefile = "gfx\\generals\\ZOL\\general_alexandr_popov.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_alexandr_poryadin"
+		texturefile = "gfx\\generals\\ZOL\\general_alexandr_poryadin.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_oleg_plohoi"
+		texturefile = "gfx\\generals\\ZOL\\general_oleg_plohoi.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_ZOL_yuri_yashin"
+		texturefile = "gfx\\generals\\ZOL\\general_yuri_yashin.dds"
+		}
+
+        ###France
+	spriteType = {
+		name = "GFX_portrait_FRA_alain_lardet"
+		texturefile = "gfx\\generals\\FRA\\general_alain_lardet.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_christian_rodrigues"
+		texturefile = "gfx\\generals\\FRA\\general_christian_rodrigues.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_denis_mistral"
+		texturefile = "gfx\\generals\\FRA\\general_denis_mistral.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_eric_bellot_des_minieres"
+		texturefile = "gfx\\generals\\FRA\\general_eric_bellot_des_minieres.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_hubert_cottereau"
+		texturefile = "gfx\\generals\\FRA\\general_hubert_cottereau.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_pierre_schill"
+		texturefile = "gfx\\generals\\FRA\\general_pierre_schill.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_thierry_burkhard"
+		texturefile = "gfx\\generals\\FRA\\general_thierry_burkhard.dds"
+		}
+	spriteType = {
+		name = "GFX_portrait_FRA_francois_lecointre"
+		texturefile = "gfx\\generals\\FRA\\general_francois_lecointre.dds"
+		}
+}

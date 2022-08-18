@@ -1,0 +1,15 @@
+characters={
+	TUR_rterdogan={
+	name="TUR_rterdogan"
+	portraits={
+		civilian={
+			large=GFX_portrait_TUR_rterdogan
+		}
+	}
+	country_leader={
+		ideology=national_conservatism
+		expire="2040.1.1"
+		id=-1
+		}
+	}
+}

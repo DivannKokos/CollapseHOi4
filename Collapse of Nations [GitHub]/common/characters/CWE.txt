@@ -1,0 +1,57 @@
+characters={
+	CWE_tommy_robinson={
+		name="CWE_tommy_robinson"
+		portraits={
+			civilian={
+				large=GFX_portrait_CWE_tommy_robinson
+			}
+		}
+		country_leader={
+			ideology=nationalism_subidealogy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+
+        CWE_paul_golding={
+		name="CWE_paul_golding"
+		portraits={
+			civilian={
+				large=GFX_portrait_CWE_paul_golding
+			}
+		}
+		country_leader={
+			ideology=natsoc
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+
+        CWE_anne_marie_waters={
+		name="CWE_anne_marie_waters"
+		portraits={
+			civilian={
+				large=GFX_portrait_CWE_anne_marie_waters
+			}
+		}
+		country_leader={
+			ideology=national-liberalism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+
+        CWE_richard_dawkins={
+		name="CWE_richard_dawkins"
+		portraits={
+			civilian={
+				large=GFX_portrait_CWE_richard_dawkins
+			}
+		}
+		country_leader={
+			ideology=ultra-atheism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,35 @@
+ideas = {
+    country = {
+        long_vassality = {
+			modifier = {
+				training_time_factor = 0.5
+				production_speed_buildings_factor = -0.2
+			}
+        }
+		long_vassality2 = {
+			modifier = {
+				training_time_factor = 0.4
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		long_vassality3 = {
+			modifier = {
+				training_time_factor = 0.3
+				production_speed_buildings_factor = -0.10
+			}
+		}
+
+		long_vassality_war_one = {
+			modifier = {
+				training_time_factor = 0.3
+				production_speed_buildings_factor = -0.2
+			}
+		}
+		long_vassality_war_two = {
+			modifier = {
+				training_time_factor = 0.2
+				production_speed_buildings_factor = -0.2
+			}
+		}
+    }
+}

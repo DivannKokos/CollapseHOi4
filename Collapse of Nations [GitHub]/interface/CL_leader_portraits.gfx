@@ -1,0 +1,297 @@
+spriteTypes = {
+        ### Australia
+
+		spriteType = {
+		name = "GFX_portrait_AST_mick_gordon"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Mick_Gordon.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_AST_peter_dutton"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Peter_Dutton.dds"
+        }
+
+		spriteType = {
+		name = "GFX_portrait_AST_fiona_patten"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Fiona_Patten.dds"
+        }
+
+		spriteType = {
+		name = "GFX_portrait_AST_anthony_albanese"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Anthony_Albanese.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_AST_adam_bandt"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Adam_Bandt.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_AST_clive_palmer"
+		texturefile = "gfx\\leaders\\AST\\Portrait_Australia_Clive_Palmer.dds"
+		}
+
+        ### USA
+
+	    spriteType = {
+		name = "GFX_portrait_USA_joe_biden"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Joe_Biden.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_kamala_harris"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Kamala_Harris.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_dan_crenshaw"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Dan_Crenshaw.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_george_soros"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_George_Soros.dds"
+		}
+
+	    spriteType = {
+		name = "GFX_portrait_USA_steven_walker"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Steven_Walker.dds"
+		}
+
+
+	    spriteType = {
+		name = "GFX_portrait_USA_postal_dude"
+		texturefile = "gfx\\leaders\\USA\\Portrait_USA_Postal_Dude.dds"
+		}
+
+        ### Germany     
+
+		spriteType = {
+		name = "GFX_portrait_GER_haluk_yildiz"
+		textureFile = "gfx\\leaders\\GER\\Portrait_Germany_Haluk_Yildiz.dds"
+		}
+		
+      	spriteType = {
+		name = "GFX_portrait_GER_hansi_kursch"
+		texturefile = "gfx\\leaders\\GER\\Portrait_Germany_Hansi_Kursch.dds"
+		}
+
+        ### Вестфалия
+
+		spriteType = {
+		name = "GFX_portrait_RPW_frauke_petry"
+		textureFile = "gfx\\leaders\\RPW\\Portrait_Rheinland_Frauke_Petry.dds"
+		}
+		
+		spriteType = {
+		name = "GFX_portrait_RPW_olaf_scholz"
+		textureFile = "gfx\\leaders\\RPW\\Portrait_Rheinland_Olaf_Scholz.dds"
+		}
+		### English Patriot Movement
+
+		spriteType = {
+		name = "GFX_portrait_CWE_tommy_robinson"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Tommy_Robinson.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_paul_golding"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Paul_Gaulding.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_anne_marie_waters"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Anne_Marie_Waters.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_CWE_richard_dawkins"
+		textureFile = "gfx\\leaders\\CWE\\Portrait_EnglishPM_Richard_Dawkins.dds"
+		}
+
+		### Великобритания
+
+		spriteType = {
+		name = "GFX_portrait_ENG_ben_wallace"
+		textureFile = "gfx\\leaders\\ENG\\Portrait_England_Ben_Wallace.dds"
+		}
+
+		### Ирландия
+
+		spriteType = {
+		name = "GFX_portrait_IRE_michael_higgins"
+		textureFile = "gfx\\leaders\\IRE\\Portrait_Ireland_Michael_Higgins.dds"
+		}
+
+		spriteType = {
+		name = "GFX_portrait_IRE_ira_council"
+		textureFile = "gfx\\leaders\\IRE\\Portrait_Ireland_IRA_Council.dds"
+		}
+
+		### Калининград
+
+		spriteType = {
+			name = "GFX_portrait_KGB_Elena_Dyatlova"
+			texturefile = "gfx\\leaders\\KGB\\Portrait_KGB_Elena_Dyatlova.dds"
+		}
+
+		### Поволжские персы
+
+		spriteType = {
+			name = "GFX_portrait_ATR_grigori_grabovoi"
+			texturefile = "gfx\\leaders\\ATR\\Portrait_Astrakhan_Grigori_Grabovoi.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KND_ilya_varlamov"
+			texturefile = "gfx\\leaders\\KND\\Portrait_Krasnodar_Ilya_Varlamov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KND_maxim_katz"
+			texturefile = "gfx\\leaders\\KND\\Portrait_Krasnodar_Maxim_Katz.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_ZOL_viktor_zolotov"
+			texturefile = "gfx\\leaders\\ZOL\\Portrait_Viktor_Zolotov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_EBL_sergei_aksyonov"
+			texturefile = "gfx\\leaders\\EBL\\aksyonov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_DCP_vladimir_medinsky"
+			texturefile = "gfx\\leaders\\DCP\\Portrait_Vladimir_Medinsky.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_FUR_vitaly_milonov"
+			texturefile = "gfx\\leaders\\FUR\\milonov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_SOC_kirill"
+			texturefile = "gfx\\leaders\\SOC\\Portrait_Patriarch.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KAL_departament"
+			texturefile = "gfx\\leaders\\KAL\\Kazachko_Anatoly_Vasilevich.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_KND_yuri_morozilka"
+			texturefile = "gfx\\leaders\\KND\\KND_Portrait_Yuri_Morozilka.dds"
+		}
+
+
+		### Украина
+		spriteType = {
+			name = "GFX_portrait_UKR_vladimir_zelenskiy"
+			texturefile = "gfx\\leaders\\UKR\\vladimir_zelensky.dds"
+		}
+		### Турция 
+		spriteType = {
+			name = "GFX_portrait_TUR_rterdogan"
+			textureFile = "gfx\\leaders\\TUR\\Portrait_TUR_rterdogan.dds"
+		}
+
+		### Франция
+		spriteType = {
+			name = "GFX_portrait_FRA_emmanuel_macron"
+			texturefile = "gfx\\leaders\\FRA\\Portrait_Emmanuel_Macron_Ultranationalism.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_FRA_emmanuel_macron2"
+			texturefile = "gfx\\leaders\\FRA\\Portrait_Emmanuel_Macron_Liberalism.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_FRA_napoleon_vii"
+			texturefile = "gfx\\leaders\\FRA\\Portrait_NapoleionVII.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_FRA_jean-luc_melenchon"
+			texturefile = "gfx\\leaders\\FRA\\Poratrait_Jean-Luc_Melenchon.dds"
+		}
+
+		
+		spriteType = {
+			name = "GFX_portrait_SOV_putin"
+			textureFile = "gfx\\leaders\\SOV\\Portrait_Russia_Putin.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_SOV_putin_alternate"
+			textureFile = "gfx\\leaders\\SOV\\Portrait_Russia_Putin_Alternate_Devil.dds"
+		}
+
+        ### ros partisans
+		
+		spriteType = {
+			name = "GFX_portrait_EKB_evgeny_roizman"
+			textureFile = "gfx\\leaders\\EKB\\Portrait_Ural_Roizman.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_PTS_bebei"
+			textureFile = "gfx\\leaders\\PTS\\beb.dds"
+		}
+
+        ### California guys
+		
+		spriteType = {
+			name = "GFX_portrait_CLF_bernie_sanders"
+			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_Bernie_Sanders.dds"
+		}
+
+        ### Michigan
+
+		spriteType = {
+			name = "GFX_portrait_MCH_john_batchell"
+			textureFile = "gfx\\leaders\\MCH\\Portrait_MCH_john_batchell.dds"
+		}
+
+        ### New Mexico & others
+
+		spriteType = {
+			name = "GFX_portrait_ARZ_gary_johnson"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Gary_Johnson.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_scott_hartley"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Scott_Hartley.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_erik_prince"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Erik_Prince.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_jo_jorgensen"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Jo_Jorgensen.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_jeff_bezos"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Jeff_Bezos.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_jason_sorens"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Jason_Sorens.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_stephan_kinsella"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Stephan_Kinsella.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_charles_cotton"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Charles_Cotton.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_bill_maher"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Bill_Maher.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_ARZ_robert_odenkirk"
+			textureFile = "gfx\\leaders\\ARZ\\Portrait_ARZ_Robert_Odenkirk.dds"
+		}
+}

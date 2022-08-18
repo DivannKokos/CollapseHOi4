@@ -1,0 +1,27 @@
+spriteTypes = {
+	###COUNTRY EVENTS
+	###Ireland Civil War
+	spriteType = {
+		name = "GFX_event_IRE_irelands_revolt"
+		texturefile = "gfx\\event_pictures\\irelands_revolt.dds"
+		}
+	###NEWS EVENTS
+	###Astrakhan exclusive
+    spriteType = {
+		name = "GFX_news_event_prophet_return"
+		texturefile = "gfx\\event_pictures\\grabovoi_return.dds"
+        }
+    spriteType = {
+		name = "GFX_news_event_warriors_of_doomsday"
+		texturefile = "gfx\\event_pictures\\warriors_of_doomsday.dds"
+        }
+    spriteType = {
+		name = "GFX_news_event_true_truth"
+		texturefile = "gfx\\event_pictures\\true_truth.dds"
+        }
+	###MUSIC EVENTS
+	spriteType = {
+		name = "GFX_news_event_oasis_reunion"
+		texturefile = "gfx\\event_pictures\\oasis_reunion.dds"
+	}
+}

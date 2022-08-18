@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = "COLLAPSE_NAME"
+		desc = "COLLAPSE_DESC"
+		date = 2023.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"ENG"={
+			history = "ENG_COLLAPSE_DESC"
+			ideology = liberal_democracy
+		}
+		"GER"={
+			history = "GER_COLLAPSE_DESC"
+			ideology = social_democracy
+		}
+
+		"AST"={
+			history = "AST_COLLAPSE_DESC"
+			ideology = social_democracy
+		}
+		
+		"KGB"={
+			history = "KGB_COLLAPSE_DESC"
+			ideology = conservative_democracy
+			ideas = {
+			long_vassality
+			}
+		}
+
+		"RPW"={
+			history = "RPW_COLLAPSE_DESC"
+			ideology = conservative_democracy
+		}
+
+		"---"={
+			history = "OTHER_COLLAPSE_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
