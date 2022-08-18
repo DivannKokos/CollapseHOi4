@@ -1,0 +1,15 @@
+characters={
+	SOC_kirill={
+		name="SOC_kirill"
+		portraits={
+			civilian={
+				large=GFX_portrait_SOC_kirill
+			}
+		}
+		country_leader={
+			ideology= autocracy_subidealogy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}

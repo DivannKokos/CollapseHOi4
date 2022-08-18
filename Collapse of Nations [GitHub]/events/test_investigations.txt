@@ -1,0 +1,39 @@
+add_namespace = test_i
+
+news_event = {
+	id = test_i.1
+	title = test_i.1.t
+	desc = test_i.1.d
+	#picture = GFX_event_
+	is_triggered_only = yes
+	major = yes
+		option = {
+		name = test_i.1
+		hidden_effect = {
+		news_event = test_i.2
+		}
+		}
+}
+
+news_event = {
+	id = test_i.2
+	title = test_i.2.t
+	desc = test_i.2.d
+	#picture = GFX_event_
+	is_triggered_only = yes
+	major = yes
+		option = {
+		name = test_i.2.eng
+		trigger = {
+			tag = ENG
+		}
+		add_stability = -0.2
+		}
+		option = {
+		name = test_i.2.world
+		trigger = {
+			NOT = { tag = ENG }
+		}
+		add_stability = -0.05
+		}
+}

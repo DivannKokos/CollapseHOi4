@@ -1,0 +1,62 @@
+если ивент не влезает - не думайте сразу об укорочении и подрезании, разделите ивент на 2.
+paint.net последней версии - https://www.getpaint.net/updates/zip/paint.net.4.3.11.install.anycpu.web.zip
+
+идеалогии в моде и саб идеалогии на момент редактирования файла этого
+liberal_democracy
+	liberalism
+	social_libertarian
+	national-liberalism
+	market_liberal
+
+conservative_democracy
+	conservatism
+	liberal_conservatism
+	national_conservatism
+	neoconservatism
+	venture_capitalism
+
+centrism_idealogy
+	centrism
+
+neutrality
+	moderatism
+	knightly_neo-feudalism
+	constitutional_monarchy
+	n_corporatocracy
+
+libertarianism_idealogy
+	libertarianism
+	market_liberalism
+	minarchism
+	ancap
+	radical_libertarian
+
+autocracy
+	autocracy_subidealogy
+	right_populism
+	commercial_militarism
+
+social_democracy
+	social_democracy_subidealogy
+	
+socialism
+	chinese_socialism
+	socialism_subidealogy
+
+nationalism_idealogy
+	italian_nationalism
+	hispanic_nationalism
+	nationalism_subidealogy
+
+fascism
+	fascism_subidealogy
+	technofascism
+
+national-socialism 
+	natsoc
+
+ultranationalism_idealogy
+	ultranationalism
+	ultra-atheism
+	agrarian_spartanism
+	alliance_subidealogy
