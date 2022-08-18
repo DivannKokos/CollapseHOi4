@@ -55,17 +55,17 @@ guiTypes = {
 			instantTextboxType = {
 				name = "country_name"
 				position = { x = 245 y = 3 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "Germanian"
-				maxWidth = 190
-				#fixedsize = yes
+				maxWidth = 173
+				fixedsize = yes
 				maxHeight = 20
 				format = left
 			}
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 245 y = 20}	
+				position = { x = 245 y = 23}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
@@ -76,7 +76,7 @@ guiTypes = {
 					text = "faction"
 					maxWidth = 173
 					maxHeight = 20
-					#fixedsize = yes		
+					fixedsize = yes		
 					format = left
 				}
 			}
@@ -89,7 +89,7 @@ guiTypes = {
 				maxWidth = 173
 				maxHeight = 20
 				format = left
-				#fixedsize = yes						
+				fixedsize = yes						
 			}
 
 			containerWindowType = {
@@ -275,7 +275,7 @@ guiTypes = {
 						text = "party"
 						maxWidth = 245
 						maxHeight = 20
-						#fixedsize = yes
+						fixedsize = yes
 					}
 					
 					instantTextboxType = {
