@@ -1,0 +1,21 @@
+state={
+	id=842
+	name="STATE_842"
+	manpower=10000 #изменить
+	
+	state_category = city #потом изменю??
+
+	history={
+		owner = ENG
+		victory_points = {
+			271 5 #норвич
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		3287 322 271
+	}
+
+	local_supplies=0.0 
+}

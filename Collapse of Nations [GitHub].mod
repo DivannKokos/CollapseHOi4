@@ -1,7 +1,7 @@
 path="mod/Collapse of Nations [GitHub]"
 name="Collapse of Nations"
 remote_file_id="2849575856"
-version="0.8.1-development"
+version="0.9.0-development"
 replace_path="common/bookmarks"
 replace_path="common/characters"
 replace_path="common/countries"
