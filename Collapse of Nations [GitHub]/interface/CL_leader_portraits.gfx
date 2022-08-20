@@ -244,6 +244,18 @@ spriteTypes = {
 			name = "GFX_portrait_CLF_bernie_sanders"
 			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_Bernie_Sanders.dds"
 		}
+		spriteType = {
+			name = "GFX_portrait_CLF_david_miscavige"
+			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_David_Miscavige.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_CLF_james_cartwright"
+			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_Hootsman.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_CLF_kenneth_cook"
+			textureFile = "gfx\\leaders\\CLF\\Portrait_CLF_kenneth_cook.dds"
+		}
 
         ### Michigan
 

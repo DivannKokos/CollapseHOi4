@@ -3691,6 +3691,12 @@
  CLF: "Калифорния"
  CLF_DEF: "Калифорния"
  CLF_ADJ: "Калифорнийск"
+ CLF_autocracy: "Саентология"
+ CLF_autocracy_DEF: "Саентология"
+ CLF_neutrality: "Свидетели Иеговы"
+ CLF_neutrality_DEF: "Свидетели Иеговы"
+ CLF_ultranationalism: "Королевство Калифорния"
+ CLF_ultranationalism_DEF: "Королевство Калифорния"
 
  MCH: "Мичиган"
  MCH_DEF: "Мичиган"

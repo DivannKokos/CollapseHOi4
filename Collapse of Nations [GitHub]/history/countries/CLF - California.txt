@@ -4,10 +4,15 @@ set_stability = 0.5
 set_war_support = 0.4
 
 recruit_character = CLF_bernie_sanders
+recruit_character = CLF_david_miscavige
+recruit_character = CLF_kenneth_cook
+recruit_character = CLF_james_cartwright
 
 set_popularities = {
-    social_democracy = 80
+    social_democracy = 50
     liberal_democracy = 20
+    autocracy = 20
+    neutrality = 10
 }
 
 set_politics = {

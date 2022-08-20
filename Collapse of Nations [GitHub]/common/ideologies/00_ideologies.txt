@@ -180,6 +180,8 @@ ideologies = {
             }
             n_corporatocracy = {
             }
+            theocracy = {
+            }
 		}
 
 		dynamic_faction_names = {
@@ -297,6 +299,9 @@ ideologies = {
 			
             commercial_militarism = {
 			}
+            right_populist_theocracy = {
+			}
+
 		}
 		
 		dynamic_faction_names = {
