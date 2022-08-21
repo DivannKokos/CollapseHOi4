@@ -70,6 +70,8 @@ ideologies = {
 			}
 			venture_capitalism = {
 			}
+			aristocracy = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -231,12 +233,16 @@ ideologies = {
 			
 			libertarianism = {
 			}
+			
 			market_liberalism = {
 			}
+			
 			minarchism = {
 			}
+			
 			ancap = {
 			}
+			
             radical_libertarian = {
 			}
 		}
@@ -289,8 +295,10 @@ ideologies = {
 
 			autocracy_subidealogy = {
 			}
+			
             right_populism = {
 			}
+			
             commercial_militarism = {
 			}
             right_populist_theocracy = {
@@ -384,6 +392,7 @@ ideologies = {
 		
 			chinese_socialism = {
 			}
+			
 			socialism_subidealogy = {
 			}
 		}
@@ -432,8 +441,10 @@ ideologies = {
 
 			italian_nationalism = {
 			}
+			
 			hispanic_nationalism = {
 			}
+
 			nationalism_subidealogy = {
 			}
 		}
@@ -552,10 +563,13 @@ ideologies = {
 		types = {
 			ultranationalism = {
 			}
+
 			ultra-atheism = {
 			}
+
             agrarian_spartanism = {
 			}
+
             alliance_subidealogy = {
 			}
 		}

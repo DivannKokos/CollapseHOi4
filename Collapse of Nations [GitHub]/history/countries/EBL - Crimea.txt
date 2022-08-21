@@ -4,11 +4,12 @@ set_stability = 0.5
 set_war_support = 0.4
 
 recruit_character = EBL_sergei_aksyonov
+recruit_character = EBL_natalia_poklonskaya
 
 set_popularities = {
 	autocracy = 52
-    neutrality = 18
-    socialism = 25
+    conservative_democracy = 23
+    socialism = 20
     nationalism_idealogy = 5
 }
 

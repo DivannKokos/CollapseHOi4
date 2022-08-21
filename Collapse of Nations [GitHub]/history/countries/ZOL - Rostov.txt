@@ -4,6 +4,7 @@ set_stability = 0.4
 set_war_support = 0.5
 
 recruit_character = ZOL_viktor_zolotov
+recruit_character = ZOL_yevgeni_ponasenkov
 recruit_character = ZOL_igor_golloev
 recruit_character = ZOL_viktor_strigunov
 recruit_character = ZOL_pavel_dashkov

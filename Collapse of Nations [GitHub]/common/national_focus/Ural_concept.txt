@@ -1,0 +1,323 @@
+focus_tree = {
+	id = FocusTree0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EKB
+		}
+	}
+	default = no
+	focus = {
+		id = Ural_revolt
+		icon = GFX_goal_generic_political_pressure
+		cost = 0
+		x = 6
+		y = 0
+		completion_reward ={
+			declare_war_on = {
+				target = PRC
+				type = annex_everything
+	}
+	focus = {
+		id = declare_war_china
+		icon = GFX_goal_generic_major_war
+		cost = 0
+		prerequisite = {
+			focus = Ural_revolt
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = factory2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 0
+		prerequisite = {
+			focus = declare_war_china
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = warfactory
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 0
+		prerequisite = {
+			focus = declare_war_china
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = human_recours
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 0
+		prerequisite = {
+			focus = declare_war_china
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = guns
+		icon = GFX_goal_generic_small_arms
+		cost = 0
+		prerequisite = {
+			focus = factory2
+		}
+		prerequisite = {
+			focus = warfactory
+		}
+		prerequisite = {
+			focus = human_recours
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = supply
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 0
+		prerequisite = {
+			focus = human_recours
+		}
+		prerequisite = {
+			focus = warfactory
+		}
+		prerequisite = {
+			focus = factory2
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = elections?
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0
+		prerequisite = {
+			focus = guns
+		}
+		prerequisite = {
+			focus = supply
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = moderates
+		icon = GFX_goal_generic_major_alliance
+		cost = 0
+		prerequisite = {
+			focus = elections?
+		}
+		mutually_exclusive = {
+			focus = hardcrore
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = hardcrore
+		icon = GFX_goal_generic_military_deal
+		cost = 0
+		prerequisite = {
+			focus = elections?
+		}
+		mutually_exclusive = {
+			focus = moderates
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = rise_of_hardcors
+		icon = GFX_goal_generic_propaganda
+		cost = 0
+		prerequisite = {
+			focus = hardcrore
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = nazsoc
+		icon = GFX_goal_rhineland
+		cost = 0
+		prerequisite = {
+			focus = rise_of_hardcors
+		}
+		mutually_exclusive = {
+			focus = monarchy
+			focus = chelyabinsk_kinoreview_party
+			focus = monarchy
+			focus = chelyabinsk_kinoreview_party
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = monarchy
+		icon = GFX_goal_demand_sudetenland
+		cost = 0
+		prerequisite = {
+			focus = rise_of_hardcors
+		}
+		mutually_exclusive = {
+			focus = nazsoc
+			focus = chelyabinsk_kinoreview_party
+			focus = nazsoc
+			focus = chelyabinsk_kinoreview_party
+			focus = chelyabinsk_kinoreview_party
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = solution_of_bebei_question
+		icon = GFX_goal_unknown
+		cost = 0
+		prerequisite = {
+			focus = moderates
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = he_is_good
+		icon = GFX_goal_generic_defence
+		cost = 0
+		prerequisite = {
+			focus = solution_of_bebei_question
+		}
+		mutually_exclusive = {
+			focus = no_more_fascism_in_homeland
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = no_more_fascism_in_homeland
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 0
+		prerequisite = {
+			focus = solution_of_bebei_question
+		}
+		mutually_exclusive = {
+			focus = he_is_good
+		}
+		x = 1
+		y = 7
+
+	}
+	focus = {
+		id = conservative_facsist_grow
+		icon = GFX_goal_rhineland
+		cost = 0
+		prerequisite = {
+			focus = he_is_good
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = chelyabinsk_kinoreview_party
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = rise_of_hardcors
+		}
+		mutually_exclusive = {
+			focus = monarchy
+			focus = nazsoc
+			focus = monarchy
+			focus = monarchy
+			focus = nazsoc
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = bebei_loyalists
+		icon = GFX_goal_generic_consumer_goods
+		cost = 0
+		prerequisite = {
+			focus = conservative_facsist_grow
+		}
+		mutually_exclusive = {
+			focus = conservative_guy
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = conservative_guy
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 20
+		prerequisite = {
+			focus = conservative_facsist_grow
+		}
+		mutually_exclusive = {
+			focus = bebei_loyalists
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = lib_cons_socdem_grow
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0
+		prerequisite = {
+			focus = no_more_fascism_in_homeland
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = roizman_loyalists
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		prerequisite = {
+			focus = lib_cons_socdem_grow
+		}
+		mutually_exclusive = {
+			focus = badcomedian_loyalists
+		}
+		x = 0
+		y = 9
+
+	}
+	focus = {
+		id = badcomedian_loyalists
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 0
+		prerequisite = {
+			focus = lib_cons_socdem_grow
+		}
+		mutually_exclusive = {
+			focus = roizman_loyalists
+		}
+		x = 2
+		y = 9
+
+	}
+}
