@@ -12,4 +12,43 @@ characters={
 			id=-1
 		}
 	}
+	CLF_david_miscavige={
+		name="CLF_david_miscavige"
+		portraits={
+			civilian={
+				large=GFX_portrait_CLF_david_miscavige
+			}
+		}
+		country_leader={
+			ideology = right_populist_theocracy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+	CLF_kenneth_cook={
+		name="CLF_kenneth_cook"
+		portraits={
+			civilian={
+				large=GFX_portrait_CLF_kenneth_cook
+			}
+		}
+		country_leader={
+			ideology = theocracy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+	CLF_james_cartwright ={
+		name="CLF_james_cartwright"
+		portraits={
+			civilian={
+				large=GFX_portrait_CLF_james_cartwright
+			}
+		}
+		country_leader={
+			ideology = ultranationalism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
 }

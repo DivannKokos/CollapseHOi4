@@ -170,6 +170,12 @@
  
  CLF_social_democracy_party: "ПДСК"
  CLF_social_democracy_party_long: "Партия Демократических Социалистов Калифорнии"
+ CLF_autocracy_party: "Саентология"
+ CLF_autocracy_party_long: "Церковь Саентологии"
+ CLF_neutrality_party: "Свидетели Иеговы"
+ CLF_neutrality_party_long: "Свидетели Иеговы"
+ CLF_ultranationalism_party: "Ультрамонархисты"
+ CLF_ultranationalism_party_long: "Партия сторонников короля Джеймса"
 
  USA_liberal_democracy_party: "Демократы"
  USA_liberal_democracy_party_long: "Демократическая Партия"
