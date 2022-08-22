@@ -8,6 +8,12 @@ news_event = {
 			tag = EKB
 		}
 	}
+	desc = {
+		text = china_declare_war.1.desc.prc
+		trigger = {
+			tag = PRC
+		}
+	}
 	desc = china_declare_war.1.desc
 	is_triggered_only = yes
 
