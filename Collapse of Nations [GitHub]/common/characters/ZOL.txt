@@ -12,6 +12,19 @@ characters={
 			id=-1
 		}
 	}
+	ZOL_yevgeni_ponasenkov={
+		name="ZOL_yevgeni_ponasenkov"
+		portraits={
+			civilian={
+				large=GFX_portrait_ZOL_yevgeni_ponasenkov
+			}
+		}
+		country_leader={
+			ideology = aristocracy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
 		ZOL_viktor_strigunov={
 		name="ZOL_viktor_strigunov"
 		portraits={

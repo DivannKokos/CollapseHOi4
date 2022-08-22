@@ -12,4 +12,17 @@ characters={
 			id=-1
 		}
 	}
+	EKB_alexei_gavrilyuk={
+		name="EKB_alexei_gavrilyuk"
+		portraits={
+			civilian={
+				large=GFX_portrait_EKB_alexei_gavrilyuk
+			}
+		}
+		country_leader={
+			ideology=ultranationalism
+			expire="2040.1.1"
+			id=-1
+		}
+	}
 }

@@ -3,7 +3,6 @@ ideologies = {
 	liberal_democracy = {
 	
 		types = {
-			
 			liberalism = {
 			}
 			social_libertarian = {
@@ -59,7 +58,6 @@ ideologies = {
 	conservative_democracy = {
 	
 		types = {
-			
 			conservatism = {
 			}
 			liberal_conservatism = {
@@ -69,6 +67,8 @@ ideologies = {
 			neoconservatism = {
 			}
 			venture_capitalism = {
+			}
+			aristocracy = {
 			}
 		}
 		
@@ -122,10 +122,8 @@ ideologies = {
 	centrism_idealogy = {
 	
 		types = {
-
 			centrism = {
 			}
-			
 		}
 
 		dynamic_faction_names = {
@@ -171,7 +169,6 @@ ideologies = {
 	neutrality = {
 	
 		types = {
-
 			moderatism = {
 			}
 			knightly_neo-feudalism = {
@@ -228,7 +225,6 @@ ideologies = {
 	libertarianism_idealogy = {
 	
 		types = {
-			
 			libertarianism = {
 			}
 			market_liberalism = {
@@ -237,7 +233,7 @@ ideologies = {
 			}
 			ancap = {
 			}
-            radical_libertarian = {
+			radical_libertarian = {
 			}
 		}
 		
@@ -286,14 +282,13 @@ ideologies = {
 	autocracy = {
 	
 		types = {
-
 			autocracy_subidealogy = {
 			}
-            right_populism = {
+			right_populism = {
 			}
-            commercial_militarism = {
+			commercial_militarism = {
 			}
-            right_populist_theocracy = {
+			right_populist_theocracy = {
 			}
 
 		}
@@ -337,7 +332,6 @@ ideologies = {
 	social_democracy = {
 	
 		types = {
-
 			social_democracy_subidealogy = {
 			}
 		}
@@ -381,7 +375,6 @@ ideologies = {
 	socialism = {
 		
 		types = {
-		
 			chinese_socialism = {
 			}
 			socialism_subidealogy = {
@@ -429,7 +422,6 @@ ideologies = {
 	nationalism_idealogy = {
 	
 		types = {
-
 			italian_nationalism = {
 			}
 			hispanic_nationalism = {
@@ -515,7 +507,6 @@ ideologies = {
 		types = {
 			natsoc = {
 			}
-
 		}
 		
 		dynamic_faction_names = {

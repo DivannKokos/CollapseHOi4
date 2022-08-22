@@ -2,6 +2,12 @@ add_namespace = china_declare_war
 news_event = {
 	id = china_declare_war.1
 	title = china_declare_war.1.title
+	desc = {
+		text = china_declare_war.1.desc.ekb
+		trigger = {
+			tag = EKB
+		}
+	}
 	desc = china_declare_war.1.desc
 	is_triggered_only = yes
 

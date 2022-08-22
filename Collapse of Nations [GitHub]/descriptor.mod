@@ -1,6 +1,6 @@
 name="Collapse of Nations"
 remote_file_id="2849575856"
-version="0.11.0-development"
+version="0.12.0-development"
 replace_path="common/bookmarks"
 replace_path="common/characters"
 replace_path="common/countries"

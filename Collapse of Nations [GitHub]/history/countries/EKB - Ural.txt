@@ -4,6 +4,7 @@ set_stability = 0.6
 set_war_support = 0.8
 
 recruit_character = EKB_evgeny_roizman
+recruit_character = EKB_alexei_gavrilyuk
 
 set_popularities = {
 	liberal_democracy = 89

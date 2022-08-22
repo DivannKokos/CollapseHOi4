@@ -158,8 +158,18 @@ spriteTypes = {
 		}
 
 		spriteType = {
+			name = "GFX_portrait_ZOL_yevgeni_ponasenkov"
+			texturefile = "gfx\\leaders\\ZOL\\Portrait_Yevgeni_Ponasenkov.dds"
+		}
+
+		spriteType = {
 			name = "GFX_portrait_EBL_sergei_aksyonov"
 			texturefile = "gfx\\leaders\\EBL\\aksyonov.dds"
+		}
+
+		spriteType = {
+			name = "GFX_portrait_EBL_natalia_poklonskaya"
+			texturefile = "gfx\\leaders\\EBL\\Natalia_Poklonskaya.dds"
 		}
 
 		spriteType = {
@@ -232,6 +242,10 @@ spriteTypes = {
 		spriteType = {
 			name = "GFX_portrait_EKB_evgeny_roizman"
 			textureFile = "gfx\\leaders\\EKB\\Portrait_Ural_Roizman.dds"
+		}
+		spriteType = {
+			name = "GFX_portrait_EKB_alexei_gavrilyuk"
+			textureFile = "gfx\\leaders\\EKB\\Portrait_Ural_TerlKabot.dds"
 		}
 		spriteType = {
 			name = "GFX_portrait_PTS_bebei"
