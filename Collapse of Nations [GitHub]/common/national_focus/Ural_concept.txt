@@ -29,10 +29,12 @@ focus_tree = {
 		x = 6
 		y = 1
 		completion_reward ={
-			declare_war_on = {
-				target = PRC
-				type = annex_everything
-	    }
+			hidden_effect = {
+				news_event = {
+				id = ural_declare_war.1
+				hours = 1
+				}
+			}
 	    }
 	    }
 	focus = {
@@ -53,11 +55,10 @@ focus_tree = {
                  level = 3
                  instant_build = yes
                             }
-                        }
                     }
+                }
+			}
 		}
-
-	}
 	focus = {
 		id = warfactory
 		icon = GFX_goal_generic_construct_mil_factory
