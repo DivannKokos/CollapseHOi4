@@ -25,4 +25,17 @@ characters={
 			id=-1
 		}
 	}
+	EKB_evgeny_bazhenov={
+		name="EKB_evgeny_bazhenov"
+		portraits={
+			civilian={
+				large=GFX_portrait_EKB_evgeny_bazhenov
+			}
+		}
+		country_leader={
+			ideology=socialism_subidealogy
+			expire="2040.1.1"
+			id=-1
+		}
+	}
 }

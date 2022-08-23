@@ -6,8 +6,8 @@ set_war_support = 0.8
 recruit_character = PTS_bebei
 
 set_popularities = {
-	liberal_democracy = 21
-	conservative_democracy = 79
+	fascism = 40
+	conservative_democracy = 60
 
 }
 

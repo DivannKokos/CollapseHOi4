@@ -248,6 +248,10 @@ spriteTypes = {
 			textureFile = "gfx\\leaders\\EKB\\Portrait_Ural_TerlKabot.dds"
 		}
 		spriteType = {
+			name = "GFX_portrait_EKB_evgeny_bazhenov"
+			textureFile = "gfx\\leaders\\EKB\\Portrait_Ural_BadComedian.dds"
+		}
+		spriteType = {
 			name = "GFX_portrait_PTS_bebei"
 			textureFile = "gfx\\leaders\\PTS\\beb.dds"
 		}
