@@ -14,6 +14,7 @@ conservative_democracy
 	national_conservatism
 	neoconservatism
 	venture_capitalism
+	aristocracy
 
 centrism_idealogy
 	centrism
@@ -35,6 +36,7 @@ autocracy
 	autocracy_subidealogy
 	right_populism
 	commercial_militarism
+	right_populist_theocracy
 
 social_democracy
 	social_democracy_subidealogy
