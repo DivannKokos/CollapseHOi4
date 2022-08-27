@@ -1,6 +1,5 @@
 name="Collapse of Nations"
-remote_file_id="2849575856"
-version="0.13.0-development"
+version="0.14.0-development"
 replace_path="common/bookmarks"
 replace_path="common/characters"
 replace_path="common/countries"
@@ -20,3 +19,4 @@ tags={
 	"Events"
 }
 supported_version="1.11.13"
+remote_file_id="2849575856"
