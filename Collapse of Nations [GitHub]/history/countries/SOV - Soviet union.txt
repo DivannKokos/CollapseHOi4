@@ -18,10 +18,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 60
+	conservative_democracy = 55
 	liberal_democracy = 10
-	socialism = 25
-	autocracy = 5
+	nationalism_idealogy = 9
+	socialism = 20
+	social_democracy = 6
 }
 
 set_technology = {
