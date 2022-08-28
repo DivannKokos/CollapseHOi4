@@ -12,15 +12,15 @@ set_war_support = 0.3
 set_convoys = 500
 
 set_politics = {
-	ruling_party = conservative_democracy
+	ruling_party = autocracy
 	last_election = "2018.3.13"
 	election_frequency = 96
 	elections_allowed = no
 }
 set_popularities = {
-	conservative_democracy = 55
+	conservative_democracy = 9
 	liberal_democracy = 10
-	nationalism_idealogy = 9
+	autocracy = 55
 	socialism = 20
 	social_democracy = 6
 }
