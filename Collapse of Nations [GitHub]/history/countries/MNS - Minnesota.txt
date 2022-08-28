@@ -3,10 +3,10 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.8
 
-recruit_character = MNZ_stephen_king
-recruit_character = MNZ_sean_cunningham
-recruit_character = MNZ_rod_ferrel
-recruit_character = MNZ_garrett_smith
+recruit_character = MNS_stephen_king
+recruit_character = MNS_sean_cunningham
+recruit_character = MNS_rod_ferrel
+recruit_character = MNS_garrett_smith
 
 set_popularities = {
     neutrality = 36
