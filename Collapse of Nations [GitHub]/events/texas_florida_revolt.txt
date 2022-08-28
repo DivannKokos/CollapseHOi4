@@ -1,0 +1,26 @@
+add_namespace = texas_florida_revolt
+news_event = {
+	id = texas_florida_revolt.1
+	title = texas_florida_revolt.1.t
+	desc = texas_florida_revolt.1.d
+	is_triggered_only = yes
+
+	#trigger = {
+    #    country_exist = ARZ
+	#}
+
+	#fire_only_once = yes
+	major = yes
+	option = {
+		name = texas_florida_revolt.1.option.one
+		if = {
+			limit = {tag = USA}
+			TFA = {
+			transfer_state = 375
+			transfer_state = 366
+			add_state_core = 375
+			add_state_core = 366
+		}
+	}
+	}
+}
