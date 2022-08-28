@@ -12,7 +12,7 @@ set_popularities = {
     neutrality = 36
     autocracy = 30
     national-socialism = 19
-    ultranationalism = 15
+    ultranationalism_idealogy = 15
 }
 
 set_politics = {
