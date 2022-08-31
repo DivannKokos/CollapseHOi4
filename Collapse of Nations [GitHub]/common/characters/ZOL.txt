@@ -33,13 +33,13 @@ characters={
 			}
 		}
 		field_marshal = {
-			traits = { media_personality, old_guard }
+			traits = { media_personality old_guard }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 2
-			legacy_id = 1111
+			legacy_id = -1
 		        }	
                 }
 		ZOL_igor_golloev={
@@ -56,7 +56,7 @@ characters={
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 1
-			legacy_id = 1112
+			legacy_id = -1
                         }
                 }
 		ZOL_pavel_dashkov={
@@ -73,7 +73,7 @@ characters={
 			defense_skill = 1
 			planning_skill = 3
 			logistics_skill = 3
-			legacy_id = 1113
+			legacy_id = -1
                         }
                 }
 		ZOL_alexandr_popov={
@@ -90,7 +90,7 @@ characters={
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 1
-			legacy_id = 1114
+			legacy_id = -1
                         }
                 }
 		ZOL_alexandr_poryadin={
@@ -107,7 +107,7 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 3
-			legacy_id = 1115
+			legacy_id = -1
                         }
                 }
 		ZOL_oleg_plohoi={
@@ -118,13 +118,13 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { reckless, politically_connected }
+			traits = { trait_reckless politically_connected }
 			skill = 1
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			legacy_id = 1116
+			legacy_id = -1
 		}
                 }
 		ZOL_yuri_yashin={
@@ -135,13 +135,13 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { reckless, Swamp_Fox }
+			traits = { trait_reckless  Swamp_Fox }
 			skill = 1
 			attack_skill = 2
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-			legacy_id = 1117
+			legacy_id = -1
 		}
 		}
 }

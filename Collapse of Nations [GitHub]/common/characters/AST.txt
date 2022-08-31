@@ -97,7 +97,7 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 2
-			legacy_id = 911
+			legacy_id = -1
 		}
 		}
 		AST_luke_hemsworth={
@@ -114,7 +114,7 @@ characters={
 			defense_skill = 1
 			maneuvering_skill = 1
 			coordination_skill = 2
-			legacy_id = 912
+			legacy_id = -1
 		}
 		}
 }

@@ -31,11 +31,23 @@ characters={
 			civilian={
 				large=GFX_portrait_USA_dan_crenshaw
 			}
+			army={
+				large=GFX_portrait_USA_dan_crenshaw
+			}
 		}
 		country_leader={
 			ideology=neoconservatism
 			expire="2040.1.1"
 			id=-1
+		}
+		corps_commander = {
+			traits = { war_hero politically_connected naval_invader }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
 		}
 	}
 	USA_steven_walker={
