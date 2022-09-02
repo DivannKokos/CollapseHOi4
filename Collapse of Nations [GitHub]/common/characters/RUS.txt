@@ -1,0 +1,15 @@
+characters={
+	RUS_mikhail_khodorkovsky={
+		name="RUS_mikhail_khodorkovsky"
+		portraits={
+			civilian={
+				large=GFX_portrait_RUS_mikhail_khodorkovsky
+			}
+		}
+		country_leader={
+			ideology= market_liberal
+			expire="2040.1.1"
+			id=-1
+		}
+	}
+}

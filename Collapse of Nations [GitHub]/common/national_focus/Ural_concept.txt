@@ -366,4 +366,42 @@ focus_tree = {
 		y = 9
 
 	}
+
+	focus = {
+		id = roizman_elections_win
+		icon = GFX_goal_generic_demand_territory
+		cost = 0
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = call_khodorkovsky
+		icon = GFX_goal_generic_radar
+		cost = 0
+		prerequisite = {
+			focus = roizman_elections_win
+	}
+		x = 17
+		y = 1
+		completion_reward ={
+                news_event = khodorkovsky_invasion.1
+                add_war_support = 0.5
+	}
+
+	}
+ 	focus = {
+		id = exiles_return
+		icon = GFX_goal_generic_navy_carrier
+		cost = 0
+		prerequisite = {
+			focus = call_khodorkovsky
+		}
+		x = 17
+		y = 2
+		completion_reward ={
+                news_event = roizman_khodorkovsky_alliance.1
+                add_war_support = 0.5
+
+	}
 }

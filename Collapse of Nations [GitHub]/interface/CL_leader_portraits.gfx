@@ -237,7 +237,7 @@ spriteTypes = {
 			textureFile = "gfx\\leaders\\SOV\\Portrait_Russia_Putin_Alternate_Devil.dds"
 		}
 
-        ### ros partisans
+        ### rus resistance 
 		
 		spriteType = {
 			name = "GFX_portrait_EKB_evgeny_roizman"
@@ -255,6 +255,12 @@ spriteTypes = {
 			name = "GFX_portrait_PTS_bebei"
 			textureFile = "gfx\\leaders\\PTS\\beb.dds"
 		}
+
+		spriteType = {
+			name = "GFX_portrait_RUS_mikhail_khodorkovsky"
+			textureFile = "gfx\\leaders\\RUS\\Portrait_RUS_Mikhail_Khodorkovsky.dds"
+		}
+
 
         ### California guys
 		

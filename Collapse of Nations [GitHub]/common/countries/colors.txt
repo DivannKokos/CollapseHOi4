@@ -881,3 +881,15 @@ ARZ = {
 	color = rgb { 245 220 0 }   
 	color_ui = rgb { 245 220 0 }
 }
+TFA = {
+	color = rgb { 0 0 194 }   
+	color_ui = rgb { 0 0 194 } 
+}
+MNS = {
+	color = rgb { 128 128 128 }   
+	color_ui = rgb { 128 128 128 } 
+}
+RUS = {
+	color = rgb { 100 149 237 }   
+	color_ui = rgb { 100 149 237 } 
+}
