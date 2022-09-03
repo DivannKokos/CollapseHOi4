@@ -1,0 +1,39 @@
+add_namespace = roizman_khodorkovsky_alliance
+
+news_event = {
+	id = roizman_khodorkovsky_alliance.1
+	title = roizman_khodorkovsky_alliance.1.t
+	desc = roizman_khodorkovsky_alliance.1.d
+	is_triggered_only = yes
+	trigger = {
+        tag = RUS
+	}
+	#fire_only_once = yes
+		option = {
+		name = roizman_khodorkovsky_alliance.1.a
+		if = {
+			limit = {tag = EKB}
+			annex_country = { 
+                target = RUS 
+                transfer_troops = yes 
+                }
+			}
+		else = {
+		}
+	}
+		option = {
+        name = roizman_khodorkovsky_alliance.1.b
+		if = {
+			limit = {tag = EKB}
+			RUS = { 
+                annex_country = {
+                target = EKB
+                transfer_troops = yes
+                } 
+			}
+			RUS = {
+			change_tag_from = ROOT
+        }
+	}
+}
+}
