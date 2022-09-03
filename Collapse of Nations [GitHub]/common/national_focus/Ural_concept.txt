@@ -8,6 +8,10 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1500
+	}
 	focus = {
 		id = Ural_revolt
 		icon = GFX_goal_generic_political_pressure
@@ -404,4 +408,5 @@ focus_tree = {
                 add_war_support = 0.5
 
 	}
+}
 }
