@@ -9,8 +9,8 @@ focus_tree = {
 	}
 	default = no
 	continuous_focus_position = {
-		x = 50
-		y = 1500
+		x = 2500
+		y = 1400
 	}
 
 
@@ -198,6 +198,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = kgb_puppet_rpw_one
 		}
+		mutually_exclusive = {
+			focus = kgb_prison_reform_opener
+		}
 		completion_reward = { 
 		}
 	}
@@ -296,6 +299,9 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 		focus = kgb_puppet
+		}
+		mutually_exclusive = {
+			focus = kgb_prison_reform_opener
 		}
 		x = 13
 		y = 5
@@ -413,5 +419,69 @@ focus_tree = {
 			focus = kgb_army_three
 		}
 		completion_reward = { }
+	}
+
+	#prison focuses
+	focus = {
+		id = kgb_prison_reform_opener
+		cost = 12
+		x = 16
+		y = 10
+		prerequisite = {
+			focus = kgb_baltics
+			focus = kgb_puppet
+		}
+		mutually_exclusive = {
+			focus = kgb_again_with_russia
+		}
+		mutually_exclusive = {
+			focus = kgb_islamic_state
+		}
+	}
+
+	focus = {
+		id = kgb_prison_first_choice
+		cost = 10
+		x = 15
+		y = 11
+		prerequisite = {
+			focus = kgb_prison_reform_opener
+		}
+		mutually_exclusive = {
+			focus = kgb_prison_second_choice
+		}
+	}
+	focus = {
+		id = kgb_prison_second_choice
+		cost = 10
+		x = 17
+		y = 11
+		prerequisite = {
+			focus = kgb_prison_reform_opener
+		}
+		mutually_exclusive = {
+			focus = kgb_prison_first_choice
+		}
+	}
+	focus = {
+		id = kgb_prison_reform_one
+		cost = 8
+		x = 16
+		y = 12
+		prerequisite = {
+			focus = kgb_prison_first_choice
+		}
+		prerequisite = {
+			focus = kgb_prison_second_choice
+		}
+	}
+	focus = {
+		id = kgb_prison_reform_two
+		cost = 8
+		x = 16
+		y = 13
+		prerequisite = {
+			focus = kgb_prison_reform_one
+		}
 	}
 }
