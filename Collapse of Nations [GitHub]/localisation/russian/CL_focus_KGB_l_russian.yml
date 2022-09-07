@@ -31,7 +31,14 @@ kgb_place_in_world_desc: "Теперь мы здесь главные, и мы �
  kgb_again_with_russia: "Снова к России"
 
 #army focuses
- kgb_army_one: "REPLACE_ME"
- kgb_army_two: "REPLACE_ME"
- kgb_army_three: "REPLACE_ME"
- kgb_army_four: "REPLACE_ME"
+ kgb_army_one: "Армия 1"
+ kgb_army_two: "Армия 2"
+ kgb_army_three: "Армия 3"
+ kgb_army_four: "Армия 4"
+
+#prison focuses
+ kgb_prison_reform_opener: "Реформа системы тюрьм"
+ kgb_prison_first_choice: "За Реабилитацию!"
+ kgb_prison_second_choice: "За Заключение!"
+ kgb_prison_reform_one: "Как мы это сделаем?"
+ kgb_prison_reform_two: "Опрос населения"
