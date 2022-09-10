@@ -377,7 +377,7 @@ focus_tree = {
 		id = kgb_army_one
 		#icon = 
 		cost = 9
-		x = 18
+		x = 19
 		y = 2
 		available = {
 			has_completed_focus = kgb_place_in_world
@@ -389,7 +389,7 @@ focus_tree = {
 		id = kgb_army_two
 		#icon = 
 		cost = 9
-		x = 18
+		x = 19
 		y = 4
 		prerequisite = {
 			focus = kgb_army_one
@@ -398,7 +398,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = kgb_army_three
+		id = kgb_army_three_one
 		#icon = 
 		cost = 9
 		x = 18
@@ -406,17 +406,47 @@ focus_tree = {
 		prerequisite = {
 			focus = kgb_army_two
 		}
+		mutually_exclusive = {
+			focus = kgb_army_three_two
+		}
 		completion_reward = { }
 	}
 
 	focus = {
-		id = kgb_army_four
+		id = kgb_army_four_one
 		#icon = 
 		cost = 9
 		x = 18
 		y = 8
 		prerequisite = {
-			focus = kgb_army_three
+			focus = kgb_army_three_one
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = kgb_army_three_two
+		#icon = 
+		cost = 9
+		x = 20
+		y = 6
+		prerequisite = {
+			focus = kgb_army_two
+		}
+		mutually_exclusive = {
+			focus = kgb_army_three_one
+		}
+		completion_reward = { }
+	}
+
+	focus = {
+		id = kgb_army_four_two
+		#icon = 
+		cost = 9
+		x = 20
+		y = 8
+		prerequisite = {
+			focus = kgb_army_three_two
 		}
 		completion_reward = { }
 	}
@@ -437,10 +467,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = kgb_islamic_state
 		}
+		completion_reward = {
+			add_stability = -0.05
+		}
 	}
 
 	focus = {
-		id = kgb_prison_first_choice
+		id = kgb_prison_first_choice #реабилитация
 		cost = 10
 		x = 15
 		y = 11
@@ -450,9 +483,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = kgb_prison_second_choice
 		}
+		completion_reward = {
+			news_event = kgb_prison.1
+		}
 	}
 	focus = {
-		id = kgb_prison_second_choice
+		id = kgb_prison_second_choice #заключение
 		cost = 10
 		x = 17
 		y = 11
@@ -461,6 +497,9 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = kgb_prison_first_choice
+		}
+		completion_reward = {
+			news_event = kgb_prison.2
 		}
 	}
 	focus = {
@@ -474,6 +513,9 @@ focus_tree = {
 		prerequisite = {
 			focus = kgb_prison_second_choice
 		}
+		completion_reward = {
+			news_event = kgb_prison.3
+		}
 	}
 	focus = {
 		id = kgb_prison_reform_two
@@ -482,6 +524,9 @@ focus_tree = {
 		y = 13
 		prerequisite = {
 			focus = kgb_prison_reform_one
+		}
+		completion_reward = {
+			news_event = kgb_prison.4
 		}
 	}
 }

@@ -33,8 +33,10 @@ kgb_place_in_world_desc: "Теперь мы здесь главные, и мы �
 #army focuses
  kgb_army_one: "Армия 1"
  kgb_army_two: "Армия 2"
- kgb_army_three: "Армия 3"
- kgb_army_four: "Армия 4"
+ kgb_army_three_one: "Армия 3 1"
+ kgb_army_four_one: "Армия 4 1"
+ kgb_army_three_two: "Армия 3 2"
+ kgb_army_four_two: "Армия 4 2"
 
 #prison focuses
  kgb_prison_reform_opener: "Реформа системы тюрьм"

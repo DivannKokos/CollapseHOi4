@@ -1,0 +1,61 @@
+add_namespace = kgb_prison
+
+news_event = {
+	id = kgb_prison.1
+	title = kgb_prison.1.t
+	desc = kgb_prison.1.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+        option = {
+        name = kgb_prison.1.a
+	}
+        option = {
+        name = kgb_prison.1.b
+	}
+}
+
+news_event = {
+	id = kgb_prison.2
+	title = kgb_prison.2.t
+	desc = kgb_prison.2.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+        option = {
+        name = kgb_prison.2.a
+	}
+        option = {
+        name = kgb_prison.2.b
+	}
+}
+
+news_event = {
+	id = kgb_prison.3
+	title = kgb_prison.3.t
+	desc = kgb_prison.3.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+        option = {
+        name = kgb_prison.3.a
+	}
+        option = {
+        name = kgb_prison.3.b
+	}
+}
+
+news_event = {
+	id = kgb_prison.4
+	title = kgb_prison.4.t
+	desc = kgb_prison.4.d
+	#picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+        option = {
+        name = kgb_prison.4.a
+	}
+        option = {
+        name = kgb_prison.4.b
+	}
+}
