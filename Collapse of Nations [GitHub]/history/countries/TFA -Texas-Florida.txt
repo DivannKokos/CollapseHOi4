@@ -6,12 +6,13 @@ starting_train_buffer = 5
 
 #set_naval_oob = "TFA_2022_naval"
 
-recruit_character = TFA_ron_desantis
-recruit_character = TFA_greg_abbot
-recruit_character = TFA_chance_collins
-recruit_character = TFA_michael_flynn
-recruit_character = TFA_mike_pence
-recruit_character = TFA_donald_trump
+#раскомментировать когда будут добавлены
+# recruit_character = TFA_ron_desantis
+# recruit_character = TFA_greg_abbot
+# recruit_character = TFA_chance_collins
+# recruit_character = TFA_michael_flynn
+# recruit_character = TFA_mike_pence
+# recruit_character = TFA_donald_trump
 
 set_research_slots = 4
 set_stability = 0.75

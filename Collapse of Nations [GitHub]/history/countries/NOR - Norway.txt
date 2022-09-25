@@ -1,21 +1,12 @@
-capital = 837
-set_research_slots = 2
-set_stability = 0.5
-set_war_support = 0.1
+﻿capital = 110
 
-#recruit_character = WAG_yevgeny_prigozhin раскомментировать когда будет добавлен
+#oob = "NOR_2022"
+#set_naval_oob = "NOR_2022_naval"
 
-set_popularities = {
-	national-socialism = 100
-}
+set_research_slots = 3
 
-set_politics = {
-	ruling_party = national-socialism
-	last_election = "2021.11.8"
-	election_frequency = 48
-	elections_allowed = no
-}
-
+set_stability = 0.6
+set_war_support = 0.3
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1
@@ -47,4 +38,27 @@ set_technology = {
 	atomic_research = 1
 	experimental_rockets = 1
 	basic_machine_tools = 1
+}
+
+set_convoys = 200
+
+set_politics = {
+	ruling_party = liberal_democracy
+	last_election = "2022.01.01"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	liberal_democracy = 10
+	conservative_democracy = 10
+	social_democracy = 8
+	centrism_idealogy = 8
+	libertarianism_idealogy = 8
+	autocracy = 8
+	neutrality = 8
+	nationalism_idealogy = 8
+	socialism = 8
+	fascism = 8
+	national-socialism = 8
+	ultranationalism_idealogy = 8
 }
