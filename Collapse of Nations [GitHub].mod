@@ -1,5 +1,5 @@
 name="Collapse of Nations"
-version="0.20.0-development"
+version="0.21.0-development"
 replace_path="common/bookmarks"
 replace_path="common/characters"
 replace_path="common/countries"
@@ -18,6 +18,6 @@ tags={
 	"Ideologies"
 	"Events"
 }
-supported_version="1.11.13"
+supported_version="1.12.2"
 path="mod/Collapse of Nations [GitHub]"
 remote_file_id="2849575856"

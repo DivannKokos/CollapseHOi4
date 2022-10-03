@@ -1,6 +1,6 @@
 state={
-	id=842
-	name="STATE_842"
+	id=914
+	name="STATE_914"
 	manpower=10000 #изменить
 	
 	state_category = city #потом изменю??
@@ -8,13 +8,16 @@ state={
 	history={
 		owner = ENG
 		victory_points = {
-			271 5 #норвич
+			11374 5 #челмсворд
+		}
+		victory_points = {
+			221 5 #колчестер
 		}
 		add_core_of = ENG
 	}
 
 	provinces={
-		3287 322 271
+		11374 221 11253
 	}
 
 	local_supplies=0.0 

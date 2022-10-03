@@ -1,6 +1,6 @@
 state={
-	id=841
-	name="STATE_841"
+	id=915
+	name="STATE_915"
 	manpower=10000 #изменить
 	
 	state_category = city #потом изменю??
