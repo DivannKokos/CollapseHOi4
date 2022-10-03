@@ -1,21 +1,21 @@
 
 state = {
-	id = 837
-	name = "STATE_837"
-	manpower = 4183748
+	id = 909
+	name = "STATE_909"
+	manpower = 183748
 	
 	state_category = rural
 
 	history = {
 		victory_points = {
-			827 1
+			741 1
 		}
-		owner = KBB
-		add_core_of = KBB
+		owner = UKR
+		add_core_of = UKR
 	}
 
 	provinces = {
-		6674
+		741 754
 	}
 
 	local_supplies = 6.0 
