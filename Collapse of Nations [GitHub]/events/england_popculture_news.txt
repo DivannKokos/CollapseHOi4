@@ -1,0 +1,23 @@
+add_namespace = eng_popculture_news
+
+news_event = {
+	id = eng_popculture_news.1
+	title = eng_popculture_news.newdoctor
+	desc = eng_popculture_news.newdoctordesc
+	#picture = 
+
+	major = yes
+	#fire_only_once = yes
+	is_triggered_only = yes
+
+	#trigger = {
+	#	#tag = ENG
+	#	country_exists = CWE
+	#}
+	option = {
+		name = eng_popculture_news.1.allhaillgbt
+	}
+	option = {
+		name = eng_popculture_news.1.ohnowedoomed
+	}
+}
