@@ -3398,22 +3398,12 @@
  KRS_DEF: "Южная Корея"
  KRN_DEF: "Корейская Народно-Демократическая Республика"
 
- JAP_nationalism: "Японский сёгунат"
- JAP_nationalism_DEF: "Японский сёгунат"
- JAP_liberal_democracy: "Япония"
- JAP_liberal_democracy_DEF: "Япония"
- JAP_conservative_democracy: "пония"
- JAP_conservative_democracy_DEF: "Япония"
  JAP_neutrality: "Японская Империя"
  JAP_neutrality_DEF: "Японская Империя"
  JAP_socialism: "Японская народная республика"
  JAP_socialism_DEF: "Японская народная республика"
- JAP_nationalism_ADJ: "Японск"
- JAP_liberal_democracy_ADJ: "Японск"
- JAP_neutrality_ADJ: "Японск"
- JAP_socialism_ADJ: "Японск"
  JAP: "Япония"
- JAP_DEF: "Япония"
+ JAP_DEF: "Государство Япония"
  JAP_ADJ: "Японск"
 
  UKR_socialism: "Украина"
@@ -3422,12 +3412,10 @@
  UKR_DEF: "Украина"
  UKR_ADJ: "Украинск"
 
- BLR_nationalism: "Националистическая Беларусь"
- BLR_nationalism_DEF: "Националистическая Беларусь"
  BLR_socialism: "Белоруссия"
  BLR_socialism_DEF: "Белорусская социалистическая республика"
  BLR: "Беларусь"
- BLR_DEF: "Беларусь"
+ BLR_DEF: "Республика Беларусь"
  BLR_ADJ: "Белорусск"
 
  EST_nationalism: "Вапсовская Эстония" ###чё это нахуй значит
@@ -3435,7 +3423,7 @@
  EST_socialism: "Эстония"
  EST_socialism_DEF: "Эстонская народная республика"
  EST: "Эстония"
- EST_DEF: "Эстония"
+ EST_DEF: "Эстонская Республика"
  EST_ADJ: "Эстонск"
 
  LAT_nationalism: "Латвия Громового Креста" ###чё нахуй
@@ -3443,7 +3431,7 @@
  LAT_socialism: "Латвия"
  LAT_socialism_DEF: "Латвийская народная республика"
  LAT: "Латвия"
- LAT_DEF: "Латвия"
+ LAT_DEF: "Латвийская Республика"
  LAT_ADJ: "Латвийск"
 
  LIT_nationalism: "Фашистская Литва" ###остальные балты оригинальнее
@@ -3451,24 +3439,20 @@
  LIT_socialism: "Литва"
  LIT_socialism_DEF: "Литовская народная республика"
  LIT: "Литва"
- LIT_DEF: "Литва"
+ LIT_DEF: "Литовская Республика"
  LIT_ADJ: "Литовск"
 
- POL_nationalism: "Польша"
- POL_nationalism_DEF: "Фалангистская Польша"
  POL_neutrality: "Речь Посполитая"
  POL_neutrality_DEF: "Речь Посполитая"
  POL_socialism: "Польша"
  POL_socialism_DEF: "Польская народная республика"
  POL: "Польша"
- POL_DEF: "Польша"
+ POL_DEF: "Республика Польша"
  POL_ADJ: "Польск"
 
  ETH_nationalism: "Ликторская Эфиопия" ###???
  ETH_nationalism_DEF: "Ликторская Эфиопия"
  ETH_liberal_democracy_DEF: "ФДРЭ"
- ETH_socialism: "Народная демократическая республика Эфиопия"
- ETH_socialism_DEF: "Народная демократическая республика Эфиопия"
  ETH: "Эфиопия"
  ETH_DEF: "Эфиопия"
  ETH_ADJ: "Эфиопск"
@@ -3482,7 +3466,6 @@
  RUS: "Российская Федеративная Республика"
  RUS_DEF: "Российская Федеративная Республика"
  RUS_ADJ: "Русск"
-
 
  CLF: "Калифорния"
  CLF_DEF: "Калифорния"
